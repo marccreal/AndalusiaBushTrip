@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<SimBase.Document Type="MissionFile" version="1,0" id="andalusia">
+  <Title>Bush Trip</Title>
+  <Filename>andalusia.spb</Filename>
+  <WorldBase.Flight>
+    <SimMission.MissionBushTrip id="Bushtrip_Andalusia" InstanceId="{f0727ad5-069f-4c5e-b7f9-881c0848cf59}">
+      <Descr>Andalusia Bush Trip</Descr>
+	  <Legs>
+	    <Leg>
+          <Descr>Jerez to Lebrija UL</Descr>
+          <ImagePath>
+          </ImagePath>
+          <AirportLandingTriggerEnd UniqueRefId="{23474921-97ad-44d6-8696-32bd4fd041ac}" />
+          <SubLegs>
+            <SubLeg>
+              <Descr>Welcome to Jerez.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="LEJR" />
+              <ATCWaypointEnd id="POI1">
+                <idRegion>!A</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+              <Descr>You are at POI1, go on and land. </Descr>
+              <ImagePath>
+			  </ImagePath>
+              <ATCWaypointStart id="POI1">
+                <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="LELR" />
+            </SubLeg>
+          </SubLegs>
+        </Leg>
+	  </Legs>
+	  <Objectives>
+        <Objective UniqueRefId="{3a7c7f78-fb2f-4c8f-9600-841117e99e71}">
+          <Descr>End mission</Descr>
+          <FailureText>TT:MISSIONMESSAGE.FLIGHT.OUTOFFUEL</FailureText>
+        </Objective>
+      </Objectives>
+      <OnFinishedActions>
+        <WorldBase.ObjectReference id="End Of Mission" InstanceId="{777b9bd4-9aea-4a86-a4e6-6041020801e3}" />
+      </OnFinishedActions>
+	</SimMission.MissionBushTrip>
+	<SimMission.AirportCalculator InstanceId="{23474921-97ad-44d6-8696-32bd4fd041ac}">
+      <Descr>Lebrija UL Airport</Descr>
+      <AirportIdent>LELR</AirportIdent>
+      <Activated>false</Activated>
+      <CalculatorParameterList>
+        <FormulaParameter NameInFormula="OnGround">
+          <CalculatorFormula>
+            (A:SIM ON GROUND, Boolean) 0 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="LandedOnRunway">
+          <CalculatorFormula>
+            [OnGround]
+            if{
+            [SignedDistanceToClosestRunway] 0 &lt;
+            if{ 1 }
+            els{ [LandedOnRunway] }
+            }
+            els{
+            0
+            }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="TimerLanded">
+          <CalculatorFormula>
+            [LandedOnRunway] [IsInAirportArea] (A:GROUND VELOCITY, Knots) 2 &lt; and and
+            if{
+            [TimerLanded] [dtime] +
+            }
+            els{ 0 }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="RunwayDistanceThreshold">
+          <CalculatorFormula>
+            100
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FarTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [RunwayDistanceThreshold] &gt; [OnGround] and [FarTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OutsideTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [RunwayDistanceThreshold] &lt; [SignedDistanceToClosestRunway] 0 &gt; [OnGround] and and [OutsideTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+      </CalculatorParameterList>
+      <CalculatorActions>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [OutsideTouchDown] [FarTouchDown] not and
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="ACT_NotifOutOfRunway" InstanceId="{952743E5-F838-4F51-A1A0-07E8DCD44019}" />
+          </Actions>
+        </CalculatorAction>
+        <CalculatorAction>
+          <DeactivateAfterExecution>true</DeactivateAfterExecution>
+          <CalculatorFormula>
+            [TimerLanded] 2 &gt;
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="FlowEvent_LandingRest" InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}" />
+          </Actions>
+        </CalculatorAction>
+      </CalculatorActions>
+    </SimMission.AirportCalculator>
+	<SimMission.AirportCalculator InstanceId="{c863cbb1-956a-4a3c-9545-3be3fbf0bbad}">
+      <Descr>Grandes Bergeronnes Airfield</Descr>
+      <AirportIdent>CTH3</AirportIdent>
+      <Activated>false</Activated>
+      <CalculatorParameterList>
+        <FormulaParameter NameInFormula="OnGround">
+          <CalculatorFormula>
+            (A:SIM ON GROUND, Boolean) 0 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="LandedOnRunway">
+          <CalculatorFormula>
+            [OnGround]
+            if{
+            [SignedDistanceToClosestRunway] 0 &lt;
+            if{ 1 }
+            els{ [LandedOnRunway] }
+            }
+            els{
+            0
+            }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="TimerLanded">
+          <CalculatorFormula>
+            [LandedOnRunway] [IsInAirportArea] (A:GROUND VELOCITY, Knots) 2 &lt; and and
+            if{
+            [TimerLanded] [dtime] +
+            }
+            els{ 0 }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="RunwayDistanceThreshold">
+          <CalculatorFormula>
+            100
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FarTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [RunwayDistanceThreshold] &gt; [OnGround] and [FarTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OutsideTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [RunwayDistanceThreshold] &lt; [SignedDistanceToClosestRunway] 0 &gt; [OnGround] and and [OutsideTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+      </CalculatorParameterList>
+      <CalculatorActions>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [OutsideTouchDown] [FarTouchDown] not and
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="ACT_NotifOutOfRunway" InstanceId="{952743E5-F838-4F51-A1A0-07E8DCD44019}" />
+          </Actions>
+        </CalculatorAction>
+        <CalculatorAction>
+          <DeactivateAfterExecution>true</DeactivateAfterExecution>
+          <CalculatorFormula>
+            [TimerLanded] 2 &gt;
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="FlowEvent_LandingRest" InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}" />
+          </Actions>
+        </CalculatorAction>
+      </CalculatorActions>
+    </SimMission.AirportCalculator>
+	<SimMission.AirportCalculator InstanceId="{791ed3c2-49c3-401f-b5e3-2fc6a8318e9c}">
+      <Descr>Pintendre Airport</Descr>
+      <AirportIdent>CPT9</AirportIdent>
+      <Activated>false</Activated>
+      <CalculatorParameterList>
+        <FormulaParameter NameInFormula="OnGround">
+          <CalculatorFormula>
+            (A:SIM ON GROUND, Boolean) 0 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="LandedOnRunway">
+          <CalculatorFormula>
+            [OnGround]
+            if{
+            [SignedDistanceToClosestRunway] 0 &lt;
+            if{ 1 }
+            els{ [LandedOnRunway] }
+            }
+            els{
+            0
+            }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="TimerLanded">
+          <CalculatorFormula>
+            [LandedOnRunway] [IsInAirportArea] (A:GROUND VELOCITY, Knots) 2 &lt; and and
+            if{
+            [TimerLanded] [dtime] +
+            }
+            els{ 0 }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="RunwayDistanceThreshold">
+          <CalculatorFormula>
+            100
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FarTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [RunwayDistanceThreshold] &gt; [OnGround] and [FarTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OutsideTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [RunwayDistanceThreshold] &lt; [SignedDistanceToClosestRunway] 0 &gt; [OnGround] and and [OutsideTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+      </CalculatorParameterList>
+      <CalculatorActions>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [OutsideTouchDown] [FarTouchDown] not and
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="ACT_NotifOutOfRunway" InstanceId="{952743E5-F838-4F51-A1A0-07E8DCD44019}" />
+          </Actions>
+        </CalculatorAction>
+        <CalculatorAction>
+          <DeactivateAfterExecution>true</DeactivateAfterExecution>
+          <CalculatorFormula>
+            [TimerLanded] 2 &gt;
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="FlowEvent_LandingRest" InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}" />
+          </Actions>
+        </CalculatorAction>
+      </CalculatorActions>
+    </SimMission.AirportCalculator>
+     <SimMission.Calculator id="CLTR_OutOfFuel" InstanceId="{6d5abfe8-9034-4820-abe1-0c4b2ab151a4}">
+      <Descr>TT:MISSIONMESSAGE.FLIGHT.OUTOFFUEL</Descr>
+      <Activated>true</Activated>
+      <CalculatorFormula>
+        [FuelQuantity]
+      </CalculatorFormula>
+      <CalculatorParameterList>
+        <FormulaParameter NameInFormula="FuelQuantity">
+          <CalculatorFormula>
+            (A:FUEL TOTAL QUANTITY, gallons)
+            (A:UNUSABLE FUEL TOTAL QUANTITY, gallons)
+            -
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="InAir">
+          <CalculatorFormula>
+            (A:PLANE ALT ABOVE GROUND, meter) (A:STATIC CG TO GROUND, meter) + 10 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnGround">
+          <CalculatorFormula>
+            (A:SIM ON GROUND, Boolean) 0 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FlyingOutOfFuel">
+          <CalculatorFormula>
+            [FuelQuantity] 0.001 &lt;
+            [OnGround] not
+            and
+            [FlyingOutOfFuel]
+            or
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="TimerOutOfFuel">
+          <CalculatorFormula>
+            [FlyingOutOfFuel]
+            [OnGround]
+            and
+            if{
+            [TimerOutOfFuel]
+            [dtime]
+            +
+            }
+            els{
+            0
+            }
+          </CalculatorFormula>
+        </FormulaParameter>
+      </CalculatorParameterList>
+      <CalculatorActions>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [TimerOutOfFuel]  15 &gt;
+            [FlyingOutOfFuel]
+            [OnGround]
+            (A:GROUND VELOCITY, Knots) 5 &lt;
+            and
+            and
+            or
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="ACT_FailGoal" InstanceId="{41b20995-226a-468d-8d29-712974839b40}" />
+          </Actions>
+        </CalculatorAction>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [InAir]
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="FlowEvent_DisableFuel" InstanceId="{D1646D1F-CFB2-4D83-A490-AC05FD7C6188}" />
+          </Actions>
+        </CalculatorAction>
+      </CalculatorActions>
+    </SimMission.Calculator>
+	<SimMission.Goal InstanceId="{3a7c7f78-fb2f-4c8f-9600-841117e99e71}">
+      <Descr>End of mission</Descr>
+      <Activated>false</Activated>
+    </SimMission.Goal>
+    <SimMission.GoalResolutionAction InstanceId="{777b9bd4-9aea-4a86-a4e6-6041020801e3}">
+      <Descr>Resolve Goal End of mission</Descr>
+      <Goals>
+        <WorldBase.ObjectReference id="Mission END" InstanceId="{3a7c7f78-fb2f-4c8f-9600-841117e99e71}" />
+      </Goals>
+    </SimMission.GoalResolutionAction>
+    <SimMission.GoalResolutionAction InstanceId="{41b20995-226a-468d-8d29-712974839b40}">
+      <Descr>Failure</Descr>
+      <GoalResolution>failed</GoalResolution>
+      <Goals>
+        <WorldBase.ObjectReference id="Mission END" InstanceId="{3a7c7f78-fb2f-4c8f-9600-841117e99e71}" />
+      </Goals>
+    </SimMission.GoalResolutionAction>
+	<SimMission.TimerTriggerFlowStateAction InstanceId="{50B730D9-18C0-41F6-8B7D-8FD0A17BDD57}">
+      <Descr>TimerStart</Descr>
+      <DefaultActivated>true</DefaultActivated>
+      <OnScreenTimer>true</OnScreenTimer>
+      <UseFirstFlightState>true</UseFirstFlightState>
+      <Actions>
+        <WorldBase.ObjectReference id="WiseAFSSet" InstanceId="{43071EAB-D106-41CC-88D6-B113CDAE289B}" />
+      </Actions>
+    </SimMission.TimerTriggerFlowStateAction>
+    <SimMission.FlowStateAction InstanceId="{7C4FE0D9-0507-471A-86E0-14014AC56E40}">
+      <FlowStateName>INTRO</FlowStateName>
+      <StayInStateAfterEndTeleportActions>false</StayInStateAfterEndTeleportActions>
+      <IsFirstStateInTimeline>true</IsFirstStateInTimeline>
+      <FromSpawn>true</FromSpawn>
+      <TeleportFlowEvents>
+        <FlowEvent id="SHOW_MISSION_STARTUP" />
+        <FlowEvent id="PAUSE_SIM" />
+      </TeleportFlowEvents>
+      <StartFlowEvents>
+        <FlowEvent id="UNACTIVATE_PUSHBACK" />
+        <FlowEvent id="UNPAUSE_SIM" />
+        <FlowEvent id="PANEL_COPILOT_FORCE_DISABLED" />
+        <FlowEvent id="PANEL_CHECKLIST_FORCE_DISABLED" />
+        <FlowEvent id="PANEL_FUEL_PAYLOAD_FORCE_DISABLED" />
+        <FlowEvent id="PANEL_TELEPORT_FORCE_DISABLED" />
+        <FlowEvent id="PANEL_OBJECTIVES_FORCE_DISABLED" />
+      </StartFlowEvents>
+      <TeleportActions>
+        <WorldBase.ObjectReference id="WWiseRTCState_RTC_CONDITIONAL" InstanceId="{D6980D36-9C6D-4DD1-AFC6-3CB0C3D775B3}" />
+        <WorldBase.ObjectReference id="RTC_Ground_Airport_Aircraft_Intro" InstanceId="{306B2AE4-06BA-48C3-93A0-BD5569E6EF5B}" />
+      </TeleportActions>
+      <EndActions>
+        <WorldBase.ObjectReference id="WWiseRTCState_NON_RTC" InstanceId="{C3271B26-2A26-4830-A0DA-BB6AF9020A87}" />
+      </EndActions>
+      <NextState id="BUSHTRIP" InstanceId="{23552DE7-1761-4299-93D1-012CFA6CF761}" />
+    </SimMission.FlowStateAction>
+    <SimMission.FlowStateAction InstanceId="{23552DE7-1761-4299-93D1-012CFA6CF761}">
+      <FlowStateName>BUSHTRIP</FlowStateName>
+      <AutoStateSwitchEnabled>false</AutoStateSwitchEnabled>
+      <StartFlowEvents>
+        <FlowEvent id="PANEL_GAME_NAVLOG_SHOW" />
+        <FlowEvent id="PANEL_VFR_MAP_SHOW" />
+      </StartFlowEvents>
+      <NextState id="LANDING_REST" InstanceId="{81E4FFFD-1D53-40C5-A13E-932466A4B998}" />
+    </SimMission.FlowStateAction>
+    <SimMission.FlowStateAction InstanceId="{81E4FFFD-1D53-40C5-A13E-932466A4B998}">
+      <FlowStateName>LANDING_REST</FlowStateName>
+      <AutoStateSwitchEnabled>false</AutoStateSwitchEnabled>
+      <StartActions>
+        <WorldBase.ObjectReference id="RTC_Ground_Aircraft_Outro" InstanceId="{5DAADB19-3BA3-4235-BCC0-39CD6F4CD4D9}" />
+      </StartActions>
+      <NextState id="BUSHTRIP" InstanceId="{23552DE7-1761-4299-93D1-012CFA6CF761}" />
+    </SimMission.FlowStateAction>
+	<SimMission.FlowEventAction InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}">
+      <Descr>FlowEvent_Landing_Rest</Descr>
+      <FlowEvents>
+        <FlowEvent id="BUSHTRIP_LEG_COMPLETED" />
+      </FlowEvents>
+    </SimMission.FlowEventAction>
+    <SimMission.FlowEventAction InstanceId="{D1646D1F-CFB2-4D83-A490-AC05FD7C6188}">
+      <Descr>FlowEvent_DisableFuel</Descr>
+      <FlowEvents>
+        <FlowEvent id="PANEL_FUEL_PAYLOAD_FORCE_DISABLED" />
+      </FlowEvents>
+    </SimMission.FlowEventAction>
+    <SimMission.EventTriggerAction id="ACT_NotifOutOfRunway" InstanceId="{952743E5-F838-4F51-A1A0-07E8DCD44019}">
+      <Descr>Landed outside of runway</Descr>
+      <Name>EVENT_TRIGGER_NOT_ON_RUNWAY</Name>
+    </SimMission.EventTriggerAction>
+    <SimMission.FlowStateWise InstanceId="{43071EAB-D106-41CC-88D6-B113CDAE289B}">
+      <Descr>WiseAFSSet</Descr>
+      <GroupName>ACTIVITIES_FLOW_STATE</GroupName>
+      <ElementName>BUSHTRIP</ElementName>
+    </SimMission.FlowStateWise>
+    <SimMission.FlowStateWise InstanceId="{C3271B26-2A26-4830-A0DA-BB6AF9020A87}">
+      <Descr>WWiseRTCState_NON_RTC</Descr>
+      <GroupName>GAME_RTC_STATE</GroupName>
+      <ElementName>NON_RTC</ElementName>
+    </SimMission.FlowStateWise>
+    <SimMission.FlowStateWise InstanceId="{D6980D36-9C6D-4DD1-AFC6-3CB0C3D775B3}">
+      <Descr>WWiseRTCState_RTC</Descr>
+      <GroupName>GAME_RTC_STATE</GroupName>
+      <ConditionalElementName>
+        <ReversePolishCondition>(A:PLANE ALT ABOVE GROUND, meter) (A:STATIC CG TO GROUND, meter) - 0 &lt; </ReversePolishCondition>
+        <ElementName>RTC</ElementName>
+      </ConditionalElementName>
+      <ConditionalElementName>
+        <ReversePolishCondition>(A:PLANE ALT ABOVE GROUND, meter) (A:STATIC CG TO GROUND, meter) - 0 &gt; </ReversePolishCondition>
+        <ElementName>RTC_IN_FLIGHT</ElementName>
+      </ConditionalElementName>
+    </SimMission.FlowStateWise>
+  </WorldBase.Flight>
+</SimBase.Document>

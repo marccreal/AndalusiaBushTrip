@@ -1,0 +1,22 @@
+<AssetPackage Name="marccreal-bushtrip-andalusia" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>MISSION</ContentType>
+		<Title>Andalusia mission package</Title>
+		<Manufacturer/>
+		<Creator>marccreal</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="andalusia">
+			<Type>Mission</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\andalusia\</AssetDir>
+			<OutputDir>Missions\marccreal\BushTrips\andalusia\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>

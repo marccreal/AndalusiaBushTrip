@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>Jerez to Lebrija UL</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>3100.000</CruisingAlt>
+        <DepartureID>LEJR</DepartureID>
+        <DepartureLLA>N36° 44' 40.69",W6° 3' 36.39",+000080.50</DepartureLLA>
+        <DestinationID>LELR</DestinationID>
+        <DestinationLLA>N36° 53' 47.13",W6° 2' 20.88",+000064.27</DestinationLLA>
+        <Descr>Jerez to Lebrija UL</Descr>
+        <DepartureName>Jerez</DepartureName>
+        <DestinationName>Lebrija UL</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LEJR">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 44' 40.69",W6° 3' 36.39",+000080.50</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEJR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 52' 21.05",W5° 43' 22.79",+003100.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="LELR">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 53' 47.13",W6° 2' 20.88",+000050.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LELR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
