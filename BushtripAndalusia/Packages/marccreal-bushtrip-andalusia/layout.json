@@ -2,38 +2,33 @@
   "content": [
     {
       "path": "manifest.json",
-      "size": 305,
-      "date": 132445058151679920
+      "size": 304,
+      "date": 132463215172484649
     },
     {
       "path": "Missions/marccreal/BushTrips/andalusia/ANDALUSIA.FLT",
-      "size": 10184,
-      "date": 132445056206971736
+      "size": 12181,
+      "date": 132463216657844989
     },
     {
-      "path": "Missions/marccreal/BushTrips/andalusia/ANDALUSIA.FLT.FSSAVE",
-      "size": 8244,
-      "date": 132444970461171274
+      "path": "Missions/marccreal/BushTrips/andalusia/andalusia.PLN",
+      "size": 4343,
+      "date": 132463172521748713
     },
     {
-      "path": "Missions/marccreal/BushTrips/andalusia/andalusia.pln",
-      "size": 2150,
-      "date": 132444968329315635
-    },
-    {
-      "path": "Missions/marccreal/BushTrips/andalusia/ANDALUSIA.SPB",
-      "size": 7612,
-      "date": 132445065792396352
+      "path": "Missions/marccreal/BushTrips/andalusia/andalusia.spb",
+      "size": 10925,
+      "date": 132463215172210293
     },
     {
       "path": "Missions/marccreal/BushTrips/andalusia/images/Activity_Widget.jpg",
-      "size": 72115,
-      "date": 132444948908667274
+      "size": 678693,
+      "date": 132447253708831435
     },
     {
       "path": "Missions/marccreal/BushTrips/andalusia/images/Loading.jpg",
-      "size": 345428,
-      "date": 132444948713418280
+      "size": 1462144,
+      "date": 132447617836275970
     }
   ]
 }

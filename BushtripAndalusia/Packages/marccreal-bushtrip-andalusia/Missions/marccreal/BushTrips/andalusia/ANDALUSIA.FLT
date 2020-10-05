@@ -1,7 +1,7 @@
 
 [Main]
 MissionType=BushTrip
-MissionLocation=Jerez
+MissionLocation=Almeria
 Title=Andalusia Bush Trip
 Description=A tour through Andalusia
 AppVersion=10.0.282174
@@ -54,8 +54,8 @@ EventTriggersFileCount=1
 EventTriggersFile.0=BushTripEventTriggers
 
 [Departure]
-ICAO=LERT
-RunwayNumber=28
+ICAO=LEAM
+RunwayNumber=7
 RunwayDesignator=NONE
 
 [Loading]
@@ -67,8 +67,8 @@ Tips3=TT:LOADING.TIPS.BUSH_TRIPS.4
 Tips4=TT:LOADING.TIPS.BUSH_TRIPS.5
 
 [Arrival]
-ICAO=LXGB
-RunwayNumber=9
+ICAO=LEGG
+RunwayNumber=31
 RunwayDesignator=NONE
 
 [Panels]
@@ -90,14 +90,21 @@ NumberofAgents=0
 ActiveFlightPlan=True
 RequestedFlightPlan=False
 AcState=ACSTATE_TOWER_DEPARTING
-ActiveVFRAirport=LERT
-waypoint.0=, LERT, , Rota Navy, A, N36° 38.71', W6° 20.97', +000063.00, , , , , , NONE, 0, 0, -1
-waypoint.1=!A, POI1, , Cadiz, U, N36° 31.51', W6° 17.43', +000000.00, , , , , , NONE, 0, 0, -1
-waypoint.2=, , , TIMECRUIS, U, N36° 27.19', W5° 58.18', +000000.00, , , , , , NONE, 0, 0, -1
-waypoint.3=, , , TIMEDSCNT, U, N36° 23.96', W5° 43.95', +000000.00, , , , , , NONE, 0, 0, -1
-waypoint.4=!A, POI2, , Lake, U, N36° 23.54', W5° 42.08', +000000.00, , , , , , NONE, 0, 0, -1
-waypoint.5=, LXGB, , Gibraltar AB, A, N36° 9.07', W5° 20.99', +000000.00, , , , , , NONE, 0, 0, -1
-NumberofWaypoints=6
+ActiveVFRAirport=LEAM
+Waypoint.0=, LEAM, , Almeria, A, N36° 50.64', W2° 22.21', +000048.00, , , , , 07, NONE, , 0, -1, 0, 0,  
+Waypoint.1=!A, POI1, , Alcazaba de Almeria, U, N36° 50.34', W2° 28.34', +001050.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.2=!A, POI2, , Lake amidst of "mar del plastico", U, N36° 45.70', W2° 44.19', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.3=!A, POI3, , City of El Ejido, U, N36° 46.35', W2° 48.79', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.4=, , , TIMECRUIS, U, N36° 50.75', W2° 56.59', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.5=!A, POI4, , Intersection, U, N36° 51.10', W2° 57.20', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.6=!A, POI5, , Embalse de Beninar, U, N36° 53.79', W3° 1.61', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.7=!A, POI6, , City of Ugijar, U, N36° 57.70', W3° 3.16', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.8=, , , TIMEDSCNT, U, N36° 58.59', W2° 56.01', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.9=!A, POI7, , Rio Andarax, U, N36° 59.21', W2° 50.96', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.10=!A, POI8, , Small Town Canjayar, U, N37° 0.40', W2° 43.60', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.11=!A, POI9, , U-shaped river bend, U, N36° 58.28', W2° 31.50', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.12=, LEGG, , Aerodromo de Gergal, A, N37° 7.53', W2° 35.74', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+NumberofWaypoints=13
 ClearanceFlags=882
 CtCur=CLEARANCE_NONE
 WaypointNext=1
@@ -129,22 +136,30 @@ ExpectedAltitude=-1
 AircraftSignature=1,0
 
 [ATC_ActiveFlightPlan.0]
-title=LERT to LXGB
-description=LERT, LXGB
+title=Almeria to Aeródromo de Gérgal
+description=Almeria to Aeródromo de Gérgal
 type=VFR
 routetype=0
-cruising_altitude=0
-departure_id=LERT, N36° 38.72', W6° 20.97', +000087.00
+cruising_altitude=1900
+departure_id=LEAM, N36° 50.64', W2° 22.21', +000048.00
 departure_position=
-destination_id=LXGB, N36° 9.07', W5° 20.99', +000012.00
-departure_name=Rota
-destination_name=Gibraltar
-waypoint.0=, LERT, , Rota Navy, A, N36° 38.71', W6° 20.97', +000063.00, , , , , , NONE, 0, 0, -1
-waypoint.1=!A, POI1, , Cadiz, U, N36° 31.51', W6° 17.43', +000000.00, , , , , , NONE, 0, 0, -1
-waypoint.2=, , , TIMECRUIS, U, N36° 27.19', W5° 58.18', +000000.00, , , , , , NONE, 0, 0, -1
-waypoint.3=, , , TIMEDSCNT, U, N36° 23.96', W5° 43.95', +000000.00, , , , , , NONE, 0, 0, -1
-waypoint.4=!A, POI2, , Lake, U, N36° 23.54', W5° 42.08', +000000.00, , , , , , NONE, 0, 0, -1
-waypoint.5=, LXGB, , Gibraltar AB, A, N36° 9.07', W5° 20.99', +000000.00, , , , , , NONE, 0, 0, -1
+destination_id=LEGG, N37° 7.53', W2° 35.74', +002575.04
+departure_name=Almeria
+destination_name=Aerodromo de Gergal
+Waypoint.0=, LEAM, , Almeria, A, N36° 50.64', W2° 22.21', +000048.00, , , , , 07, NONE, , 0, -1, 0, 0,  
+Waypoint.1=!A, POI1, , Alcazaba de Almeria, U, N36° 50.34', W2° 28.34', +001050.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.2=!A, POI2, , Lake amidst of "mar del plastico", U, N36° 45.70', W2° 44.19', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.3=!A, POI3, , City of El Ejido, U, N36° 46.35', W2° 48.79', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.4=, , , TIMECRUIS, U, N36° 50.75', W2° 56.59', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.5=!A, POI4, , Intersection, U, N36° 51.10', W2° 57.20', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.6=!A, POI5, , Embalse de Beninar, U, N36° 53.79', W3° 1.61', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.7=!A, POI6, , City of Ugijar, U, N36° 57.70', W3° 3.16', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.8=, , , TIMEDSCNT, U, N36° 58.59', W2° 56.01', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.9=!A, POI7, , Rio Andarax, U, N36° 59.21', W2° 50.96', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.10=!A, POI8, , Small Town Canjayar, U, N37° 0.40', W2° 43.60', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.11=!A, POI9, , U-shaped river bend, U, N36° 58.28', W2° 31.50', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.12=, LEGG, , Aerodromo de Gergal, A, N37° 7.53', W2° 35.74', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+
 
 [ATC_AircraftManager]
 NumberofAircraft=1
@@ -153,22 +168,27 @@ NumberofAircraft=1
 FrequencyNodes=0
 
 [GPS_Engine]
-Filename=C:\USERS\MARKUS\APPDATA\ROAMING\MICROSOFT FLIGHT SIMULATOR\MISSIONS\CUSTOM\CUSTOMFLIGHT\CUSTOMFLIGHT
-position=N36° 38.60', W6° 19.83', +000063.94
-Time=48560
-TimeWP=104285
-ArriveTime=2374
-CountWP=6
+Filename=andalusia
+position=N36° 50.64', W2° 22.21', +000048.00
+Time=-1
+TimeWP=81228
+ArriveTime=2946
+CountWP=13
 NextWP=1
-PlaneStarted=False
-WpInfo0=44, 0, 19, 0, 0, 13.2, 0.0, 0.0
-WpInfo1=90, 0, 0, 0, 0, 0.0, 0.5, 0.0
-WpInfo2=90, 0, 0, 0, 0, 0.0, 1.0, 0.0
-WpInfo3=90, 0, 0, 0, 0, 0.0, 0.8, 0.0
-WpInfo4=90, 0, 0, 0, 0, 0.0, 0.1, 0.0
-WpInfo5=91, 0, 0, 0, 0, 0.0, 1.4, 0.0
-CountFP=2
-FP0=1f114d71,fb7fc329,1f11835d,fb7f8f57,00000000,00000000,00000000,00000000
+WpInfo0=48, 0, 14, 0, 0, 0.0, 0.0, 0.0
+WpInfo1=107, 0, 320, 0, 0, 0.0, 0.3, 0.0
+WpInfo2=99, 0, 579, 0, 0, 0.0, 0.9, 0.0
+WpInfo3=93, 0, 579, 0, 0, 0.0, 0.3, 0.0
+WpInfo4=105, 0, 579, 0, 0, 0.0, 0.5, 0.0
+WpInfo5=105, 0, 579, 0, 0, 0.0, 0.0, 0.0
+WpInfo6=106, 0, 579, 0, 0, 0.0, 0.3, 0.0
+WpInfo7=107, 0, 579, 0, 0, 0.0, 0.2, 0.0
+WpInfo8=101, 0, 579, 0, 0, 0.0, 0.4, 0.0
+WpInfo9=97, 0, 579, 0, 0, 0.0, 0.3, 0.0
+WpInfo10=97, 0, 579, 0, 0, 0.0, 0.4, 0.0
+WpInfo11=97, 0, 579, 0, 0, 0.0, 0.7, 0.0
+WpInfo12=55, 0, 579, 0, 0, 0.0, 1.1, 0.0
+CountFP=0
 
 [DateTimeSeason]
 Season=Summer

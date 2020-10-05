@@ -1,51 +1,92 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+
 <SimBase.Document Type="AceXML" version="1,0">
     <Descr>AceXML Document</Descr>
-    <!-- LNMDATA
-         _lnm=Erstellt mit Little Navmap Version 2.4.5 (Revision 0bde498) am 2020 09 13T20:53:52|
-         aircraftperffile=|
-         aircraftperfname=|
-         aircraftperftype=|
-         cycle=1801|
-         navdata=NAVIGRAPH|
-         simdata=NAVIGRAPH
--->
     <FlightPlan.FlightPlan>
-        <Title>LERT to LXGB</Title>
+        <Title>Almeria to Aer&#xC3;&#xB3;dromo de G&#xC3;&#xA9;rgal</Title>
         <FPType>VFR</FPType>
-        <CruisingAlt>0</CruisingAlt>
-        <DepartureID>LERT</DepartureID>
-        <DepartureLLA>N36° 38' 43.00",W6° 20' 58.00",+000087.00</DepartureLLA>
-        <DestinationID>LXGB</DestinationID>
-        <DestinationLLA>N36° 9' 4.24",W5° 20' 59.10",+000012.00</DestinationLLA>
-        <Descr>LERT, LXGB</Descr>
-        <DeparturePosition></DeparturePosition>
-        <DepartureName>Rota</DepartureName>
-        <DestinationName>Gibraltar</DestinationName>
+        <CruisingAlt>1900.000</CruisingAlt>
+        <DepartureID>LEAM</DepartureID>
+        <DepartureLLA>N36° 50' 38.24",W2° 22' 12.36",+000048.00</DepartureLLA>
+        <DestinationID>LEGG</DestinationID>
+        <DestinationLLA>N37° 7' 32.09",W2° 35' 44.22",+002575.04</DestinationLLA>
+        <Descr>Almeria to Aer&#xC3;&#xB3;dromo de G&#xC3;&#xA9;rgal</Descr>
+        <DepartureName>Almeria</DepartureName>
+        <DestinationName>Aer&#xC3;&#xB3;dromo de G&#xC3;&#xA9;rgal</DestinationName>
         <AppVersion>
-            <AppVersionMajor>10</AppVersionMajor>
-            <AppVersionBuild>61472</AppVersionBuild>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
         </AppVersion>
-        <ATCWaypoint id="LERT">
+        <ATCWaypoint id="Almeria">
             <ATCWaypointType>Airport</ATCWaypointType>
-            <WorldPosition>N36° 38' 43.00",W6° 20' 58.00",+000087.00</WorldPosition>
+            <WorldPosition>N36° 50' 38.24",W2° 22' 12.36",+000048.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>7</RunwayNumberFP>
             <ICAO>
-                <ICAOIdent>LERT</ICAOIdent>
+                <ICAOIdent>LEAM</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
-        <ATCWaypoint id="WP3">
+        <ATCWaypoint id="WP1">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N36° 31' 30.32",W6° 17' 25.66",+000000.00</WorldPosition>
+            <WorldPosition>N36° 50' 20.28",W2° 28' 20.51",+001050.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
         <ATCWaypoint id="WP2">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N36° 23' 32.17",W5° 42' 4.75",+000000.00</WorldPosition>
+            <WorldPosition>N36° 45' 42.17",W2° 44' 11.67",+001900.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
-        <ATCWaypoint id="LXGB">
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 46' 21.29",W2° 48' 47.29",+001900.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMECRUIS">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 50' 45.30",W2° 56' 35.16",+001900.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP4">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 51' 6.02",W2° 57' 11.98",+001900.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP5">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 53' 47.43",W3° 1' 36.47",+001900.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP6">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 57' 42.08",W3° 3' 9.49",+001900.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMEDSCNT">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 58' 35.16",W2° 56' 0.89",+001900.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP7">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 59' 12.43",W2° 50' 57.57",+001900.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP8">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 0' 23.99",W2° 43' 35.79",+001900.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP9">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 58' 16.89",W2° 31' 29.94",+001900.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="Aer&#xC3;&#xB3;dromo de G&#xC3;&#xA9;rgal">
             <ATCWaypointType>Airport</ATCWaypointType>
-            <WorldPosition>N36° 9' 4.24",W5° 20' 59.10",+000012.00</WorldPosition>
+            <WorldPosition>N37° 7' 32.09",W2° 35' 44.22",+001900.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>LXGB</ICAOIdent>
+                <ICAOIdent>LEGG</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
     </FlightPlan.FlightPlan>
