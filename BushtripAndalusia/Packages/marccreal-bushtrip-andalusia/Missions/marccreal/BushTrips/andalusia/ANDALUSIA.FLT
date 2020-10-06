@@ -203,12 +203,12 @@ UseZuluTime=False
 Mode=None
 
 [SimVars.0]
-Latitude=N36° 38' 36.15"
-Longitude=W6° 19' 49.95"
-Altitude=+000063.94
-Pitch=0.18360407598725814182
-Bank=0.051810233313085915507
-Heading=-83.097780367862014828
+Latitude=N36° 50' 28.68"
+Longitude=W2° 23' 15.49"
+Altitude=+000048.00
+Pitch=0
+Bank=0
+Heading=-134.63111545890569687
 PVelBodyAxis=0
 BVelBodyAxis=0
 HVelBodyAxis=0
