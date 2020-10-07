@@ -11,9 +11,9 @@
           <AirportLandingTriggerEnd UniqueRefId="{23474921-97ad-44d6-8696-32bd4fd041ac}" />
           <SubLegs>
             <SubLeg>
-              <Descr>This trip through Andalusia starts in the southeast of the region in the city of Almeria. Almeria's port has been an important hub for various goods throughout history. From tin in the Bronze Age over rasins and silk in the time of Moorish reign to ore in the 19th century. Today, its economy builds around vegetable production, with the whole region plastered with hunders of greenhouses, supplying much of Europe.
+              <Descr>Your trip starts in the southeast of Andalusia in the city of Almeria, the capital of the province of the same name. Throughout history, Almeria's harbor has been an important hub for various goods from tin in the Bronze Age over rasins and silk in the time of Moorish reign to iron ore in the 19th century. Today, its economy builds mainly around vegetable production, with the whole region plastered with hunders of greenhouses, supplying much of Europe.
 			  
-			  After departure, head west over a first bunch of greenhouses towards the city center of Almeria, your first waypoint. Its Moorish castle, the Alcazaba of Almeria, is the second largest among the Muslim fortresses of Andalusia, only topped by the famous Alhambra of Granada.</Descr>
+			  After departure, head west over a first bunch of greenhouses towards the harbor and the historic center "La Medina" of Almeria, your first waypoint. Towering on a hill west of the Medina, you might be able to spot the Alcazaba, a huge Moorish castle. It is in fact the second largest among the Muslim fortresses of Andalusia, only topped by the famous Alhambra of Granada.</Descr>
               <ATCWaypointStart id="LEAM" />
               <ATCWaypointEnd id="POI1">
                 <idRegion>!A</idRegion>
@@ -31,7 +31,7 @@
             </SubLeg>
 			
 			<SubLeg>
-              <Descr>Close to the lake, you will find the city of El Ejido, as you might guess the centre of production for fruit and vegetables in this region. Special geological conditions made it possible that El Ejido became Europ's biggest "winter garden". The vegtable economy brought wealth to the region but also social and egological problems, like underpaid laborers, huge land and water consumption and massive use of pesticides.</Descr>
+              <Descr>Close to the lake, you will find the city of El Ejido. As you might guess, the city is the centre of production for fruit and vegetables in this region. Special geological conditions made it possible that the region around El Ejido became Europ's biggest "winter garden". The vegtable economy brought wealth to the region but also social and ecological problems, like wage dumping, huge land and water consumption and massive use of pesticides.</Descr>
               <ATCWaypointStart id="POI2">
                 <idRegion>!A</idRegion>
               </ATCWaypointStart>
@@ -41,7 +41,7 @@
             </SubLeg>
 			
 			<SubLeg>
-              <Descr>Leaving El Ejido in northeastern direction, track the road A-358 along on the south-eastern slope of the Sierra de Gador until you reach the city of Berja. The rather large intersection of the westbbound A-358 and the northbound A-347 marks your next waypoint.</Descr>
+              <Descr>Leaving El Ejido in northeastern direction, fly along the southeastern slope of the Sierra de Gador tracking the road A-358 until you reach the city of Berja. A rather large intersection of the westbbound A-358 and the northbound A-347 marks your next waypoint.</Descr>
               <ATCWaypointStart id="POI3">
                 <idRegion>!A</idRegion>
               </ATCWaypointStart>
@@ -51,7 +51,7 @@
             </SubLeg>
 			
 			<SubLeg>
-              <Descr>Don't follow either of these roads but head northeast through the valley where you find the last outskirts of geenhouse economy. The valley eventually leads to your next waypoint, a small reservoir, the "Embalse de Beninar".</Descr>
+              <Descr>Don't follow either of these roads but head northeast through a valley where you find the last outskirts of geenhouse economy. The valley eventually leads to your next waypoint, a small reservoir, the "Embalse de Beninar".</Descr>
               <ATCWaypointStart id="POI4">
                 <idRegion>!A</idRegion>
               </ATCWaypointStart>
@@ -61,7 +61,7 @@
             </SubLeg>
 			
 			<SubLeg>
-              <Descr>Head north, tracking the river that runs into the reservoir. Follow the left fork of the river until you reach your next waypoint, the city of Ugijar situated at the foot of the Sierra Nevada. To the far left, you might be able to spot the highest point of Andalusia and even whole continetal spain - Pico de Mulhacen (3482m).</Descr>
+              <Descr>Head north, tracking the river that runs into the reservoir upstream. Follow the left fork of the river until you reach your next waypoint, the city of Ugijar situated at the foot of the Sierra Nevada - Andalusia's highest mountains. To the far left, you might be able to spot the highest point continental spain - Pico de Mulhacen (3482m).</Descr>
               <ATCWaypointStart id="POI5">
                 <idRegion>!A</idRegion>
               </ATCWaypointStart>
@@ -71,7 +71,7 @@
             </SubLeg>
 			
 			<SubLeg>
-              <Descr>Heading east, you can track the road A-348. Near the town Fondon, the road crosses the river Rio Andarax coming down from the mountains and bending east. This is your next waypoint.</Descr>
+              <Descr>Heading east, track the road A-348 along the valley between the Sierra Nevada in the north and the Sierra de Gador in the south. Near the town of Fondon, the road crosses the river Rio Andarax that is coming down from the mountains and bending eastward. This is your next waypoint.</Descr>
               <ATCWaypointStart id="POI6">
                 <idRegion>!A</idRegion>
               </ATCWaypointStart>
@@ -81,7 +81,7 @@
             </SubLeg>
 			
 			<SubLeg>
-              <Descr>Follow either the A-348 through the mountains or stay in the valley tracking Rio Andarax. An the small town Canjayar, road and river meet again and run east alongside. This is your next waypoint.</Descr>
+              <Descr>Follow either the A-348 through the mountains or stay in the valley tracking Rio Andarax. At your next waypoint, the small town of Canjayar, road and river meet again and run east alongside.</Descr>
               <ATCWaypointStart id="POI7">
                 <idRegion>!A</idRegion>
               </ATCWaypointStart>
@@ -101,8 +101,9 @@
 			</SubLeg>
 			
 			<SubLeg>
-              <Descr>Follow the railroad to the north. To the east, you can see Europe's only desert, the Desierto de Tabernas. With its landscape form similar to Arizona or New Mexico, the region was a popular movie setting in the 1960s for example for the "Spaghetti"-Western "Once Upon a Time in the West" and "The Good, the Bad and the Ugly" by Sergio Leone.
-			  When the railroad crosses the motorway A-92, you will be able to spot an airport surrounded by some greenhouses. This is your destination for this leg, the Aerodromo de Gergal.</Descr>
+              <Descr>Follow the railroad to the north. In the east, you can see Europe's only desert, the Desierto de Tabernas. With its landscape form similar to the one of Arizona or New Mexico, the region has been a popular movie setting in the 1960s for example for the "Spaghetti"-Western "Once Upon a Time in the West" and "The Good, the Bad and the Ugly" by Sergio Leone.
+			  When the railroad crosses the motorway A-92, you will be able to spot an airport surrounded by some greenhouses. This is your destination for this leg, the Aerodromo de Gergal (2575 AMSL).</Descr>
+			  <ImagePath>images\1_LEGG.png</ImagePath>
               <ATCWaypointStart id="POI9">
                 <idRegion>!A</idRegion>
               </ATCWaypointStart>
@@ -114,67 +115,60 @@
         </Leg>
 	  </Legs>
 	  <Objectives>
-        <Objective UniqueRefId="{3a7c7f78-fb2f-4c8f-9600-841117e99e71}">
+        <Objective UniqueRefId="{37569C05-B09F-493B-A2C3-2BF1A8215E2E}">
           <Descr>End mission</Descr>
           <FailureText>TT:MISSIONMESSAGE.FLIGHT.OUTOFFUEL</FailureText>
         </Objective>
       </Objectives>
       <OnFinishedActions>
-        <WorldBase.ObjectReference id="End Of Mission" InstanceId="{777b9bd4-9aea-4a86-a4e6-6041020801e3}" />
+        <WorldBase.ObjectReference id="End Of Mission" InstanceId="{1AA91671-30AD-4A5C-8DEF-7D80C558EBDC}" />
       </OnFinishedActions>
-	</SimMission.MissionBushTrip>
-	<SimMission.AirportCalculator InstanceId="{23474921-97ad-44d6-8696-32bd4fd041ac}">
-      <Descr>Aerodromo de Gergal</Descr>
+    </SimMission.MissionBushTrip>
+    <SimMission.AirportCalculator InstanceId="{FEBB002C-519C-4FC9-ABEF-6ECEA508A367}">
       <AirportIdent>LEGG</AirportIdent>
+      <ComputeAirportPolygon>true</ComputeAirportPolygon>
       <Activated>false</Activated>
       <CalculatorParameterList>
+        <FormulaParameter NameInFormula="Threshold">
+          <StartValue>20.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FarThreshold">
+          <StartValue>100.000</StartValue>
+        </FormulaParameter>
         <FormulaParameter NameInFormula="OnGround">
           <CalculatorFormula>
             (A:SIM ON GROUND, Boolean) 0 &gt;
           </CalculatorFormula>
         </FormulaParameter>
-        <FormulaParameter NameInFormula="LandedOnRunway">
+        <FormulaParameter NameInFormula="OnRunway">
           <CalculatorFormula>
-            [OnGround]
-            if{
-            [SignedDistanceToClosestRunway] 0 &lt;
-            if{ 1 }
-            els{ [LandedOnRunway] }
-            }
-            els{
-            0
-            }
+            [SignedDistanceToClosestRunway] [Threshold] &lt;
           </CalculatorFormula>
         </FormulaParameter>
         <FormulaParameter NameInFormula="TimerLanded">
           <CalculatorFormula>
-            [LandedOnRunway] [IsInAirportArea] (A:GROUND VELOCITY, Knots) 2 &lt; and and
+            [OnRunway] [SignedDistanceToAirportArea] [Threshold] &lt; or [OnGround]  and (A:GROUND VELOCITY, Knots) 2 &lt; and
             if{
             [TimerLanded] [dtime] +
             }
             els{ 0 }
           </CalculatorFormula>
         </FormulaParameter>
-        <FormulaParameter NameInFormula="RunwayDistanceThreshold">
+        <FormulaParameter NameInFormula="UnknownTouchDown">
           <CalculatorFormula>
-            100
-          </CalculatorFormula>
-        </FormulaParameter>
-        <FormulaParameter NameInFormula="FarTouchDown">
-          <CalculatorFormula>
-            [SignedDistanceToClosestRunway] [RunwayDistanceThreshold] &gt; [OnGround] and [FarTouchDown] or
+            [SignedDistanceToClosestRunway] [FarThreshold] &gt; [OnGround] and [UnknownTouchDown] or
           </CalculatorFormula>
         </FormulaParameter>
         <FormulaParameter NameInFormula="OutsideTouchDown">
           <CalculatorFormula>
-            [SignedDistanceToClosestRunway] [RunwayDistanceThreshold] &lt; [SignedDistanceToClosestRunway] 0 &gt; [OnGround] and and [OutsideTouchDown] or
+            [SignedDistanceToClosestRunway] [FarThreshold] &lt; [SignedDistanceToClosestRunway] [Threshold] &gt; [OnGround] and and [OutsideTouchDown] or
           </CalculatorFormula>
         </FormulaParameter>
       </CalculatorParameterList>
       <CalculatorActions>
         <CalculatorAction>
           <CalculatorFormula>
-            [OutsideTouchDown] [FarTouchDown] not and
+            [OutsideTouchDown] [UnknownTouchDown] not and
           </CalculatorFormula>
           <Actions>
             <WorldBase.ObjectReference id="ACT_NotifOutOfRunway" InstanceId="{952743E5-F838-4F51-A1A0-07E8DCD44019}" />
@@ -190,8 +184,78 @@
           </Actions>
         </CalculatorAction>
       </CalculatorActions>
-    </SimMission.AirportCalculator>    
-    <SimMission.Calculator id="CLTR_OutOfFuel" InstanceId="{6d5abfe8-9034-4820-abe1-0c4b2ab151a4}">
+    </SimMission.AirportCalculator>
+    <SimMission.Goal InstanceId="{37569C05-B09F-493B-A2C3-2BF1A8215E2E}">
+      <Descr>End of mission</Descr>
+      <Activated>false</Activated>
+    </SimMission.Goal>
+    <SimMission.GoalResolutionAction InstanceId="{1AA91671-30AD-4A5C-8DEF-7D80C558EBDC}">
+      <Descr>Resolve Goal End of mission</Descr>
+      <Goals>
+        <WorldBase.ObjectReference id="Mission END" InstanceId="{37569C05-B09F-493B-A2C3-2BF1A8215E2E}" />
+      </Goals>
+    </SimMission.GoalResolutionAction>
+    <SimMission.GoalResolutionAction InstanceId="{ADBE1E35-9E4E-414E-82DA-1228398126CC}">
+      <Descr>Failure</Descr>
+      <GoalResolution>failed</GoalResolution>
+      <Goals>
+        <WorldBase.ObjectReference id="Mission END" InstanceId="{37569C05-B09F-493B-A2C3-2BF1A8215E2E}" />
+      </Goals>
+    </SimMission.GoalResolutionAction>
+    <SimMission.TimerTriggerFlowStateAction InstanceId="{50B730D9-18C0-41F6-8B7D-8FD0A17BDD57}">
+      <Descr>TimerStart</Descr>
+      <DefaultActivated>true</DefaultActivated>
+      <OnScreenTimer>true</OnScreenTimer>
+      <UseFirstFlightState>true</UseFirstFlightState>
+      <Actions>
+        <WorldBase.ObjectReference id="WiseAFSSet" InstanceId="{43071EAB-D106-41CC-88D6-B113CDAE289B}" />
+      </Actions>
+    </SimMission.TimerTriggerFlowStateAction>
+    <SimMission.FlowStateAction InstanceId="{7C4FE0D9-0507-471A-86E0-14014AC56E40}">
+      <FlowStateName>INTRO</FlowStateName>
+      <StayInStateAfterEndTeleportActions>false</StayInStateAfterEndTeleportActions>
+      <IsFirstStateInTimeline>true</IsFirstStateInTimeline>
+      <FromSpawn>true</FromSpawn>
+      <TeleportFlowEvents>
+        <FlowEvent id="SHOW_MISSION_STARTUP" />
+        <FlowEvent id="PAUSE_SIM" />
+      </TeleportFlowEvents>
+      <StartFlowEvents>
+        <FlowEvent id="UNACTIVATE_PUSHBACK" />
+        <FlowEvent id="UNPAUSE_SIM" />
+        <FlowEvent id="PANEL_COPILOT_FORCE_DISABLED" />
+        <FlowEvent id="PANEL_CHECKLIST_FORCE_DISABLED" />
+        <FlowEvent id="PANEL_FUEL_PAYLOAD_FORCE_DISABLED" />
+        <FlowEvent id="PANEL_TELEPORT_FORCE_DISABLED" />
+        <FlowEvent id="PANEL_OBJECTIVES_FORCE_DISABLED" />
+      </StartFlowEvents>
+      <TeleportActions>
+        <WorldBase.ObjectReference id="WWiseRTCState_RTC_CONDITIONAL" InstanceId="{D6980D36-9C6D-4DD1-AFC6-3CB0C3D775B3}" />
+        <WorldBase.ObjectReference id="RTC_Ground_Airport_Aircraft_Intro" InstanceId="{306B2AE4-06BA-48C3-93A0-BD5569E6EF5B}" />
+      </TeleportActions>
+      <EndActions>
+        <WorldBase.ObjectReference id="WWiseRTCState_NON_RTC" InstanceId="{C3271B26-2A26-4830-A0DA-BB6AF9020A87}" />
+      </EndActions>
+      <NextState id="BUSHTRIP" InstanceId="{23552DE7-1761-4299-93D1-012CFA6CF761}" />
+    </SimMission.FlowStateAction>
+    <SimMission.FlowStateAction InstanceId="{23552DE7-1761-4299-93D1-012CFA6CF761}">
+      <FlowStateName>BUSHTRIP</FlowStateName>
+      <AutoStateSwitchEnabled>false</AutoStateSwitchEnabled>
+      <StartFlowEvents>
+        <FlowEvent id="PANEL_GAME_NAVLOG_SHOW" />
+        <FlowEvent id="PANEL_VFR_MAP_SHOW" />
+      </StartFlowEvents>
+      <NextState id="LANDING_REST" InstanceId="{81E4FFFD-1D53-40C5-A13E-932466A4B998}" />
+    </SimMission.FlowStateAction>
+    <SimMission.FlowStateAction InstanceId="{81E4FFFD-1D53-40C5-A13E-932466A4B998}">
+      <FlowStateName>LANDING_REST</FlowStateName>
+      <AutoStateSwitchEnabled>false</AutoStateSwitchEnabled>
+      <StartActions>
+        <WorldBase.ObjectReference id="RTC_Ground_Aircraft_Outro" InstanceId="{5DAADB19-3BA3-4235-BCC0-39CD6F4CD4D9}" />
+      </StartActions>
+      <NextState id="BUSHTRIP" InstanceId="{23552DE7-1761-4299-93D1-012CFA6CF761}" />
+    </SimMission.FlowStateAction>
+    <SimMission.Calculator id="CLTR_OutOfFuel" InstanceId="{1A6F0319-B3D4-4237-B697-8E5459964E3B}">
       <Descr>TT:MISSIONMESSAGE.FLIGHT.OUTOFFUEL</Descr>
       <Activated>true</Activated>
       <CalculatorFormula>
@@ -252,7 +316,7 @@
             or
           </CalculatorFormula>
           <Actions>
-            <WorldBase.ObjectReference id="ACT_FailGoal" InstanceId="{41b20995-226a-468d-8d29-712974839b40}" />
+            <WorldBase.ObjectReference id="ACT_FailGoal" InstanceId="{ADBE1E35-9E4E-414E-82DA-1228398126CC}" />
           </Actions>
         </CalculatorAction>
         <CalculatorAction>
@@ -265,77 +329,7 @@
         </CalculatorAction>
       </CalculatorActions>
     </SimMission.Calculator>
-	<SimMission.Goal InstanceId="{3a7c7f78-fb2f-4c8f-9600-841117e99e71}">
-      <Descr>End of mission</Descr>
-      <Activated>false</Activated>
-    </SimMission.Goal>
-    <SimMission.GoalResolutionAction InstanceId="{777b9bd4-9aea-4a86-a4e6-6041020801e3}">
-      <Descr>Resolve Goal End of mission</Descr>
-      <Goals>
-        <WorldBase.ObjectReference id="Mission END" InstanceId="{3a7c7f78-fb2f-4c8f-9600-841117e99e71}" />
-      </Goals>
-    </SimMission.GoalResolutionAction>
-    <SimMission.GoalResolutionAction InstanceId="{41b20995-226a-468d-8d29-712974839b40}">
-      <Descr>Failure</Descr>
-      <GoalResolution>failed</GoalResolution>
-      <Goals>
-        <WorldBase.ObjectReference id="Mission END" InstanceId="{3a7c7f78-fb2f-4c8f-9600-841117e99e71}" />
-      </Goals>
-    </SimMission.GoalResolutionAction>
-	<SimMission.TimerTriggerFlowStateAction InstanceId="{50B730D9-18C0-41F6-8B7D-8FD0A17BDD57}">
-      <Descr>TimerStart</Descr>
-      <DefaultActivated>true</DefaultActivated>
-      <OnScreenTimer>true</OnScreenTimer>
-      <UseFirstFlightState>true</UseFirstFlightState>
-      <Actions>
-        <WorldBase.ObjectReference id="WiseAFSSet" InstanceId="{43071EAB-D106-41CC-88D6-B113CDAE289B}" />
-      </Actions>
-    </SimMission.TimerTriggerFlowStateAction>
-    <SimMission.FlowStateAction InstanceId="{7C4FE0D9-0507-471A-86E0-14014AC56E40}">
-      <FlowStateName>INTRO</FlowStateName>
-      <StayInStateAfterEndTeleportActions>false</StayInStateAfterEndTeleportActions>
-      <IsFirstStateInTimeline>true</IsFirstStateInTimeline>
-      <FromSpawn>true</FromSpawn>
-      <TeleportFlowEvents>
-        <FlowEvent id="SHOW_MISSION_STARTUP" />
-        <FlowEvent id="PAUSE_SIM" />
-      </TeleportFlowEvents>
-      <StartFlowEvents>
-        <FlowEvent id="UNACTIVATE_PUSHBACK" />
-        <FlowEvent id="UNPAUSE_SIM" />
-        <FlowEvent id="PANEL_COPILOT_FORCE_DISABLED" />
-        <FlowEvent id="PANEL_CHECKLIST_FORCE_DISABLED" />
-        <FlowEvent id="PANEL_FUEL_PAYLOAD_FORCE_DISABLED" />
-        <FlowEvent id="PANEL_TELEPORT_FORCE_DISABLED" />
-        <FlowEvent id="PANEL_OBJECTIVES_FORCE_DISABLED" />
-      </StartFlowEvents>
-      <TeleportActions>
-        <WorldBase.ObjectReference id="WWiseRTCState_RTC_CONDITIONAL" InstanceId="{D6980D36-9C6D-4DD1-AFC6-3CB0C3D775B3}" />
-        <WorldBase.ObjectReference id="RTC_Ground_Airport_Aircraft_Intro" InstanceId="{306B2AE4-06BA-48C3-93A0-BD5569E6EF5B}" />
-      </TeleportActions>
-      <EndActions>
-        <WorldBase.ObjectReference id="WWiseRTCState_NON_RTC" InstanceId="{C3271B26-2A26-4830-A0DA-BB6AF9020A87}" />
-      </EndActions>
-      <NextState id="BUSHTRIP" InstanceId="{23552DE7-1761-4299-93D1-012CFA6CF761}" />
-    </SimMission.FlowStateAction>
-    <SimMission.FlowStateAction InstanceId="{23552DE7-1761-4299-93D1-012CFA6CF761}">
-      <FlowStateName>BUSHTRIP</FlowStateName>
-      <AutoStateSwitchEnabled>false</AutoStateSwitchEnabled>
-      <StartFlowEvents>
-        <FlowEvent id="PANEL_GAME_NAVLOG_SHOW" />
-        <FlowEvent id="PANEL_VFR_MAP_SHOW" />
-      </StartFlowEvents>
-      <NextState id="LANDING_REST" InstanceId="{81E4FFFD-1D53-40C5-A13E-932466A4B998}" />
-    </SimMission.FlowStateAction>
-    <SimMission.FlowStateAction InstanceId="{81E4FFFD-1D53-40C5-A13E-932466A4B998}">
-      <FlowStateName>LANDING_REST</FlowStateName>
-      <AutoStateSwitchEnabled>false</AutoStateSwitchEnabled>
-      <StartActions>
-        <WorldBase.ObjectReference id="RTC_Ground_Aircraft_Outro" InstanceId="{5DAADB19-3BA3-4235-BCC0-39CD6F4CD4D9}" />
-      </StartActions>
-      <NextState id="BUSHTRIP" InstanceId="{23552DE7-1761-4299-93D1-012CFA6CF761}" />
-    </SimMission.FlowStateAction>
-	<SimMission.FlowEventAction InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}">
+    <SimMission.FlowEventAction InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}">
       <Descr>FlowEvent_Landing_Rest</Descr>
       <FlowEvents>
         <FlowEvent id="BUSHTRIP_LEG_COMPLETED" />

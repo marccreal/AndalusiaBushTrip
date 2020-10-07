@@ -3,12 +3,12 @@
     {
       "path": "manifest.json",
       "size": 304,
-      "date": 132464901973418234
+      "date": 132465768356379661
     },
     {
       "path": "Missions/marccreal/BushTrips/andalusia/ANDALUSIA.FLT",
-      "size": 12138,
-      "date": 132463848642890113
+      "size": 12654,
+      "date": 132465773046295791
     },
     {
       "path": "Missions/marccreal/BushTrips/andalusia/andalusia.PLN",
@@ -17,13 +17,23 @@
     },
     {
       "path": "Missions/marccreal/BushTrips/andalusia/andalusia.spb",
-      "size": 11529,
-      "date": 132464908057633843
+      "size": 11770,
+      "date": 132465736563578819
+    },
+    {
+      "path": "Missions/marccreal/BushTrips/andalusia/images/1_LEGG.png",
+      "size": 3818858,
+      "date": 132465731254682776
     },
     {
       "path": "Missions/marccreal/BushTrips/andalusia/images/Activity_Widget.jpg",
       "size": 678693,
       "date": 132447253708831435
+    },
+    {
+      "path": "Missions/marccreal/BushTrips/andalusia/images/LEGG_Aerodromo de Gergal.png",
+      "size": 4370733,
+      "date": 132465733272886171
     },
     {
       "path": "Missions/marccreal/BushTrips/andalusia/images/Loading.jpg",
