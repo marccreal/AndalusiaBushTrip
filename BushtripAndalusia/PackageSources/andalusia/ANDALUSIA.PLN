@@ -3,21 +3,21 @@
 <SimBase.Document Type="AceXML" version="1,0">
     <Descr>AceXML Document</Descr>
     <FlightPlan.FlightPlan>
-        <Title>Almeria to Aer&#xC3;&#xB3;dromo de G&#xC3;&#xA9;rgal</Title>
+        <Title>Almeria to Guadix</Title>
         <FPType>VFR</FPType>
-        <CruisingAlt>1900.000</CruisingAlt>
+        <CruisingAlt>4000.000</CruisingAlt>
         <DepartureID>LEAM</DepartureID>
         <DepartureLLA>N36° 50' 38.24",W2° 22' 12.36",+000048.00</DepartureLLA>
-        <DestinationID>LEGG</DestinationID>
-        <DestinationLLA>N37° 7' 32.09",W2° 35' 44.22",+002575.04</DestinationLLA>
-        <Descr>Almeria to Aer&#xC3;&#xB3;dromo de G&#xC3;&#xA9;rgal</Descr>
+        <DestinationID>LEFN</DestinationID>
+        <DestinationLLA>N37° 24' 47.74",W3° 4' 32.43",+003451.00</DestinationLLA>
+        <Descr>Almeria to Guadix</Descr>
         <DepartureName>Almeria</DepartureName>
-        <DestinationName>Aer&#xC3;&#xB3;dromo de G&#xC3;&#xA9;rgal</DestinationName>
+        <DestinationName>Guadix</DestinationName>
         <AppVersion>
             <AppVersionMajor>11</AppVersionMajor>
             <AppVersionBuild>282174</AppVersionBuild>
         </AppVersion>
-        <ATCWaypoint id="Almeria">
+        <ATCWaypoint id="LEAM">
             <ATCWaypointType>Airport</ATCWaypointType>
             <WorldPosition>N36° 50' 38.24",W2° 22' 12.36",+000048.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
@@ -26,67 +26,72 @@
                 <ICAOIdent>LEAM</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
-        <ATCWaypoint id="WP1">
+        <ATCWaypoint id="POI">
             <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>N36° 50' 20.28",W2° 28' 20.51",+001050.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
-        <ATCWaypoint id="WP2">
+        <ATCWaypoint id="POI">
             <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>N36° 45' 42.17",W2° 44' 11.67",+001900.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
-        <ATCWaypoint id="WP3">
+        <ATCWaypoint id="POI">
             <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>N36° 46' 21.29",W2° 48' 47.29",+001900.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
-        <ATCWaypoint id="TIMECRUIS">
-            <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N36° 50' 45.30",W2° 56' 35.16",+001900.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
-        </ATCWaypoint>
-        <ATCWaypoint id="WP4">
+        <ATCWaypoint id="POI">
             <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>N36° 51' 6.02",W2° 57' 11.98",+001900.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
-        <ATCWaypoint id="WP5">
+        <ATCWaypoint id="POI">
             <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>N36° 53' 47.43",W3° 1' 36.47",+001900.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
-        <ATCWaypoint id="WP6">
+        <ATCWaypoint id="POI">
             <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>N36° 57' 42.08",W3° 3' 9.49",+001900.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
-        <ATCWaypoint id="TIMEDSCNT">
-            <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N36° 58' 35.16",W2° 56' 0.89",+001900.00</WorldPosition>
-            <SpeedMaxFP>-1</SpeedMaxFP>
-        </ATCWaypoint>
-        <ATCWaypoint id="WP7">
+        <ATCWaypoint id="POI">
             <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>N36° 59' 12.43",W2° 50' 57.57",+001900.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
-        <ATCWaypoint id="WP8">
+        <ATCWaypoint id="POI">
             <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>N37° 0' 23.99",W2° 43' 35.79",+001900.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
-        <ATCWaypoint id="WP9">
+        <ATCWaypoint id="POI">
             <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>N36° 58' 16.89",W2° 31' 29.94",+001900.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
-        <ATCWaypoint id="Aer&#xC3;&#xB3;dromo de G&#xC3;&#xA9;rgal">
+        <ATCWaypoint id="LEGG">
             <ATCWaypointType>Airport</ATCWaypointType>
             <WorldPosition>N37° 7' 32.09",W2° 35' 44.22",+001900.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>LEGG</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+		 <ATCWaypoint id="POI">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 13' 22.61",W3° 3' 37.48",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="POI">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 17' 58.53",W3° 8' 11.27",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEFN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 24' 47.74",W3° 4' 32.43",+003451.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEFN</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
     </FlightPlan.FlightPlan>

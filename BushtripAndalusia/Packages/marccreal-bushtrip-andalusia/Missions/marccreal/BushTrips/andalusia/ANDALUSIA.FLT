@@ -9,7 +9,8 @@ FlightVersion=1
 
 [Briefing]
 BriefingText="Andalusia - a land of contrasts. From endless beaches to high mountains, from busy cites to lifeless deserts, from Moorish reign to Catholic Reconquista. Discover this fascinating region and get to know famous historic sites and impressive landscape."
-BriefingImage0="./Images/LEGG_Aerodromo de Gergal.png"
+BriefingImage0="./images/LEGG_Aerodromo de Gergal.png"
+BriefingImage1="./images/LEFN_Guadix.png"
 
 [Options]
 Sound=True
@@ -67,11 +68,6 @@ Tips2=TT:LOADING.TIPS.BUSH_TRIPS.3
 Tips3=TT:LOADING.TIPS.BUSH_TRIPS.4
 Tips4=TT:LOADING.TIPS.BUSH_TRIPS.5
 
-[Arrival]
-ICAO=LEGG
-RunwayNumber=31
-RunwayDesignator=NONE
-
 [Panels]
 Panel.On=True
 HUD.On=False
@@ -92,20 +88,21 @@ ActiveFlightPlan=True
 RequestedFlightPlan=False
 AcState=ACSTATE_TOWER_DEPARTING
 ActiveVFRAirport=LEAM
-Waypoint.0=, LEAM, , Almeria, A, N36° 50.64', W2° 22.21', +000048.00, , , , , 07, NONE, , 0, -1, 0, 0,  
+Waypoint.0=, LEAM, , Almeria, A, N36° 50' 38.24", W2° 22' 12.36", +000048.00, , , , , 07, NONE, , 0, -1, 0, 0,  
 Waypoint.1=!A, POI1, , Alcazaba de Almeria, U, N36° 50.34', W2° 28.34', +001050.00, , , , , , NONE, 0, 0, -1, 0, 0,  
 Waypoint.2=!A, POI2, , Lake amidst of "mar del plastico", U, N36° 45.70', W2° 44.19', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.3=!A, POI3, , City of El Ejido, U, N36° 46.35', W2° 48.79', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.4=, , , TIMECRUIS, U, N36° 50.75', W2° 56.59', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.5=!A, POI4, , Intersection, U, N36° 51.10', W2° 57.20', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.6=!A, POI5, , Embalse de Beninar, U, N36° 53.79', W3° 1.61', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.7=!A, POI6, , City of Ugijar, U, N36° 57.70', W3° 3.16', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.8=, , , TIMEDSCNT, U, N36° 58.59', W2° 56.01', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.9=!A, POI7, , Rio Andarax, U, N36° 59.21', W2° 50.96', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.10=!A, POI8, , Small Town Canjayar, U, N37° 0.40', W2° 43.60', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.11=!A, POI9, , U-shaped river bend, U, N36° 58.28', W2° 31.50', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.12=, LEGG, , Aerodromo de Gergal, A, N37° 7.53', W2° 35.74', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-NumberofWaypoints=13
+Waypoint.3=!A, POI3, , City of El Ejido, U, N36° 46.35', W2° 48.79', +003000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.4=!A, POI4, , Intersection, U, N36° 51.10', W2° 57.20', +003000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.5=!A, POI5, , Embalse de Beninar, U, N36° 53.79', W3° 1.61', +003000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.6=!A, POI6, , City of Ugijar, U, N36° 57.70', W3° 3.16', +003000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.7=!A, POI7, , Rio Andarax, U, N36° 59.21', W2° 50.96', +003000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.8=!A, POI8, , Small Town Canjayar, U, N37° 0.40', W2° 43.60', +003000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.9=!A, POI9, , U-shaped river bend, U, N36° 58.28', W2° 31.50', +003000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.10=, LEGG, , Aerodromo de Gergal, A, N37° 7' 32.09", W2° 35' 44.22", +002575.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.11=!B, POI1, , Solar power plant, U, N37° 13.38', W3° 3.62', +004000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.12=!B, POI2, , City of Guadix, U, N37° 17.98', W3° 8.19', +004000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.13=, LEFN, , Guadix, A, N37° 24.80', W3° 4.54', +003451.00, , , , , , NONE, 0, 0, -1, 0, 0, 
+NumberofWaypoints=14
 ClearanceFlags=882
 CtCur=CLEARANCE_NONE
 WaypointNext=1
@@ -137,29 +134,30 @@ ExpectedAltitude=-1
 AircraftSignature=1,0
 
 [ATC_ActiveFlightPlan.0]
-title=Almeria to Aeródromo de Gérgal
-description=Almeria to Aeródromo de Gérgal
+title=Almeria to Guadix
+description=Almeria to Guadix
 type=VFR
 routetype=0
 cruising_altitude=1900
 departure_id=LEAM, N36° 50.64', W2° 22.21', +000048.00
 departure_position=
-destination_id=LEGG, N37° 7.53', W2° 35.74', +002575.04
+destination_id=LEFN, N37° 24.80', W3° 4.54', +003451.00
 departure_name=Almeria
-destination_name=Aerodromo de Gergal
-Waypoint.0=, LEAM, , Almeria, A, N36° 50.64', W2° 22.21', +000048.00, , , , , 07, NONE, , 0, -1, 0, 0,  
+destination_name=Guadix
+Waypoint.0=, LEAM, , Almeria, A, N36° 50' 38.24", W2° 22' 12.36", +000048.00, , , , , 07, NONE, , 0, -1, 0, 0,  
 Waypoint.1=!A, POI1, , Alcazaba de Almeria, U, N36° 50.34', W2° 28.34', +001050.00, , , , , , NONE, 0, 0, -1, 0, 0,  
 Waypoint.2=!A, POI2, , Lake amidst of "mar del plastico", U, N36° 45.70', W2° 44.19', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.3=!A, POI3, , City of El Ejido, U, N36° 46.35', W2° 48.79', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.4=, , , TIMECRUIS, U, N36° 50.75', W2° 56.59', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.5=!A, POI4, , Intersection, U, N36° 51.10', W2° 57.20', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.6=!A, POI5, , Embalse de Beninar, U, N36° 53.79', W3° 1.61', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.7=!A, POI6, , City of Ugijar, U, N36° 57.70', W3° 3.16', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.8=, , , TIMEDSCNT, U, N36° 58.59', W2° 56.01', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.9=!A, POI7, , Rio Andarax, U, N36° 59.21', W2° 50.96', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.10=!A, POI8, , Small Town Canjayar, U, N37° 0.40', W2° 43.60', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.11=!A, POI9, , U-shaped river bend, U, N36° 58.28', W2° 31.50', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
-Waypoint.12=, LEGG, , Aerodromo de Gergal, A, N37° 7.53', W2° 35.74', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.3=!A, POI3, , City of El Ejido, U, N36° 46.35', W2° 48.79', +003000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.4=!A, POI4, , Intersection, U, N36° 51.10', W2° 57.20', +003000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.5=!A, POI5, , Embalse de Beninar, U, N36° 53.79', W3° 1.61', +003000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.6=!A, POI6, , City of Ugijar, U, N36° 57.70', W3° 3.16', +003000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.7=!A, POI7, , Rio Andarax, U, N36° 59.21', W2° 50.96', +003000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.8=!A, POI8, , Small Town Canjayar, U, N37° 0.40', W2° 43.60', +003000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.9=!A, POI9, , U-shaped river bend, U, N36° 58.28', W2° 31.50', +003000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.10=, LEGG, , Aerodromo de Gergal, A, N37° 7' 32.09", W2° 35' 44.22", +002575.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.11=!B, POI1, , Solar power plant, U, N37° 13.38', W3° 3.62', +004000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.12=!B, POI2, , City of Guadix, U, N37° 17.98', W3° 8.19', +004000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.13=, LEFN, , Guadix, A, N37° 24.80', W3° 4.54', +003451.00, , , , , , NONE, 0, 0, -1, 0, 0, 
 
 [ATC_AircraftManager]
 NumberofAircraft=1
@@ -175,19 +173,20 @@ TimeWP=81228
 ArriveTime=2946
 CountWP=13
 NextWP=1
-WpInfo0=48, 0, 14, 0, 0, 0.0, 0.0, 0.0
-WpInfo1=107, 0, 320, 0, 0, 0.0, 0.3, 0.0
-WpInfo2=99, 0, 579, 0, 0, 0.0, 0.9, 0.0
-WpInfo3=93, 0, 579, 0, 0, 0.0, 0.3, 0.0
-WpInfo4=105, 0, 579, 0, 0, 0.0, 0.5, 0.0
-WpInfo5=105, 0, 579, 0, 0, 0.0, 0.0, 0.0
-WpInfo6=106, 0, 579, 0, 0, 0.0, 0.3, 0.0
-WpInfo7=107, 0, 579, 0, 0, 0.0, 0.2, 0.0
-WpInfo8=101, 0, 579, 0, 0, 0.0, 0.4, 0.0
-WpInfo9=97, 0, 579, 0, 0, 0.0, 0.3, 0.0
-WpInfo10=97, 0, 579, 0, 0, 0.0, 0.4, 0.0
-WpInfo11=97, 0, 579, 0, 0, 0.0, 0.7, 0.0
-WpInfo12=55, 0, 579, 0, 0, 0.0, 1.1, 0.0
+WpInfo0=69, 0, 14, 0, 0, 14.0, 0.0, 0.0
+WpInfo1=125, 0, 320, 0, 0, 0.0, 0.4, 0.0
+WpInfo2=131, 0, 1143, 0, 0, 0.0, 1.0, 0.0
+WpInfo3=137, 0, 1219, 0, 0, 0.0, 0.3, 0.0
+WpInfo4=133, 0, 1219, 0, 0, 0.0, 0.6, 0.0
+WpInfo5=133, 0, 1219, 0, 0, 0.0, 0.3, 0.0
+WpInfo6=128, 0, 1219, 0, 0, 0.0, 0.3, 0.0
+WpInfo7=118, 0, 1219, 0, 0, 0.0, 0.4, 0.0
+WpInfo8=118, 0, 1219, 0, 0, 0.0, 0.5, 0.0
+WpInfo9=117, 0, 1219, 0, 0, 0.0, 0.8, 0.0
+WpInfo10=127, 0, 1219, 0, 0, 0.0, 0.6, 0.0
+WpInfo11=131, 0, 1219, 0, 0, 0.0, 1.7, 0.0
+WpInfo12=127, 0, 1219, 0, 0, 0.0, 0.5, 0.0
+WpInfo13=81, 0, 1051, 0, 0, 0.0, 0.9, 0.0
 CountFP=0
 
 [DateTimeSeason]

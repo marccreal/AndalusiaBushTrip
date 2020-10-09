@@ -6,9 +6,8 @@
     <SimMission.MissionBushTrip id="Bushtrip_Andalusia" InstanceId="{f0727ad5-069f-4c5e-b7f9-881c0848cf59}">
       <Descr>Andalusia Bush Trip</Descr>
 	  <Legs>
-	    <Leg>
-          <Descr>Almeria to Aerodromo de Gergal</Descr>
-          <AirportLandingTriggerEnd UniqueRefId="{23474921-97ad-44d6-8696-32bd4fd041ac}" />
+	    <Leg> <Descr>Almeria to Aerodromo de Gergal</Descr>
+          <AirportLandingTriggerEnd UniqueRefId="{FEBB002C-519C-4FC9-ABEF-6ECEA508A367}" />
           <SubLegs>
             <SubLeg>
               <Descr>Your trip starts in the southeast of Andalusia in the city of Almeria, the capital of the province of the same name. Throughout history, Almeria's harbor has been an important hub for various goods from tin in the Bronze Age over rasins and silk in the time of Moorish reign to iron ore in the 19th century. Today, its economy builds mainly around vegetable production, with the whole region plastered with hunders of greenhouses, supplying much of Europe.
@@ -110,7 +109,36 @@
               <ATCWaypointEnd id="LEGG">
 			  </ATCWaypointEnd>
             </SubLeg>
-			
+          </SubLegs>
+        </Leg>
+		<Leg> <Descr>Aerodromo de Gergal to Guadix</Descr>
+          <AirportLandingTriggerEnd UniqueRefId="{9A84F7BA-3D8A-459A-8250-D05C111CABC3}" />
+          <SubLegs>
+            <SubLeg>
+              <Descr>Follow tha A-92 motorway west until you reach your first waypoint, the solar power station "Andasol". This facility uses parabolic troughs to concentrate sunlight in order to generate heat for driving steam turbines. The three Andasol plants also use tanks of molten salt as thermal energy storage to be able to generate electricity even when the sun is not shining. In 2018, Andasol 3 produced 134.1 GWh of electric energy.</Descr>
+              <ATCWaypointStart id="LEGG" />
+              <ATCWaypointEnd id="POI1">
+                <idRegion>!B</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Turn northwest to get to the city of Guadix. The city is famous for its caves carved in tuff rocks that are used as houses probably since prehistoric times up to today.</Descr>
+              <ATCWaypointStart id="POI1">
+                <idRegion>!B</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI2">
+                <idRegion>!B</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>The airport is situated north of the city (3451 AMSL). Shortly before you reach the airport, you will pass the race track "Circuit Guadix", a popular test track for racing teams from all over the world.</Descr>
+			  <ImagePath>images\2_LEFN.png</ImagePath>
+              <ATCWaypointStart id="POI2">
+                <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="LEFN">
+			  </ATCWaypointEnd>
+            </SubLeg>
           </SubLegs>
         </Leg>
 	  </Legs>
@@ -124,7 +152,7 @@
         <WorldBase.ObjectReference id="End Of Mission" InstanceId="{1AA91671-30AD-4A5C-8DEF-7D80C558EBDC}" />
       </OnFinishedActions>
     </SimMission.MissionBushTrip>
-    <SimMission.AirportCalculator InstanceId="{FEBB002C-519C-4FC9-ABEF-6ECEA508A367}">
+	<SimMission.AirportCalculator InstanceId="{FEBB002C-519C-4FC9-ABEF-6ECEA508A367}">
       <AirportIdent>LEGG</AirportIdent>
       <ComputeAirportPolygon>true</ComputeAirportPolygon>
       <Activated>false</Activated>
@@ -185,7 +213,68 @@
         </CalculatorAction>
       </CalculatorActions>
     </SimMission.AirportCalculator>
-    <SimMission.Goal InstanceId="{37569C05-B09F-493B-A2C3-2BF1A8215E2E}">
+	<SimMission.AirportCalculator InstanceId="{9A84F7BA-3D8A-459A-8250-D05C111CABC3}">
+      <AirportIdent>LEFN</AirportIdent>
+      <ComputeAirportPolygon>true</ComputeAirportPolygon>
+      <Activated>false</Activated>
+      <CalculatorParameterList>
+        <FormulaParameter NameInFormula="Threshold">
+          <StartValue>20.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FarThreshold">
+          <StartValue>100.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnGround">
+          <CalculatorFormula>
+            (A:SIM ON GROUND, Boolean) 0 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnRunway">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [Threshold] &lt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="TimerLanded">
+          <CalculatorFormula>
+            [OnRunway] [SignedDistanceToAirportArea] [Threshold] &lt; or [OnGround]  and (A:GROUND VELOCITY, Knots) 2 &lt; and
+            if{
+            [TimerLanded] [dtime] +
+            }
+            els{ 0 }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="UnknownTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [FarThreshold] &gt; [OnGround] and [UnknownTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OutsideTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [FarThreshold] &lt; [SignedDistanceToClosestRunway] [Threshold] &gt; [OnGround] and and [OutsideTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+      </CalculatorParameterList>
+      <CalculatorActions>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [OutsideTouchDown] [UnknownTouchDown] not and
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="ACT_NotifOutOfRunway" InstanceId="{952743E5-F838-4F51-A1A0-07E8DCD44019}" />
+          </Actions>
+        </CalculatorAction>
+        <CalculatorAction>
+          <DeactivateAfterExecution>true</DeactivateAfterExecution>
+          <CalculatorFormula>
+            [TimerLanded] 2 &gt;
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="FlowEvent_LandingRest" InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}" />
+          </Actions>
+        </CalculatorAction>
+      </CalculatorActions>
+    </SimMission.AirportCalculator>
+	<SimMission.Goal InstanceId="{37569C05-B09F-493B-A2C3-2BF1A8215E2E}">
       <Descr>End of mission</Descr>
       <Activated>false</Activated>
     </SimMission.Goal>
