@@ -1,3 +1,0 @@
-Waypoint.12=, LEGG, , Aerodromo de Gergal, A, N37° 7' 32.09", W2° 35' 44.22", +001900.00,
-
-WpInfo12=55, 0, 579, 0, 0, 0.0, 1.1, 0.0

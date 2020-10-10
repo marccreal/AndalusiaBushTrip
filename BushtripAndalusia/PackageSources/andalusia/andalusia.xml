@@ -134,9 +134,159 @@
               <Descr>The airport is situated north of the city (3451 AMSL). Shortly before you reach the airport, you will pass the race track "Circuit Guadix", a popular test track for racing teams from all over the world.</Descr>
 			  <ImagePath>images\2_LEFN.png</ImagePath>
               <ATCWaypointStart id="POI2">
-                <idRegion>!A</idRegion>
+                <idRegion>!B</idRegion>
               </ATCWaypointStart>
               <ATCWaypointEnd id="LEFN">
+			  </ATCWaypointEnd>
+            </SubLeg>
+          </SubLegs>
+        </Leg>
+		<Leg> <Descr>Guadix to Santiago-Pontones</Descr>
+          <AirportLandingTriggerEnd UniqueRefId="{C56D46F3-E2BD-4A80-A4BF-4C16F95F360D}" />
+          <SubLegs>
+            <SubLeg>
+              <Descr>Navigation will be a bit more challenging in this leg. After departure, head northeast towards Cerro Jabalcon, an isolated mountain with a height of 1494 m. Close to the mountain, there is a big reservoir, the Embalse de Negratin. At the foot of Jabalcon, the reservoir forks - this is your first waypoint.</Descr>
+              <ATCWaypointStart id="LEFN" />
+              <ATCWaypointEnd id="POI1">
+                <idRegion>!C</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Follow the left fork and track the river that runs into the reservoir upstream until you reach another smaller reservoir, Embalse de la Bolera.</Descr>
+              <ATCWaypointStart id="POI1">
+                <idRegion>!C</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI2">
+                <idRegion>!C</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Don't follow the river further upstream but turn right and fly into the valley that stretches in northeastern direction until you reach the end of the valley. Remember to gain some altitude as you will need it in the next subleg.</Descr>
+              <ATCWaypointStart id="POI2">
+                <idRegion>!C</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI3">
+                <idRegion>!C</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Turn left and cross the mountain ridge. At the other side of the ridge, you will reach a small road that winds through the forest.</Descr>
+              <ATCWaypointStart id="POI3">
+                <idRegion>!C</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI4">
+                <idRegion>!C</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Follow the this road until the forest ends and you reach a pass between two mountain ridges.</Descr>
+              <ATCWaypointStart id="POI4">
+                <idRegion>!C</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI5">
+                <idRegion>!C</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Track the road further until you reach a fork with one branch going straight north while the main road heads east.</Descr>
+              <ATCWaypointStart id="POI5">
+                <idRegion>!C</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI6">
+                <idRegion>!C</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Follow the main road first east and then again northeast through another valley. After you clear the valley, you will reach your next waypoint, the small village of Don Domingo.</Descr>
+              <ATCWaypointStart id="POI6">
+                <idRegion>!C</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI7">
+                <idRegion>!C</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Follow the small road that leaves the village in northwestern direction uphill. After the road has reached the top of the mountain ridge, it makes a distincitve U-shaped turn with forest ourside of the "U" and fields inside.</Descr>
+              <ATCWaypointStart id="POI7">
+                <idRegion>!C</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI8">
+                <idRegion>!C</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>A small track branches off the road at the bottom of the "U". Follow this track, it will lead you to your destination for this leg - the small airstip Santiago-Pontones. If you get lost, you can try using the VORDME YES (115.20). The airstrip is situated at a distance of 21nm from the VOR on the 222° radial.</Descr>
+			  <ImagePath>images\3_LETK.png</ImagePath>
+              <ATCWaypointStart id="POI8">
+                <idRegion>!C</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="LETK">
+			  </ATCWaypointEnd>
+            </SubLeg>
+          </SubLegs>
+        </Leg>	
+		<Leg> <Descr>Santiago-Pontones to Aerodromo de Las Canadillas</Descr>
+          <AirportLandingTriggerEnd UniqueRefId="{8DF8810B-37A2-4680-874D-F6CCEE0E7B26}" />
+          <SubLegs>
+            <SubLeg>
+              <Descr>After departure, head west to another big reservoir, Embalse de Tranco de Beas. Through this reservoir runs the most important river of Andalusia, Rio Guadalquivir.</Descr>
+              <ATCWaypointStart id="LETK" />
+              <ATCWaypointEnd id="POI1">
+                <idRegion>!D</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Follow the reservoir north and fly along the valley that streches northeast of the reservoir until you reach the small town of Segura de la Sierra situated on a hilltop on the right side of the valley.</Descr>
+              <ATCWaypointStart id="POI1">
+                <idRegion>!D</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI2">
+                <idRegion>!D</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Turn east into the mountains. Your next waypoint is a high mountain with a streched plateau - Calar del Espino.</Descr>
+              <ATCWaypointStart id="POI2">
+                <idRegion>!D</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI3">
+                <idRegion>!D</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Fly further east until you cross Rio Segura. This is where we shortly leave Andalusia and enter the region Castilla-La Mancha.</Descr>
+              <ATCWaypointStart id="POI3">
+                <idRegion>!D</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI4">
+                <idRegion>!D</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Fly alongside the river northeast to your next waypoint - another reservoir as you might have guessed.</Descr>
+              <ATCWaypointStart id="POI4">
+                <idRegion>!D</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI5">
+                <idRegion>!D</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>The reservoir is fed by two rivers, Rio Segura that you just followed and Rio Tus. Follow this other arm of the reservoir back to the point where it narrows down again to a normal river.</Descr>
+              <ATCWaypointStart id="POI5">
+                <idRegion>!D</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI6">
+                <idRegion>!D</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Turn right and follow the valley that runs north. Fly a bit further north until you reach the rather deep river valley of Rio Mundo. To your right on the south side above the valley lies your destination, Aerodromo de Las Canadillas. Again a tip if you get lost: The airstrip is situated at a distance of 9.4nm on the 26° radial of VOR YES (115.20).</Descr>
+			  <ImagePath>images\4_LEML.png</ImagePath>
+              <ATCWaypointStart id="POI6">
+                <idRegion>!D</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="LEML">
 			  </ATCWaypointEnd>
             </SubLeg>
           </SubLegs>
@@ -215,6 +365,128 @@
     </SimMission.AirportCalculator>
 	<SimMission.AirportCalculator InstanceId="{9A84F7BA-3D8A-459A-8250-D05C111CABC3}">
       <AirportIdent>LEFN</AirportIdent>
+      <ComputeAirportPolygon>true</ComputeAirportPolygon>
+      <Activated>false</Activated>
+      <CalculatorParameterList>
+        <FormulaParameter NameInFormula="Threshold">
+          <StartValue>20.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FarThreshold">
+          <StartValue>100.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnGround">
+          <CalculatorFormula>
+            (A:SIM ON GROUND, Boolean) 0 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnRunway">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [Threshold] &lt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="TimerLanded">
+          <CalculatorFormula>
+            [OnRunway] [SignedDistanceToAirportArea] [Threshold] &lt; or [OnGround]  and (A:GROUND VELOCITY, Knots) 2 &lt; and
+            if{
+            [TimerLanded] [dtime] +
+            }
+            els{ 0 }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="UnknownTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [FarThreshold] &gt; [OnGround] and [UnknownTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OutsideTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [FarThreshold] &lt; [SignedDistanceToClosestRunway] [Threshold] &gt; [OnGround] and and [OutsideTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+      </CalculatorParameterList>
+      <CalculatorActions>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [OutsideTouchDown] [UnknownTouchDown] not and
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="ACT_NotifOutOfRunway" InstanceId="{952743E5-F838-4F51-A1A0-07E8DCD44019}" />
+          </Actions>
+        </CalculatorAction>
+        <CalculatorAction>
+          <DeactivateAfterExecution>true</DeactivateAfterExecution>
+          <CalculatorFormula>
+            [TimerLanded] 2 &gt;
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="FlowEvent_LandingRest" InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}" />
+          </Actions>
+        </CalculatorAction>
+      </CalculatorActions>
+    </SimMission.AirportCalculator>
+	<SimMission.AirportCalculator InstanceId="{C56D46F3-E2BD-4A80-A4BF-4C16F95F360D}">
+      <AirportIdent>LETK</AirportIdent>
+      <ComputeAirportPolygon>true</ComputeAirportPolygon>
+      <Activated>false</Activated>
+      <CalculatorParameterList>
+        <FormulaParameter NameInFormula="Threshold">
+          <StartValue>20.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FarThreshold">
+          <StartValue>100.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnGround">
+          <CalculatorFormula>
+            (A:SIM ON GROUND, Boolean) 0 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnRunway">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [Threshold] &lt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="TimerLanded">
+          <CalculatorFormula>
+            [OnRunway] [SignedDistanceToAirportArea] [Threshold] &lt; or [OnGround]  and (A:GROUND VELOCITY, Knots) 2 &lt; and
+            if{
+            [TimerLanded] [dtime] +
+            }
+            els{ 0 }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="UnknownTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [FarThreshold] &gt; [OnGround] and [UnknownTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OutsideTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [FarThreshold] &lt; [SignedDistanceToClosestRunway] [Threshold] &gt; [OnGround] and and [OutsideTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+      </CalculatorParameterList>
+      <CalculatorActions>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [OutsideTouchDown] [UnknownTouchDown] not and
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="ACT_NotifOutOfRunway" InstanceId="{952743E5-F838-4F51-A1A0-07E8DCD44019}" />
+          </Actions>
+        </CalculatorAction>
+        <CalculatorAction>
+          <DeactivateAfterExecution>true</DeactivateAfterExecution>
+          <CalculatorFormula>
+            [TimerLanded] 2 &gt;
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="FlowEvent_LandingRest" InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}" />
+          </Actions>
+        </CalculatorAction>
+      </CalculatorActions>
+    </SimMission.AirportCalculator>
+	<SimMission.AirportCalculator InstanceId="{8DF8810B-37A2-4680-874D-F6CCEE0E7B26}">
+      <AirportIdent>LEML</AirportIdent>
       <ComputeAirportPolygon>true</ComputeAirportPolygon>
       <Activated>false</Activated>
       <CalculatorParameterList>
