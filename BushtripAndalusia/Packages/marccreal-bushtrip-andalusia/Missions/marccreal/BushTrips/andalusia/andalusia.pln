@@ -69,7 +69,7 @@
                 <ICAOIdent>LEGG</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
-		        <ATCWaypoint id="WP1">
+		<ATCWaypoint id="WP1">
             <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>N37° 13' 22.61",W3° 3' 37.48",+000000.00</WorldPosition>
         </ATCWaypoint>

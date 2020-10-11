@@ -115,7 +115,7 @@
           <AirportLandingTriggerEnd UniqueRefId="{9A84F7BA-3D8A-459A-8250-D05C111CABC3}" />
           <SubLegs>
             <SubLeg>
-              <Descr>Follow tha A-92 motorway west until you reach your first waypoint, the solar power station "Andasol". This facility uses parabolic troughs to concentrate sunlight in order to generate heat for driving steam turbines. The three Andasol plants also use tanks of molten salt as thermal energy storage to be able to generate electricity even when the sun is not shining. In 2018, Andasol 3 produced 134.1 GWh of electric energy.</Descr>
+              <Descr>Follow tha A-92 motorway west until you reach your first waypoint, the solar power station "Andasol". The facility consists of three plants built next to each other. They use parabolic troughs to concentrate sunlight in order to generate heat for driving steam turbines. Additionally, they also use tanks of molten salt as thermal energy storage to be able to generate electricity even when the sun is not shining. In 2018, Andasol 3 produced 134.1 GWh of electric energy.</Descr>
               <ATCWaypointStart id="LEGG" />
               <ATCWaypointEnd id="POI1">
                 <idRegion>!B</idRegion>
@@ -145,14 +145,14 @@
           <AirportLandingTriggerEnd UniqueRefId="{C56D46F3-E2BD-4A80-A4BF-4C16F95F360D}" />
           <SubLegs>
             <SubLeg>
-              <Descr>Navigation will be a bit more challenging in this leg. After departure, head northeast towards Cerro Jabalcon, an isolated mountain with a height of 1494 m. Close to the mountain, there is a big reservoir, the Embalse de Negratin. At the foot of Jabalcon, the reservoir forks - this is your first waypoint.</Descr>
+              <Descr>Navigation will be a bit more challenging in this leg. After departure, head northeast towards Cerro Jabalcon, an isolated mountain with a height of 1494 m. Close to the mountain, there is a big reservoir, the Embalse del Negratin. The reservoir is the third-largest in the region of Andalusia. At the foot of Jabalcon, the reservoir forks - this is your first waypoint.</Descr>
               <ATCWaypointStart id="LEFN" />
               <ATCWaypointEnd id="POI1">
                 <idRegion>!C</idRegion>
               </ATCWaypointEnd>
             </SubLeg>
 			<SubLeg>
-              <Descr>Follow the left fork and track the river that runs into the reservoir upstream until you reach another smaller reservoir, Embalse de la Bolera.</Descr>
+              <Descr>Follow the left fork and track the river that runs into the reservoir upstream  until you reach another smaller reservoir, Embalse de la Bolera. The large mountainous area that you entered is known as the Sierras de Cazorla, Segura y Las Villas Natural Park.</Descr>
               <ATCWaypointStart id="POI1">
                 <idRegion>!C</idRegion>
               </ATCWaypointStart>
@@ -215,7 +215,7 @@
               </ATCWaypointEnd>
             </SubLeg>
 			<SubLeg>
-              <Descr>A small track branches off the road at the bottom of the "U". Follow this track, it will lead you to your destination for this leg - the small airstip Santiago-Pontones. If you get lost, you can try using the VORDME YES (115.20). The airstrip is situated at a distance of 21nm from the VOR on the 222° radial.</Descr>
+              <Descr>A small track branches off the road at the bottom of the "U". Follow this track, it will lead you to your destination for this leg - the small airstip Santiago-Pontones. If you get lost, you can try using the VORDME YES (115.20). The airstrip is situated at a distance of 21nm from the VOR on the 222 degree radial.</Descr>
 			  <ImagePath>images\3_LETK.png</ImagePath>
               <ATCWaypointStart id="POI8">
                 <idRegion>!C</idRegion>
@@ -229,7 +229,7 @@
           <AirportLandingTriggerEnd UniqueRefId="{8DF8810B-37A2-4680-874D-F6CCEE0E7B26}" />
           <SubLegs>
             <SubLeg>
-              <Descr>After departure, head west to another big reservoir, Embalse de Tranco de Beas. Through this reservoir runs the most important river of Andalusia, Rio Guadalquivir.</Descr>
+              <Descr>After departure, head west to another big reservoir, Embalse del Tranco de Beas. Through this reservoir runs the longest river of Andalusia, Rio Guadalquivir.</Descr>
               <ATCWaypointStart id="LETK" />
               <ATCWaypointEnd id="POI1">
                 <idRegion>!D</idRegion>
@@ -254,7 +254,7 @@
               </ATCWaypointEnd>
             </SubLeg>
 			<SubLeg>
-              <Descr>Fly further east until you cross Rio Segura. This is where we shortly leave Andalusia and enter the region Castilla-La Mancha.</Descr>
+              <Descr>Fly further east until you cross Rio Segura. This is where you will shortly leave Andalusia and enter the region Castilla-La Mancha.</Descr>
               <ATCWaypointStart id="POI3">
                 <idRegion>!D</idRegion>
               </ATCWaypointStart>
@@ -281,7 +281,7 @@
               </ATCWaypointEnd>
             </SubLeg>
 			<SubLeg>
-              <Descr>Turn right and follow the valley that runs north. Fly a bit further north until you reach the rather deep river valley of Rio Mundo. To your right on the south side above the valley lies your destination, Aerodromo de Las Canadillas. Again a tip if you get lost: The airstrip is situated at a distance of 9.4nm on the 26° radial of VOR YES (115.20).</Descr>
+              <Descr>Turn right and follow the valley that runs north. Fly a bit further north until you reach the rather deep river valley of Rio Mundo. To your right on the south side above the valley lies your destination, Aerodromo de Las Canadillas. Again a tip if you get lost: The airstrip is situated at a distance of 9.4nm on the 26 degree radial of VOR YES (115.20).</Descr>
 			  <ImagePath>images\4_LEML.png</ImagePath>
               <ATCWaypointStart id="POI6">
                 <idRegion>!D</idRegion>

@@ -3,7 +3,7 @@
     {
       "path": "manifest.json",
       "size": 304,
-      "date": 132468120632190654
+      "date": 132468832951339821
     },
     {
       "path": "Missions/marccreal/BushTrips/andalusia/ANDALUSIA.FLT",
@@ -12,13 +12,13 @@
     },
     {
       "path": "Missions/marccreal/BushTrips/andalusia/andalusia.PLN",
-      "size": 7461,
-      "date": 132468093051256509
+      "size": 7453,
+      "date": 132468137259192236
     },
     {
       "path": "Missions/marccreal/BushTrips/andalusia/andalusia.spb",
-      "size": 21529,
-      "date": 132468120631965863
+      "size": 21768,
+      "date": 132468848161009523
     },
     {
       "path": "Missions/marccreal/BushTrips/andalusia/images/1_LEGG.png",
@@ -67,6 +67,11 @@
     },
     {
       "path": "Missions/marccreal/BushTrips/andalusia/images/Loading.jpg",
+      "size": 1398253,
+      "date": 132468809265792586
+    },
+    {
+      "path": "Missions/marccreal/BushTrips/andalusia/images/Loading_old.jpg",
       "size": 1462144,
       "date": 132447617836275970
     }
