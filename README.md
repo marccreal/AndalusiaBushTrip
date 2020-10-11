@@ -8,7 +8,7 @@ This bush trip is an alpha version. Only the first few legs are (fully) implemen
 
 ## Install
 1. Grab the latest [release](https://github.com/marccreal/AndalusiaBushTrip/releases/latest) and unzip to a directory of your choice.
-2. Move the `marccreal-bushtrip-andalusia` folder inside the 'Community' folder of your MSFS installation. This folder can be located in different places:
+2. Move the `marccreal-bushtrip-andalusia` folder into the 'Community' folder of your MSFS installation. This folder can be located in different places:
    * Steam (standard): C:\Users\[YOUR USERNAME]\AppData\Roaming\Microsoft Flight Simulator\Packages\Community
    * Microsoft Store (standard): C:\Users\[YOUR USERNAME]\AppData\Local\Packages\Microsoft.FlightSimulator_<RANDOMLETTERS>\LocalCache\Packages\Community
    * Boxed (standard): C:\Users\[YOUR USERNAME]\AppData\Local\MSFSPackages\Community
