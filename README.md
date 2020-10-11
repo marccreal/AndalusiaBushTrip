@@ -1,5 +1,5 @@
-![https://github.com/marccreal/AndalusiaBushTrip](/misc/logo_alhambra.png)
-![https://github.com/marccreal/AndalusiaBushTrip/releases/latest](https://img.shields.io/github/v/tag/marccreal/AndalusiaBushTrip?label=release&style=for-the-badge) ![](https://img.shields.io/github/downloads/marccreal/AndalusiaBushTrip/total?style=for-the-badge)
+[![Andalusia Bush Trip](/misc/logo_alhambra.png)](https://github.com/marccreal/AndalusiaBushTrip)
+[![Latest release](https://img.shields.io/github/v/tag/marccreal/AndalusiaBushTrip?label=release&style=for-the-badge)](https://github.com/marccreal/AndalusiaBushTrip/releases/latest) [![](https://img.shields.io/github/downloads/marccreal/AndalusiaBushTrip/total?style=for-the-badge)](https://github.com/marccreal/AndalusiaBushTrip/releases/latest)
 
 A bush trip through the Spanish region of Andalusia for Microsoft Flight Simulator.
 
