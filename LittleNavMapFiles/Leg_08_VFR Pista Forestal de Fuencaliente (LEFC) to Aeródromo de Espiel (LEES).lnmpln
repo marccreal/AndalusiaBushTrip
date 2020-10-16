@@ -27,14 +27,14 @@
         <Name>Torrecampo</Name>
         <Ident>WP1</Ident>
         <Type>USER</Type>
-        <Comment>After departure, you have to gain altitude quickly because you will have to fly over the mountains to the west. When you have cleared the mountains, look for a road A-435 that crosses a river and leads to the small town of Torrecampo, your first waypoint.</Comment>
+        <Comment>After departure, you have to gain altitude quickly because you will have to fly over the mountains to the west. When you have cleared the mountains, look for the road A-435, that crosses a river and leads to the small town of Torrecampo, your first waypoint.</Comment>
         <Pos Lon="-4.675920" Lat="38.476437" Alt="4500.00"/>
       </Waypoint>
       <Waypoint>
         <Name>Pozoblanco</Name>
         <Ident>WP2</Ident>
         <Type>USER</Type>
-        <Comment>Track the A435 southwest. You will pass another small town until you reach the somewhat bigger town of Pozoblanco.</Comment>
+        <Comment>Track the A-435 southwest. You will pass another small town before you reach the somewhat bigger town of Pozoblanco.</Comment>
         <Pos Lon="-4.843958" Lat="38.377193" Alt="4500.00"/>
       </Waypoint>
       <Waypoint>
@@ -48,7 +48,7 @@
         <Name>Aeródromo de Espiel</Name>
         <Ident>LEES</Ident>
         <Type>AIRPORT</Type>
-        <Comment>Head into the mountainous region southwest. Your destination is closeby, amidst the forest - Aerodromo de Espiel (2362 AMSL). Again a hint: VOR HIJ (114.70), 171 degrees, 15nm.</Comment>
+        <Comment>Head into the mountainous region southwest. Your destination is closeby, amidst the forest - Aerodromo de Espiel (2362 AMSL). Again a hint: VOR HIJ (114.70), radial 171 degrees, 15nm distance.</Comment>
         <Pos Lon="-5.044950" Lat="38.261448" Alt="2362.00"/>
       </Waypoint>
     </Waypoints>
