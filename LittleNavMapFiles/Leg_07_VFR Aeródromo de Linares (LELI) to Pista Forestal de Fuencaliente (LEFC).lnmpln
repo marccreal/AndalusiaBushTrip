@@ -31,17 +31,17 @@
         <Pos Lon="-3.790564" Lat="38.185036" Alt="4103.38"/>
       </Waypoint>
       <Waypoint>
-        <Name>Jandula</Name>
+        <Name>Pantano del Jandula</Name>
         <Ident>WP2</Ident>
         <Type>USER</Type>
-        <Comment>Hop to the next reservoir, &quot;Jandula&quot;.</Comment>
+        <Comment>Hop to the next reservoir, &quot;Pantano del Jandula&quot;.</Comment>
         <Pos Lon="-3.935489" Lat="38.260830" Alt="6000.00"/>
       </Waypoint>
       <Waypoint>
         <Name>Opening between mountains</Name>
         <Ident>WP3</Ident>
         <Type>USER</Type>
-        <Comment>Head towards the higher mountains further northwest - Sierra Madrona. The first ridge that runs from east to west marks the border between Andalusia and Castilla-La Mancha. You will have to find an opening of the mountains with the river Rio Valmayor running through.</Comment>
+        <Comment>Head towards the higher mountains further northwest - Sierra Madrona. The range is the madroño or madroña, the Strawberry Tree (Arbutus unedo) which is abundant in the area. The first ridge that runs from east to west marks the border between Andalusia and Castilla-La Mancha. You will have to find an opening of the mountains with the river Rio Valmayor running through.</Comment>
         <Pos Lon="-4.145211" Lat="38.384190" Alt="6000.00"/>
       </Waypoint>
       <Waypoint>
@@ -55,7 +55,7 @@
         <Name>Pista Forestal de Fuencaliente</Name>
         <Ident>LEFC</Ident>
         <Type>AIRPORT</Type>
-        <Comment>You will notice, that the northern and southern mountain ridges run together in the northwest. Head towards this point.  until you cross the road N-420. On the west side of the road close to the northern mountain ridge, you will find your destination, the Pista Forestal de Fuencaliente (2580m AMSL). Beware the mountains during approach! If you get lost, try VOR HIJ (114.70), the airfield is on the 89 degree radial at a distance of 33nm.</Comment>
+        <Comment>You will notice, that the northern and southern mountain ridges run together in the northwest. Head towards this point until you cross the road N-420. On the west side of the road close to the northern mountain ridge, you will find your destination, the Pista Forestal de Fuencaliente (2580m AMSL). Beware the mountains during approach! If you get lost, try VOR HIJ (114.70), the airfield is on the 89 degree radial at a distance of 33nm.</Comment>
         <Pos Lon="-4.389256" Lat="38.526505" Alt="2580.00"/>
       </Waypoint>
     </Waypoints>
