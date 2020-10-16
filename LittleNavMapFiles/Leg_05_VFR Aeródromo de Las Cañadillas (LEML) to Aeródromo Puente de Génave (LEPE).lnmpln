@@ -34,7 +34,7 @@
         <Name>Riopar Viejo</Name>
         <Ident>WP2</Ident>
         <Type>USER</Type>
-        <Comment>Stay with the road that ran alongside the river and now parts from the river in western direction. Your next waypoint is the village of Riopar Viejo, situated quite prominently on a hill on the right side of the road.</Comment>
+        <Comment>You might have noticed, that alongside the river in the valley you just passed ran a road. This road now parts from the river in western direction. Follow this road to your next waypoint, the village of Riopar Viejo, situated quite prominently on a hill on the right side of the road.</Comment>
         <Pos Lon="-2.447617" Lat="38.503513" Alt="6000.00"/>
       </Waypoint>
       <Waypoint>
