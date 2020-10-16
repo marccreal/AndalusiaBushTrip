@@ -3,8 +3,8 @@
   <Flightplan>
     <Header>
       <FlightplanType>VFR</FlightplanType>
-      <CruisingAlt>0</CruisingAlt>
-      <CreationDate>2020-10-16T00:24:30</CreationDate>
+      <CruisingAlt>2000</CruisingAlt>
+      <CreationDate>2020-10-16T10:34:31</CreationDate>
       <FileVersion>1.0</FileVersion>
       <ProgramName>Little Navmap</ProgramName>
       <ProgramVersion>2.6.1.beta</ProgramVersion>
@@ -24,14 +24,17 @@
         <Pos Lon="-4.807178" Lat="37.961567" Alt="1968.00"/>
       </Waypoint>
       <Waypoint>
+        <Name>Cordoba</Name>
         <Ident>WP1</Ident>
         <Type>USER</Type>
-        <Pos Lon="-4.777868" Lat="37.876614" Alt="0.00"/>
+        <Comment>In this leg, you will visit one of the most famous cities of Andalusia: Cordoba! The city is situated around 5nm south of your departure airport. When you arrive above the city, take your time and do some sightseeing. La Mezquita, Puente Romano, Torre de la Calahorra, Alcazar, Banos Califales.</Comment>
+        <Pos Lon="-4.777867" Lat="37.876614" Alt="2000.00"/>
       </Waypoint>
       <Waypoint>
         <Name>Flugplatz Palma del Río</Name>
         <Ident>LEPR</Ident>
         <Type>AIRPORT</Type>
+        <Comment>When you finished sightseeing, follow Rio Guadalquivir southwest out of the city. Your destination &quot;Palma del Rio&quot; lies on the left side of the river. There is a small lake between airfield and river that might help in spotting your destination.</Comment>
         <Pos Lon="-5.215207" Lat="37.714359" Alt="412.00"/>
       </Waypoint>
     </Waypoints>
