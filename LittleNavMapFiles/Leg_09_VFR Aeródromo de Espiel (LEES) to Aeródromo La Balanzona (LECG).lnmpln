@@ -27,7 +27,7 @@
         <Name>Embalse de Puente Nuevo</Name>
         <Ident>WP1</Ident>
         <Type>USER</Type>
-        <Comment>Another reservoir marks your first waypoint for this leg. Embalse de Puente Nuevo is situated south of your departure airport.</Comment>
+        <Comment>Another reservoir marks your first waypoint in this leg. Embalse de Puente Nuevo is situated south of your departure airport.</Comment>
         <Pos Lon="-4.957541" Lat="38.110519" Alt="4000.00"/>
       </Waypoint>
       <Waypoint>
