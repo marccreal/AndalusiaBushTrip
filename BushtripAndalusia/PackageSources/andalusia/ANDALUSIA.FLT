@@ -9,10 +9,14 @@ FlightVersion=1
 
 [Briefing]
 BriefingText="Andalusia - a land of contrasts. From endless beaches to high mountains, from busy cites to lifeless deserts, from Moorish reign to Catholic Reconquista. Discover this fascinating region and get to know famous historic sites and impressive landscape."
-BriefingImage0="./images/LEGG_Aerodromo de Gergal.png"
-BriefingImage1="./images/LEFN_Guadix.png"
-BriefingImage2="./images/LETK_Santiago-Pontones.png"
-BriefingImage3="./images/LEML_Aerodromo de Las Canadillas.png"
+BriefingImage0="./images/1_LEGG_Briefing.png"
+BriefingImage1="./images/2_LEFN_Briefing.png"
+BriefingImage2="./images/3_LETK_Briefing.png"
+BriefingImage3="./images/4_LEML_Briefing.png"
+BriefingImage4="./images/5_LEPE_Briefing.png"
+BriefingImage5="./images/6_LELI_Briefing.png"
+BriefingImage6="./images/7_LEFC_Briefing.png"
+BriefingImage7="./images/8_LEES_Briefing.png"
 
 [Options]
 Sound=True
