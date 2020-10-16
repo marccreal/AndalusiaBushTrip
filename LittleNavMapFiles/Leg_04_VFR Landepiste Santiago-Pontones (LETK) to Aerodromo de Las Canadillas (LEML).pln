@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LETK to LEML</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>7000</CruisingAlt>
+        <DepartureID>LETK</DepartureID>
+        <DepartureLLA>N38° 5' 23.45",W2° 38' 56.44",+005627.00</DepartureLLA>
+        <DestinationID>LEML</DestinationID>
+        <DestinationLLA>N38° 30' 7.36",W2° 16' 10.35",+003660.00</DestinationLLA>
+        <Descr>LETK, LEML</Descr>
+        <DepartureName>Landepiste Santiago-Pontones</DepartureName>
+        <DestinationName>Aeródromo de Las Cañadillas</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LETK">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 5' 27.79",W2° 38' 54.64",+005627.00</WorldPosition>
+            <RunwayNumberFP>2</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>LETK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 8' 58.84",W2° 46' 39.80",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 17' 51.91",W2° 39' 4.79",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 17' 10.19",W2° 33' 1.83",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP4">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 16' 33.33",W2° 25' 53.40",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP5">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 23' 6.96",W2° 13' 20.35",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP6">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 25' 4.15",W2° 17' 2.81",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEML">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 30' 7.36",W2° 16' 10.35",+003660.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEML</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

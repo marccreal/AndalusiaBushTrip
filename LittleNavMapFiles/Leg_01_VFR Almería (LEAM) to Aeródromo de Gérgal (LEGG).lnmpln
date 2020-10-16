@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>3000</CruisingAlt>
+      <CreationDate>2020-10-04T23:54:49</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.1.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <Departure>
+      <Pos Lon="-2.385310" Lat="36.840225" Alt="48.00"/>
+      <Start>07</Start>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Almería</Name>
+        <Ident>LEAM</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-2.370101" Lat="36.843956" Alt="48.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Alcazaba de Almeria</Name>
+        <Ident>WP1</Ident>
+        <Type>USER</Type>
+        <Comment>This trip through Andalusia starts in the southeast of the region in the city of Almería. Almería's port has been an important hub for various goods throughout history. From tin in the Bronze Age over rasins and silk in the time of Moorish reign to ore in the 19th century. Today, its economy builds around vegetable production, with the whole region plastered with hunders of greenhouses, supplying much of Europe.
+
+After departure, head west over a first bunch of greenhouses towards the city center of Almería, your first waypoint. Its Moorish castle, the Alcazaba of Almería, is the second largest among the Muslim fortresses of Andalusia, only topped by the famous Alhambra of Granada.</Comment>
+        <Pos Lon="-2.472364" Lat="36.838966" Alt="1672.35"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>lake amidst of &quot;mar del plástico&quot;</Name>
+        <Ident>WP2</Ident>
+        <Type>USER</Type>
+        <Comment>Head southwest towards the &quot;Poniente Almeriense&quot; also known as the &quot;Mar de plástico&quot; (sea of plastic). If you look down, you will understand, where this name originates. Admidst this &quot;sea&quot; you will find an (actual) lake - your next waypoint.</Comment>
+        <Pos Lon="-2.736575" Lat="36.761715" Alt="3000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>City of El Ejido</Name>
+        <Ident>WP3</Ident>
+        <Type>USER</Type>
+        <Comment>Close to the lake, you will find the city of El Ejido, as you might guess the centre of production for fruit and vegetables in this region. Special geological conditions made it possible that El Ejido became Europ's biggest &quot;winter garden&quot;. The vegtable economy brought wealth to the region but also social and egological problems, like underpaid laborers, huge land and water consumption and massive use of pesticides.</Comment>
+        <Pos Lon="-2.813136" Lat="36.772579" Alt="3000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Intersection</Name>
+        <Ident>WP4</Ident>
+        <Type>USER</Type>
+        <Comment>Leaving El Ejido in northeastern direction, track the road A-358 along on the south-eastern slope of the Sierra de Gádor until you reach the city of Berja. The rather large intersection of the westbbound A-358 and the northbound A-347 marks your next waypoint.</Comment>
+        <Pos Lon="-2.953328" Lat="36.851673" Alt="3000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Embalse de Beninar</Name>
+        <Ident>WP5</Ident>
+        <Type>USER</Type>
+        <Comment>Don't follow either of these roads but head northeast through the valley where you find the last outskirts of geenhouse economy. The valley eventually leads to your next waypoint, a small reservoir, the &quot;Embalse de Beninar&quot;.</Comment>
+        <Pos Lon="-3.026797" Lat="36.896507" Alt="3000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>City of Ugijar</Name>
+        <Ident>WP6</Ident>
+        <Type>USER</Type>
+        <Comment>Head north, tracking the river that runs into the reservoir. Follow the left fork of the river until you reach your next waypoint, the city of Ugijar situated at the foot of the Sierra Nevada. To the far left, you might be able to spot the highest point of Andalusia and even whole continetal spain - Pico de Mulhacén (3482m).
+</Comment>
+        <Pos Lon="-3.052636" Lat="36.961689" Alt="3000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Rio Andarax</Name>
+        <Ident>WP7</Ident>
+        <Type>USER</Type>
+        <Comment>Heading east, you can track the road A-348. Near the town Fondon, the road crosses the river Rio Andarax coming down from the mountains and bending east. This is your next waypoint.
+</Comment>
+        <Pos Lon="-2.849325" Lat="36.986786" Alt="3000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Small Town Canjayar</Name>
+        <Ident>WP8</Ident>
+        <Type>USER</Type>
+        <Comment>Follow either the A-348 through the mountains or stay in the valley tracking Rio Andarax. An the small town Canjayar, road and river meet again and run east alongside. This is your next waypoint.</Comment>
+        <Pos Lon="-2.726608" Lat="37.006664" Alt="3000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>U-shaped river bend</Name>
+        <Ident>WP9</Ident>
+        <Type>USER</Type>
+        <Comment>Follow the road and the river heading southeast. The road later bends farther south, but you should stay with the river until you cross the dry river bed of the Rambla de Gérgal. Shortly after, you can spot the river making a distinctive U-shaped bend with a railroad and a road crossing the western leg of the &quot;U&quot;.</Comment>
+        <Pos Lon="-2.524983" Lat="36.971359" Alt="3000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Aeródromo de Gérgal</Name>
+        <Ident>LEGG</Ident>
+        <Type>AIRPORT</Type>
+        <Comment>Follow the raildroad to the north. To the east, you can see Europe's only desert, the Desierto de Tabernas. With its landscape form similar to Arizona or New Mexico, the region was a popular movie setting for example for the &quot;Spaghetti&quot;-Western &quot;Once Upon a Time in the West&quot; and &quot;The Good, the Bad and the Ugly&quot; by Sergio Leone.
+
+When the railroad crosses the motorway A-92, you will be able to spot an airport surrounded by some greenhouses. This is your destination for this leg, the Airódromo de Gérgal.</Comment>
+        <Pos Lon="-2.595617" Lat="37.125580" Alt="2575.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

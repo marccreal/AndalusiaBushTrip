@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>0</CruisingAlt>
+      <CreationDate>2020-10-16T00:24:30</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.1.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <Departure>
+      <Pos Lon="-4.805770" Lat="37.964569" Alt="1968.00"/>
+      <Start>20</Start>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Aeródromo La Balanzona</Name>
+        <Ident>LECG</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-4.807178" Lat="37.961567" Alt="1968.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>WP1</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-4.777868" Lat="37.876614" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Flugplatz Palma del Río</Name>
+        <Ident>LEPR</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-5.215207" Lat="37.714359" Alt="412.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

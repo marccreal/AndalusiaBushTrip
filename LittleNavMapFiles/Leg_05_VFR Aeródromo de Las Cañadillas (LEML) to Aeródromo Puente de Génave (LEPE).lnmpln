@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>6000</CruisingAlt>
+      <CreationDate>2020-10-15T12:13:06</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.1.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <Departure>
+      <Pos Lon="-2.271860" Lat="38.500767" Alt="3660.00"/>
+      <Start>05</Start>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Aeródromo de Las Cañadillas</Name>
+        <Ident>LEML</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-2.269542" Lat="38.502045" Alt="3660.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Rio Mundo</Name>
+        <Ident>WP1</Ident>
+        <Type>USER</Type>
+        <Comment>After departue, follow the river Rio Mundo in the valley to the west until you clear the valley and the river makes a turn to the left.</Comment>
+        <Pos Lon="-2.399261" Lat="38.488365" Alt="5944.73"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Riopar Viejo</Name>
+        <Ident>WP2</Ident>
+        <Type>USER</Type>
+        <Comment>Stay with the road that ran alongside the river and now parts from the river in western direction. Your next waypoint is the village of Riopar Viejo, situated quite prominently on a hill on the right side of the road.</Comment>
+        <Pos Lon="-2.447617" Lat="38.503513" Alt="6000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Embalse de Siles</Name>
+        <Ident>WP3</Ident>
+        <Type>USER</Type>
+        <Comment>Turn southwest and pass between or above the mountains to reach your next waypoint, the reservoir &quot;Embalse de Siles&quot;.</Comment>
+        <Pos Lon="-2.573570" Lat="38.421722" Alt="6000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Rio Guadalimar</Name>
+        <Ident>WP4</Ident>
+        <Type>USER</Type>
+        <Comment>Follow the river Rio Guadalimar, that leaves the reservoir on its southwestern end. Eventually, the river makes a turn to the right. This is your next waypoint.</Comment>
+        <Pos Lon="-2.716272" Lat="38.342464" Alt="3303.77"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Aeródromo Puente de Génave</Name>
+        <Ident>LEPE</Ident>
+        <Type>AIRPORT</Type>
+        <Comment>Continue tracking the river. It wil lead you directly to your destination for this leg, Aerodromo Puente de Genave.</Comment>
+        <Pos Lon="-2.794057" Lat="38.366707" Alt="1930.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>
