@@ -397,8 +397,8 @@ Attitude=False
 ThrottleLeverPct=0
 PropellerLeverPct=1
 MixtureLeverPct=1
-Pct Engine RPM=0.26298100275925317959
-MaxReachedEngineRPM=1728.7887926110538501
+Pct Engine RPM=0.38751709388701383041
+MaxReachedEngineRPM=3895.3660646381881634
 Pct N1=-1
 Pct N2=-1
 LeftMagneto=True
@@ -413,18 +413,18 @@ EngineMasterSwitch=True
 GlowPlugTemperaturePct=1
 IgnitionSwitch=0
 StarterSwitch=False
-EGT_DegR=518.52880859375250111
+EGT_DegR=786.8113847681589732
 ITT_DegR=0
 
 [Propeller.1.0]
-prop_beta=0.19198621771937623981
+prop_beta=0.24434609527920614358
 prop_max_rpm_percent=0
 
 [Fuel.0]
 TankSelector=Left
-TankSelector1=Left
+TankSelector1=All
 Center=0
-LeftMain=49.997283935546875
+LeftMain=49.314453125
 RightMain=49.999996185302734375
 LeftAux=0
 RightAux=0
@@ -467,18 +467,19 @@ EngineAirBleed.4=True
 APUAirBleed=True
 
 [LocalVars.0]
-XMLVAR_ENGINE_Switch_Master_Cover_Opened=0
+XMLVAR_SwitchECUSwap=0
 XMLVAR_LeverThrottleHidden1=0
-XMLVAR_YokeHidden1=0
-XMLVAR_YokeHidden2=0
 XMLVAR_LeverFlapsHidden=0
-AS1000_PFD_ScreenLuminosity=0
-XMLVAR_Autopilot_1_Status=0
-AS1000_MFD_ScreenLuminosity=0
-XMLVAR_VNAVButtonValue=0
+XMLVAR_CabinAir_Position_1=0
+XMLVAR_CabinHeat_Position_1=0
 XMLVAR_ElecMaster=0
-XMLVAR_ELT_STATE=0
+XMLVAR_SAFETY_Panel_Test_Enabled=0
+XMLVAR_Electrical_Master_Battery_Turned_ON=1
+XMLVAR_ELT_STATE=1
 XMLVAR_ELT_TEST_TIME=0
+XMLVAR_AcknowledgeTime=5
+XMLVAR_CautionEnabled=1
+XMLVAR_WarningEnabled=0
 XMLVAR_ELT_ACTIVATION_TIME=0
 
 [Switches.0]
@@ -511,20 +512,23 @@ CabinLightsNight=False
 GlareshieldLightsNight=False
 PedestalLightsNight=False
 AmbientLightsNight=False
+Potentiometer.3=0
 Potentiometer.5=0
 Potentiometer.8=0
 Potentiometer.11=0
-Potentiometer.16=0
-Potentiometer.17=0
-Potentiometer.18=0
+Potentiometer.12=0
 
 [Electrical.0]
+bus.1=bus.4:0
+bus.2=bus.5:0
+bus.4=bus.1:0
+bus.5=bus.2:0
 circuit.1=True,1.00
 circuit.2=True,1.00
 circuit.3=False,1.00
 circuit.4=False,1.00
 circuit.5=False,1.00
-circuit.6=True,1.00
+circuit.6=False,1.00
 circuit.7=False,1.00
 circuit.8=False,1.00
 circuit.9=True,1.00
@@ -560,11 +564,7 @@ circuit.38=True,1.00
 circuit.39=True,1.00
 circuit.40=True,1.00
 circuit.41=True,1.00
-circuit.42=True,1.00
-circuit.43=True,1.00
-circuit.44=True,1.00
 battery.1=True
-battery.2=False
 alternator.1=True
 
 [AutoPilot.0]
@@ -606,9 +606,9 @@ PayloadList=-1
 [Controls.0]
 SpoilersHandle=000.00
 FlapsHandle=050.00
-LeftFlap=024.23
-RightFlap=024.23
-GearsHandle=000.01
+LeftFlap=035.70
+RightFlap=035.70
+GearsHandle=000.00
 Gear1=100.00
 Gear2=100.00
 Gear3=100.00
