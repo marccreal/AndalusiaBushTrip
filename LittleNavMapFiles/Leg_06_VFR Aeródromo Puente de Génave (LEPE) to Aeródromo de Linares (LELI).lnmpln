@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>4000</CruisingAlt>
+      <CreationDate>2020-10-15T21:40:50</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.1.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <Departure>
+      <Pos Lon="-2.791797" Lat="38.365704" Alt="1930.00"/>
+      <Start>30</Start>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Aeródromo Puente de Génave</Name>
+        <Ident>LEPE</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-2.794057" Lat="38.366707" Alt="1930.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Beas De Segura</Name>
+        <Ident>WP1</Ident>
+        <Type>USER</Type>
+        <Comment>Follow again Rio Guadalimar southwest until you reach your first waypoint, an airfield with two runways - Beas De Segura</Comment>
+        <Pos Lon="-2.956369" Lat="38.273094" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Santisteban del Puerto</Name>
+        <Ident>WP2</Ident>
+        <Type>USER</Type>
+        <Comment>Turn right, crossing the river, and track the road A-312 to the west. The road runs along a mountain ridge and will lead you to your next waypoint, the city of Santisteban del Puerto.</Comment>
+        <Pos Lon="-3.204231" Lat="38.250416" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Loma de los Donceles</Name>
+        <Ident>WP3</Ident>
+        <Type>USER</Type>
+        <Comment>Follow along the ridge towards a hill that is situated inbetween two reservoirs.</Comment>
+        <Pos Lon="-3.412358" Lat="38.164257" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Aeródromo de Linares</Name>
+        <Ident>LELI</Ident>
+        <Type>AIRPORT</Type>
+        <Comment>Relatively closeby in the west, you will be able to spot some moutains. Your destination lies directly behind these mountains - Aerodromo de Linares. If you have problems spotting the airfield, look for the city of Linares. The airfield is directly north of the city. You can also use the VOR BLN (116.20), the airfield is in 1.4nm distance from the VOR on the 217 degree radial.</Comment>
+        <Pos Lon="-3.643093" Lat="38.133190" Alt="1587.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LEFC to LEES</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>4500</CruisingAlt>
+        <DepartureID>LEFC</DepartureID>
+        <DepartureLLA>N38° 31' 40.80",W4° 23' 5.35",+002580.00</DepartureLLA>
+        <DestinationID>LEES</DestinationID>
+        <DestinationLLA>N38° 15' 41.21",W5° 2' 41.82",+002362.00</DestinationLLA>
+        <Descr>LEFC, LEES</Descr>
+        <DepartureName>Pista Forestal de Fuencaliente</DepartureName>
+        <DestinationName>Aeródromo de Espiel</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LEFC">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 31' 35.42",W4° 23' 21.32",+002580.00</WorldPosition>
+            <RunwayNumberFP>25</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>LEFC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 28' 35.17",W4° 40' 33.31",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 22' 37.90",W4° 50' 38.25",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 18' 23.91",W4° 58' 38.40",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEES">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 15' 41.21",W5° 2' 41.82",+002362.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEES</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

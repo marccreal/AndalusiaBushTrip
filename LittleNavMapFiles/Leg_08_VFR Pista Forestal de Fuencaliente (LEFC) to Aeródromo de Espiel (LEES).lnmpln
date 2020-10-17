@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>4500</CruisingAlt>
+      <CreationDate>2020-10-16T00:14:30</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.1.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <Departure>
+      <Pos Lon="-4.384819" Lat="38.528000" Alt="2580.00"/>
+      <Start>25</Start>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Pista Forestal de Fuencaliente</Name>
+        <Ident>LEFC</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-4.389256" Lat="38.526505" Alt="2580.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Torrecampo</Name>
+        <Ident>WP1</Ident>
+        <Type>USER</Type>
+        <Comment>After departure, you have to gain altitude quickly because you will have to fly over the mountains to the west. When you have cleared the mountains, look for the road A-435, that crosses a river and leads to the small town of Torrecampo, your first waypoint.</Comment>
+        <Pos Lon="-4.675920" Lat="38.476437" Alt="4500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Pozoblanco</Name>
+        <Ident>WP2</Ident>
+        <Type>USER</Type>
+        <Comment>Track the A-435 southwest. You will pass another small town before you reach the somewhat bigger town of Pozoblanco.</Comment>
+        <Pos Lon="-4.843958" Lat="38.377193" Alt="4500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>N-502</Name>
+        <Ident>WP3</Ident>
+        <Type>USER</Type>
+        <Comment>Pick up the A-435 again. It leaves the ring road around the town in southwestern direction. Eventually, it will intersect the national road N-502, your next waypoint.</Comment>
+        <Pos Lon="-4.977334" Lat="38.306641" Alt="3743.01"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Aeródromo de Espiel</Name>
+        <Ident>LEES</Ident>
+        <Type>AIRPORT</Type>
+        <Comment>Head into the mountainous region southwest. Your destination is closeby, amidst the forest - Aerodromo de Espiel (2362 AMSL). Again a hint: VOR HIJ (114.70), radial 171 degrees, 15nm distance.</Comment>
+        <Pos Lon="-5.044950" Lat="38.261448" Alt="2362.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>5000</CruisingAlt>
+      <CreationDate>2020-10-09T23:10:38</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.1.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <Departure>
+      <Pos Lon="-2.591987" Lat="37.123127" Alt="2575.00"/>
+      <Start>31</Start>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Aeródromo de Gérgal</Name>
+        <Ident>LEGG</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-2.595617" Lat="37.125580" Alt="2575.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Solar power plant</Name>
+        <Ident>WP1</Ident>
+        <Region>B</Region>
+        <Type>USER</Type>
+        <Comment>Follow tha A-92 motorway west until you reach the solar power plant &quot;Andasol 3&quot;. This facility uses parabolic troughs to concentrate sunlight in order to generate heat for driving steam turbines. The Andasol plants also use tanks of molten salt as thermal energy storage to be able to generate electricity even when the sun is not shining. In 2018, Andasol 3 produced 134.1 GWh of electric energy.</Comment>
+        <Pos Lon="-3.060411" Lat="37.222946" Alt="5000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>City of Guadix</Name>
+        <Ident>WP3</Ident>
+        <Region>B</Region>
+        <Type>USER</Type>
+        <Comment>Turn northwest to get to the city of Guadix. The city is famous for its caves carved in tuff rocks that are used as houses probably since prehistoric times.</Comment>
+        <Pos Lon="-3.136464" Lat="37.299591" Alt="5000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Guadix</Name>
+        <Ident>LEFN</Ident>
+        <Type>AIRPORT</Type>
+        <Comment>The airport is situated north of the city. Shortly before the airport, you will pass the race track &quot;Circuit Guadix&quot;. </Comment>
+        <Pos Lon="-3.075674" Lat="37.413261" Alt="3451.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LEML to LEPE</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>6000</CruisingAlt>
+        <DepartureID>LEML</DepartureID>
+        <DepartureLLA>N38° 30' 2.76",W2° 16' 18.70",+003660.00</DepartureLLA>
+        <DestinationID>LEPE</DestinationID>
+        <DestinationLLA>N38° 22' 0.14",W2° 47' 38.60",+001930.00</DestinationLLA>
+        <Descr>LEML, LEPE</Descr>
+        <DepartureName>Aeródromo de Las Cañadillas</DepartureName>
+        <DestinationName>Aeródromo Puente de Génave</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LEML">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 30' 7.36",W2° 16' 10.35",+003660.00</WorldPosition>
+            <RunwayNumberFP>5</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>LEML</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 29' 18.11",W2° 23' 57.34",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 30' 12.65",W2° 26' 51.42",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 25' 18.20",W2° 34' 24.85",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP4">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 20' 32.87",W2° 42' 58.58",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEPE">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 22' 0.14",W2° 47' 38.60",+001930.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEPE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

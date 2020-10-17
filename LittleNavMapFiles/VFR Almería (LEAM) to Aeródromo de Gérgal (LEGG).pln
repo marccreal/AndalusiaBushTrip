@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LEAM to LEGG</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>3000</CruisingAlt>
+        <DepartureID>LEAM</DepartureID>
+        <DepartureLLA>N36° 50' 24.81",W2° 23' 7.12",+000048.00</DepartureLLA>
+        <DestinationID>LEGG</DestinationID>
+        <DestinationLLA>N37° 7' 32.09",W2° 35' 44.22",+002575.00</DestinationLLA>
+        <Descr>LEAM, LEGG</Descr>
+        <DeparturePosition>07</DeparturePosition>
+        <DepartureName>Almería</DepartureName>
+        <DestinationName>Aeródromo de Gérgal</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61472</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LEAM">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 50' 38.24",W2° 22' 12.36",+000048.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEAM</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 50' 20.28",W2° 28' 20.51",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 45' 42.17",W2° 44' 11.67",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 46' 21.29",W2° 48' 47.29",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP4">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 51' 6.02",W2° 57' 11.98",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP5">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 53' 47.43",W3° 1' 36.47",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP6">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 57' 42.08",W3° 3' 9.49",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP7">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 59' 12.43",W2° 50' 57.57",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP8">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 0' 23.99",W2° 43' 35.79",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP9">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 58' 16.89",W2° 31' 29.94",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEGG">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 7' 32.09",W2° 35' 44.22",+002575.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEGG</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

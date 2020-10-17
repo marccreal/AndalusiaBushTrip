@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LEAM to LEMW</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>0</CruisingAlt>
+        <DepartureID>LEAM</DepartureID>
+        <DepartureLLA>N36° 50' 24.81",W2° 23' 7.12",+000048.00</DepartureLLA>
+        <DestinationID>LEMW</DestinationID>
+        <DestinationLLA>N37° 54' 30.37",W3° 48' 1.98",+001035.00</DestinationLLA>
+        <Descr>LEAM, LEMW</Descr>
+        <DepartureName>Almería</DepartureName>
+        <DestinationName>Aeródromo de Jaen – Las Infantas</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LEAM">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 50' 38.24",W2° 22' 12.36",+000048.00</WorldPosition>
+            <RunwayNumberFP>7</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>LEAM</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEGG">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 7' 32.09",W2° 35' 44.22",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEGG</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEFN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 24' 47.74",W3° 4' 32.43",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEFN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LETK">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 5' 27.79",W2° 38' 54.64",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LETK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEML">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 30' 7.36",W2° 16' 10.35",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEML</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEPE">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 22' 0.14",W2° 47' 38.60",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEPE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LELI">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 7' 59.48",W3° 38' 35.14",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LELI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEFC">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 31' 35.42",W4° 23' 21.32",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEFC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEES">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 15' 41.21",W5° 2' 41.82",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEES</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LECG">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 57' 41.64",W4° 48' 25.84",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LECG</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEPR">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 42' 51.69",W5° 12' 54.75",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEPR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEBU">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 33' 11.38",W5° 58' 52.05",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEBU</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEJU">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 17' 43.39",W6° 9' 47.85",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEJU</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LERT">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 38' 42.78",W6° 20' 57.98",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LERT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEME">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 26' 24.56",W5° 56' 23.14",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEME</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LXGB">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 9' 4.39",W5° 20' 59.29",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LXGB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LERN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 44' 15.67",W5° 6' 51.62",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LERN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEAN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 6' 1.34",W4° 33' 42.04",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEAN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEZF">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 59' 48.48",W4° 6' 13.46",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEZF</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEAX">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 48' 5.97",W4° 8' 10.56",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEAX</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LE84">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 55' 50.64",W3° 50' 7.44",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LE84</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEPN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 17' 41.11",W3° 42' 45.36",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEPN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEMW">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 54' 30.37",W3° 48' 1.98",+001035.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEMW</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

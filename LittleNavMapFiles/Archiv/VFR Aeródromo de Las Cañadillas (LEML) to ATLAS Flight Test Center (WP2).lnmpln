@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>0</CruisingAlt>
+      <CreationDate>2020-09-27T12:19:22</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.0.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <Departure>
+      <Pos Lon="-2.271860" Lat="38.500767" Alt="3660.00"/>
+      <Start>05</Start>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Aeródromo de Las Cañadillas</Name>
+        <Ident>LEML</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-2.269542" Lat="38.502045" Alt="3660.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>WP6</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-2.357297" Lat="38.485172" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>WP3</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-2.417464" Lat="38.496998" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>WP14</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-2.448599" Lat="38.503716" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>WP15</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-2.518937" Lat="38.460041" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>WP18</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-2.543356" Lat="38.421185" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>WP20</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-2.573569" Lat="38.421722" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>WP24</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-2.615990" Lat="38.402351" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>WP22</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-2.710050" Lat="38.341118" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Aeródromo Puente de Génave</Name>
+        <Ident>LEPE</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-2.794057" Lat="38.366707" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>ATLAS Flight Test Center</Name>
+        <Ident>WP2</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-3.172800" Lat="38.139309" Alt="0.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

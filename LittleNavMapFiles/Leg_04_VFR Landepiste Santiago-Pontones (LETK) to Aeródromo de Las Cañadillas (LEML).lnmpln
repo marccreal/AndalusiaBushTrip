@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>7000</CruisingAlt>
+      <CreationDate>2020-10-10T15:07:46</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.1.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <Departure>
+      <Pos Lon="-2.649010" Lat="38.089848" Alt="5627.00"/>
+      <Start>02</Start>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Landepiste Santiago-Pontones</Name>
+        <Ident>LETK</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-2.648512" Lat="38.091053" Alt="5627.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Embalse de Tranco de Beas</Name>
+        <Ident>WP1</Ident>
+        <Type>USER</Type>
+        <Comment>After departure, head west to another big reservoir, Embalse de Tranco de Beas. Through this reservoir runs the most important river of Andalusia, Rio Guadalquivir.</Comment>
+        <Pos Lon="-2.777722" Lat="38.149677" Alt="7000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Segura de la Sierra</Name>
+        <Ident>WP2</Ident>
+        <Type>USER</Type>
+        <Comment>Follow the reservoir north and fly along the valley that streches northeast of the reservoir until you reach the small town of Segura de la Sierra situated on a hilltop on the right side of the valley.
+</Comment>
+        <Pos Lon="-2.651330" Lat="38.297752" Alt="7000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Calar del Espino</Name>
+        <Ident>WP3</Ident>
+        <Type>USER</Type>
+        <Comment>Turn east into the mountains. Your next waypoint is a high mountain with a streched plateau - Calar del Espino.</Comment>
+        <Pos Lon="-2.550508" Lat="38.286163" Alt="7000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Rio Segura</Name>
+        <Ident>WP4</Ident>
+        <Type>USER</Type>
+        <Comment>Fly further east until you cross Rio Segura. This is where we shortly leave Andalusia and enter the region Castilla–La Mancha.</Comment>
+        <Pos Lon="-2.431500" Lat="38.275925" Alt="7000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Embalse de la Fuensanta</Name>
+        <Ident>WP5</Ident>
+        <Type>USER</Type>
+        <Comment>Fly alongside the river northeast to your next waypoint - another reservoir as you might have guessed.</Comment>
+        <Pos Lon="-2.222319" Lat="38.385265" Alt="6499.84"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Rio Tus</Name>
+        <Ident>WP6</Ident>
+        <Type>USER</Type>
+        <Comment>The reservoir is fed by two rivers, Rio Segura that you just followed and Rio Tus. Follow this other arm of the reservoir back to the point where it narrows down again to a normal river.</Comment>
+        <Pos Lon="-2.284114" Lat="38.417820" Alt="5343.82"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Aeródromo de Las Cañadillas</Name>
+        <Ident>LEML</Ident>
+        <Type>AIRPORT</Type>
+        <Comment>Turn right and follow the valley that runs north. Fly a bit further north until you reach the rather deep river valley of Rio Mundo. To your right on the south side above the valley lies your destination, Aerodromo de Las Canadillas. Again a tip if you get lost: The airstrip is situated at a distance of 9.4nm on the 26° radial of VOR YES (115.20).</Comment>
+        <Pos Lon="-2.269542" Lat="38.502045" Alt="3660.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>
