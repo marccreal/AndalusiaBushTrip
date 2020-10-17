@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>0</CruisingAlt>
+      <CreationDate>2020-10-17T16:40:56</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.1.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <Departure>
+      <Pos Lon="-5.211157" Lat="37.715683" Alt="412.00"/>
+      <Start>25</Start>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Flugplatz Palma del Río</Name>
+        <Ident>LEPR</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-5.215207" Lat="37.714359" Alt="412.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>WP2</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-5.259933" Lat="37.646587" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>WP1</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-5.332077" Lat="37.561043" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Aeródromo Alcalá del Río</Name>
+        <Ident>LEBU</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-5.981125" Lat="37.553162" Alt="141.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>
