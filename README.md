@@ -4,7 +4,7 @@
 A bush trip through the Spanish region of Andalusia for Microsoft Flight Simulator.
 
 ## Note
-This bush trip is an alpha version. Only the first few legs are (fully) implemented. I would be happy for any kind of feedback, so please feel free to use the [issues page](https://github.com/marccreal/AndalusiaBushTrip/issues). Aside from technical issues, I am very interested in feedback on the difficulty level, length and quality of the legs.
+This bush trip is an alpha version. Only the first ten legs are implemented (around half of the trip). I would be happy for any kind of feedback, so please feel free to use the [issues page](https://github.com/marccreal/AndalusiaBushTrip/issues). Aside from technical issues, I am very interested in feedback on the difficulty level, length and quality of the legs.
 
 ## Install
 1. Grab the latest [release](https://github.com/marccreal/AndalusiaBushTrip/releases/latest) and unzip to a directory of your choice.
