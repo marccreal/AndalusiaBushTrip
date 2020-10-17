@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LEFN to LETK</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>7000</CruisingAlt>
+        <DepartureID>LEFN</DepartureID>
+        <DepartureLLA>N37° 24' 35.49",W3° 4' 47.52",+003451.00</DepartureLLA>
+        <DestinationID>LETK</DestinationID>
+        <DestinationLLA>N38° 5' 27.79",W2° 38' 54.64",+005627.00</DestinationLLA>
+        <Descr>LEFN, LETK</Descr>
+        <DepartureName>Guadix</DepartureName>
+        <DestinationName>Landepiste Santiago-Pontones</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LEFN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 24' 47.74",W3° 4' 32.43",+003451.00</WorldPosition>
+            <RunwayNumberFP>5</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>LEFN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 34' 46.87",W2° 50' 5.09",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 47' 7.81",W2° 53' 54.06",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 51' 13.85",W2° 50' 18.53",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP4">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 53' 40.19",W2° 51' 36.40",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP5">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 56' 46.42",W2° 47' 14.47",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP6">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 58' 53.94",W2° 42' 47.36",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP7">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 1' 44.26",W2° 39' 1.56",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP8">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 4' 23.15",W2° 40' 53.98",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="LETK">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 5' 27.79",W2° 38' 54.64",+005627.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LETK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

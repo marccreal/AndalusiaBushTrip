@@ -1,0 +1,613 @@
+
+[Main]
+MissionType=FreeFlight
+MissionLocation=Almeria
+OriginalFlight=
+FlightType=NORMAL
+Title=Almeria to Aer√≥dromo de Las Ca√±adillas
+Description=Almeria to Aer√≥dromo de Las Ca√±adillas
+AppVersion=10.0.282174
+FlightVersion=1
+
+[Assistance]
+EventTriggersFileCount=1
+EventTriggersFile.0=EventTriggers
+
+[Options]
+Sound=True
+Moonlight=True
+Save=False
+SaveOriginalFlightPlan=True
+TextDisplayPage=0
+SlewDisplayPage=1
+AxisIndicator=Off
+
+[Sim.0]
+Sim=DA40 TDI Asobo
+Pilot=Default
+Copilot=
+TailNumber=
+AirlineCallSign=
+FlightNumber=
+AppendHeavy=False
+
+[ResourcePath]
+Path=Missions\Asobo\FreeFlights\FreeFlight\FreeFlight
+
+[ObjectFile]
+File=Missions\Asobo\FreeFlights\FreeFlight\FreeFlight
+
+[Atc_Menu]
+Visible=True
+
+[FreeFlight]
+FirstFlightState=PREFLIGHT_HOLDSHORT
+
+[Weather]
+UseWeatherFile=False
+UseLiveWeather=False
+WeatherPresetFile=.\WeatherPresets\FewClouds.WPR
+WeatherCanBeLive=True
+CloudmapPosOverride=False
+CloudmapInitialPosX=0
+CloudmapInitialPosY=0
+FixedClouds=False
+
+[Departure]
+ICAO=LEAM
+RunwayNumber=25
+RunwayDesignator=NONE
+
+[Arrival]
+ICAO=LEMW
+RunwayNumber=25
+RunwayDesignator=NONE
+
+[Loading]
+ImageName0=LOADING_FREEFLIGHT
+
+[Briefing]
+BriefingText=Andalusia - a land of contrasts. From endless beaches to high mountains, from busy cites to lifeless deserts, from Moorish reign to Catholic Reconquista. Discover this fascinating region and get to know famous historic sites and impressive landscape.
+
+[OriginalFlightPlan]
+title=Almeria to Aer√≥dromo de Las Ca√±adillas
+description=Almeria to Aer√≥dromo de Las Ca√±adillas
+type=VFR
+routetype=0
+cruising_altitude=7500
+departure_id=LEAM, N36∞ 50.64', W2∞ 22.21', +000048.00
+departure_position=
+destination_id=LEML, N38∞ 30.12', W2∞ 16.17', +003660.46
+departure_name=Almeria
+destination_name=Aer√≥dromo de Las Ca√±adillas
+waypoint.0=, LEAM, , Almeria, A, N36∞ 50.64', W2∞ 22.21', +000048.00, , , , , 25, NONE, , 0, -1, 0, 0,  
+waypoint.1=, , , WP1, U, N36∞ 50.34', W2∞ 28.34', +001050.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.2=, , , WP2, U, N36∞ 45.70', W2∞ 44.19', +003750.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.3=, , , WP3, U, N36∞ 46.35', W2∞ 48.79', +004500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.4=, , , WP4, U, N36∞ 51.10', W2∞ 57.20', +006150.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.5=, , , WP5, U, N36∞ 53.79', W3∞ 1.61', +007050.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.6=, , , WP6, U, N36∞ 57.70', W3∞ 3.16', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.7=, , , WP7, U, N36∞ 59.21', W2∞ 50.96', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.8=, , , WP8, U, N37∞ 0.40', W2∞ 43.60', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.9=, , , WP9, U, N36∞ 58.28', W2∞ 31.50', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.10=, LEGG, , Aer√≥dromo de G√©rgal, A, N37∞ 7.53', W2∞ 35.74', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.11=, , , WP1, U, N37∞ 13.38', W3∞ 3.62', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.12=, , , WP3, U, N37∞ 17.98', W3∞ 8.19', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.13=, LEFN, , Guadix, A, N37∞ 24.80', W3∞ 4.54', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.14=, , , WP1, U, N37∞ 34.78', W2∞ 50.08', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.15=, , , WP2, U, N37∞ 47.13', W2∞ 53.90', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.16=, , , WP3, U, N37∞ 51.23', W2∞ 50.31', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.17=, , , WP4, U, N37∞ 53.67', W2∞ 51.61', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.18=, , , WP5, U, N37∞ 56.77', W2∞ 47.24', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.19=, , , WP6, U, N37∞ 58.90', W2∞ 42.79', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.20=, , , WP7, U, N38∞ 1.74', W2∞ 39.03', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.21=, , , WP8, U, N38∞ 4.39', W2∞ 40.90', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.22=, LETK, , Santiago-Pontones Airstrip, A, N38∞ 5.46', W2∞ 38.91', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.23=, , , WP1, U, N38∞ 8.98', W2∞ 46.66', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.24=, , , WP2, U, N38∞ 17.87', W2∞ 39.08', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.25=, , , WP3, U, N38∞ 17.17', W2∞ 33.03', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.26=, , , WP4, U, N38∞ 16.56', W2∞ 25.89', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.27=, , , WP5, U, N38∞ 23.12', W2∞ 13.34', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.28=, , , WP6, U, N38∞ 25.07', W2∞ 17.05', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.29=, LEML, , Aer√≥dromo de Las Ca√±adillas, A, N38∞ 30.12', W2∞ 16.17', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.30=, , , WP1, U, N38∞ 29.30', W2∞ 23.96', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.31=, , , WP2, U, N38∞ 30.21', W2∞ 26.86', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.32=, , , WP3, U, N38∞ 25.30', W2∞ 34.41', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.33=, , , WP4, U, N38∞ 20.55', W2∞ 42.98', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.34=, LEPE, , Aerdromo Puente de Genave"", A, N38∞ 22.00', W2∞ 47.64', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.35=, , , WP1, U, N38∞ 16.39', W2∞ 57.38', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.36=, , , WP2, U, N38∞ 15.02', W3∞ 12.25', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.37=, , , WP3, U, N38∞ 9.86', W3∞ 24.74', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.38=, LELI, , Aer√≥dromo de Linares, A, N38∞ 7.99', W3∞ 38.59', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.39=, , , WP1, U, N38∞ 11.10', W3∞ 47.43', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.40=, , , TIMECRUIS, U, N38∞ 14.69', W3∞ 54.28', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.41=, , , WP2, U, N38∞ 15.65', W3∞ 56.13', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.42=, , , WP3, U, N38∞ 23.05', W4∞ 8.71', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.43=, , , WP4, U, N38∞ 26.89', W4∞ 13.98', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.44=, LEFC, , Pista forestal de Fuencaliente, A, N38∞ 31.59', W4∞ 23.36', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.45=, , , WP1, U, N38∞ 28.59', W4∞ 40.56', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.46=, , , WP2, U, N38∞ 22.63', W4∞ 50.64', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.47=, , , WP3, U, N38∞ 18.40', W4∞ 58.64', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.48=, LEES, , Aer√≥dromo de Espiel, A, N38∞ 15.69', W5∞ 2.70', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.49=, , , WP1, U, N38∞ 6.63', W4∞ 57.45', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.50=, , , WP2, U, N37∞ 57.94', W4∞ 50.64', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.51=, LECG, , Aer√≥dromo La Balanzona, A, N37∞ 57.69', W4∞ 48.43', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.52=, , , WP1, U, N37∞ 52.60', W4∞ 46.67', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.53=, LEPR, , Palma Del R√≠o Airport, A, N37∞ 42.86', W5∞ 12.91', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.54=, , , TIMEDSCNT, U, N37∞ 33.81', W5∞ 55.99', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.55=, LEBU, , Aer√≥dromo Alcal√° del R√≠o, A, N37∞ 33.19', W5∞ 58.87', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.56=, LEJU, , La Juliana Airport, A, N37∞ 17.72', W6∞ 9.80', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.57=, LERT, , Rota Navy, A, N36∞ 38.71', W6∞ 20.97', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.58=, LEME, , AeroSidonia, A, N36∞ 26.41', W5∞ 56.39', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.59=, LXGB, , Gibraltar AB, A, N36∞ 9.07', W5∞ 20.99', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.60=, LERN, , Ronda, A, N36∞ 44.26', W5∞ 6.86', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.61=, LEAN, , Aer√≥dromo de Antequera, A, N37∞ 6.02', W4∞ 33.70', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.62=, LEZF, , Campo de Vuelo Alhama de Granada, A, N36∞ 59.81', W4∞ 6.22', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.63=, LEAX, , Leoni Benabu, A, N36∞ 48.10', W4∞ 8.18', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.64=, LE84, , Jayena, A, N36∞ 55.84', W3∞ 50.12', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.65=, LEPN, , AeroVeleta ULM, A, N37∞ 17.69', W3∞ 42.76', +007500.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.66=, LEMW, , Aer√≥dromo de Jaen - Las Infantas, A, N37∞ 54.51', W3∞ 48.03', +001050.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+
+[Panels]
+Panel.On=True
+HUD.On=False
+
+[Window.1]
+Order=255
+Active=True
+Undocked=False
+Maximized=True
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+
+[ATC_AgentManager]
+NumberofAgents=0
+
+[ATC_Aircraft.0]
+ActiveFlightPlan=True
+RequestedFlightPlan=False
+AcState=ACSTATE_REQUEST_TAXI_CLEARANCE_OUT_VFR_ATIS
+Waypoint.0=, LEPE, , Aerdromo Puente de Genave"", A, N38∞ 22.00', W2∞ 47.64', +001928.45, , , , , 30, NONE, , 0, -1, 0, 0,  
+Waypoint.1=, , , WP1, U, N38∞ 16.39', W2∞ 57.38', +003800.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.2=, , , TIMECRUIS, U, N38∞ 15.48', W3∞ 7.32', +004000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.3=, , , WP2, U, N38∞ 15.02', W3∞ 12.25', +004000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.4=, , , TIMEDSCNT, U, N38∞ 12.80', W3∞ 17.64', +004000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.5=, , , WP3, U, N38∞ 9.86', W3∞ 24.74', +003800.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+Waypoint.6=, LELI, , Aer√≥dromo de Linares, A, N38∞ 7.99', W3∞ 38.59', +001600.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+NumberofWaypoints=7
+ClearanceFlags=882
+CtCur=CLEARANCE_NONE
+WaypointNext=6
+AltCleared=-1
+HdgAssigned=-1
+SquawkAssigned=4608
+LandingSequence=LANDING_NONE
+DepartureRequest=DEPARTURE_VFR_REQUEST_NONE
+ParkingRequest=PARKING_NAME_NONE
+ParkingTypeRequest=PARKING_TYPE_NONE
+PatternLeg=PATTERN_LEG_NONE
+ApproachIndex=-1
+ApproachTransitionIndex=-1
+ApproachRequestIndex=-1
+ApproachTransitionRequestIndex=-1
+RunwayIndex=-1
+RunwayRequestIndex=-1
+ParkingIndex=-1
+FlightFollowing=FLIGHT_FOLLOWING_NO
+AirspaceTransition=AIRSPACE_TRANSITION_NONE
+BVAirspaceTransition=BV_TYPE_NONE
+BVAirspaceTransitionReq=BV_TYPE_NONE
+TakeoffSequence=TAKEOFF_SEQUENCE_NONE
+LandingSequenceNumber=-1
+TaxiRouteCurrent=-1
+CruisingAltitude=16500
+RequestedCruisingAltitude=-1
+ExpectedAltitude=-1
+AircraftSignature=1,0
+
+[ATC_ActiveFlightPlan.0]
+title=LEPE to LELI
+description=LEPE, LELI
+type=VFR
+routetype=0
+cruising_altitude=16000
+departure_id=LEPE, N38∞ 21.94', W2∞ 47.51', +001930.00
+departure_position=
+destination_id=LELI, N38∞ 7.99', W3∞ 38.59', +001587.00
+departure_name=AerÛdromo Puente de GÈnave
+destination_name=AerÛdromo de Linares
+waypoint.0=, LEPE, , Aerdromo Puente de Genave"", A, N38∞ 22.00', W2∞ 47.64', +001928.45, , , , , 30, NONE, , 0, -1, 0, 0,  
+waypoint.1=, , , WP1, U, N38∞ 16.39', W2∞ 57.38', +003800.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.2=, , , TIMECRUIS, U, N38∞ 15.48', W3∞ 7.32', +004000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.3=, , , WP2, U, N38∞ 15.02', W3∞ 12.25', +004000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.4=, , , TIMEDSCNT, U, N38∞ 12.80', W3∞ 17.64', +004000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.5=, , , WP3, U, N38∞ 9.86', W3∞ 24.74', +003800.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+waypoint.6=, LELI, , Aer√≥dromo de Linares, A, N38∞ 7.99', W3∞ 38.59', +001600.00, , , , , , NONE, 0, 0, -1, 0, 0,  
+
+[ATC_AircraftManager]
+NumberofAircraft=1
+
+[ATC_MessageSystem]
+FrequencyNodes=0
+
+[GPS_Engine]
+Filename=C:\USERS\MARKUS\DOCUMENTS\GITHUB\ANDALUSIABUSHTRIP\LITTLENAVMAPFILES\COMPLETE1
+position=N0∞ 0.02', E0∞ 0.84', +000003.69
+Time=-1
+TimeWP=28830
+ArriveTime=22199
+CountWP=67
+NextWP=1
+WpInfo0=69, 0, 14, 0, 0, 14.0, 0.0, 0.0
+WpInfo1=120, 0, 320, 0, 0, 0.0, 0.3, 0.0
+WpInfo2=125, 0, 1143, 0, 0, 0.0, 0.8, 0.0
+WpInfo3=130, 0, 1371, 0, 0, 0.0, 0.2, 0.0
+WpInfo4=130, 0, 1874, 0, 0, 0.0, 0.4, 0.0
+WpInfo5=133, 0, 2148, 0, 0, 0.0, 0.2, 0.0
+WpInfo6=130, 0, 1981, 0, 0, 0.0, 0.2, 0.0
+WpInfo7=112, 0, 2286, 0, 0, 0.0, 0.6, 0.0
+WpInfo8=111, 0, 2286, 0, 0, 0.0, 0.4, 0.0
+WpInfo9=107, 0, 2286, 0, 0, 0.0, 0.6, 0.0
+WpInfo10=129, 0, 1981, 0, 0, 0.0, 0.5, 0.0
+WpInfo11=129, 0, 1981, 0, 0, 0.0, 1.3, 0.0
+WpInfo12=126, 0, 1981, 0, 0, 0.0, 0.3, 0.0
+WpInfo13=121, 0, 2286, 0, 0, 0.0, 0.4, 0.0
+WpInfo14=118, 0, 2286, 0, 0, 0.0, 0.9, 0.0
+WpInfo15=125, 0, 1981, 0, 0, 0.0, 0.7, 0.0
+WpInfo16=121, 0, 2286, 0, 0, 0.0, 0.3, 0.0
+WpInfo17=124, 0, 1981, 0, 0, 0.0, 0.1, 0.0
+WpInfo18=120, 0, 2286, 0, 0, 0.0, 0.3, 0.0
+WpInfo19=120, 0, 2286, 0, 0, 0.0, 0.2, 0.0
+WpInfo20=121, 0, 2286, 0, 0, 0.0, 0.2, 0.0
+WpInfo21=125, 0, 1981, 0, 0, 0.0, 0.2, 0.0
+WpInfo22=120, 0, 2286, 0, 0, 0.0, 0.1, 0.0
+WpInfo23=124, 0, 1981, 0, 0, 0.0, 0.4, 0.0
+WpInfo24=122, 0, 2286, 0, 0, 0.0, 0.6, 0.0
+WpInfo25=116, 0, 2286, 0, 0, 0.0, 0.3, 0.0
+WpInfo26=116, 0, 2286, 0, 0, 0.0, 0.3, 0.0
+WpInfo27=120, 0, 2286, 0, 0, 0.0, 0.7, 0.0
+WpInfo28=124, 0, 1981, 0, 0, 0.0, 0.2, 0.0
+WpInfo29=123, 0, 2286, 0, 0, 0.0, 0.3, 0.0
+WpInfo30=119, 0, 1981, 0, 0, 0.0, 0.4, 0.0
+WpInfo31=122, 0, 1981, 0, 0, 0.0, 0.1, 0.0
+WpInfo32=118, 0, 1981, 0, 0, 0.0, 0.5, 0.0
+WpInfo33=120, 0, 1981, 0, 0, 0.0, 0.5, 0.0
+WpInfo34=123, 0, 1981, 0, 0, 0.0, 0.2, 0.0
+WpInfo35=120, 0, 1981, 0, 0, 0.0, 0.6, 0.0
+WpInfo36=121, 0, 1981, 0, 0, 0.0, 0.7, 0.0
+WpInfo37=121, 0, 1981, 0, 0, 0.0, 0.6, 0.0
+WpInfo38=123, 0, 1981, 0, 0, 0.0, 0.6, 0.0
+WpInfo39=124, 0, 1981, 0, 0, 0.0, 0.4, 0.0
+WpInfo40=124, 0, 1981, 0, 0, 0.0, 0.4, 0.0
+WpInfo41=124, 0, 1981, 0, 0, 0.0, 0.1, 0.0
+WpInfo42=123, 0, 1981, 0, 0, 0.0, 0.7, 0.0
+WpInfo43=123, 0, 1981, 0, 0, 0.0, 0.3, 0.0
+WpInfo44=124, 0, 1981, 0, 0, 0.0, 0.5, 0.0
+WpInfo45=124, 0, 1981, 0, 0, 0.0, 0.8, 0.0
+WpInfo46=123, 0, 1981, 0, 0, 0.0, 0.6, 0.0
+WpInfo47=123, 0, 1981, 0, 0, 0.0, 0.4, 0.0
+WpInfo48=123, 0, 1981, 0, 0, 0.0, 0.2, 0.0
+WpInfo49=114, 0, 2286, 0, 0, 0.0, 0.6, 0.0
+WpInfo50=112, 0, 2286, 0, 0, 0.0, 0.6, 0.0
+WpInfo51=109, 0, 2286, 0, 0, 0.0, 0.1, 0.0
+WpInfo52=113, 0, 2286, 0, 0, 0.0, 0.3, 0.0
+WpInfo53=127, 0, 1981, 0, 0, 0.0, 1.3, 0.0
+WpInfo54=127, 0, 1981, 0, 0, 0.0, 2.0, 0.0
+WpInfo55=126, 0, 1981, 0, 0, 0.0, 0.1, 0.0
+WpInfo56=122, 0, 1981, 0, 0, 0.0, 1.0, 0.0
+WpInfo57=119, 0, 1981, 0, 0, 0.0, 2.4, 0.0
+WpInfo58=114, 0, 2286, 0, 0, 0.0, 1.4, 0.0
+WpInfo59=111, 0, 2286, 0, 0, 0.0, 2.1, 0.0
+WpInfo60=122, 0, 2286, 0, 0, 0.0, 2.1, 0.0
+WpInfo61=119, 0, 2286, 0, 0, 0.0, 2.0, 0.0
+WpInfo62=111, 0, 2286, 0, 0, 0.0, 1.4, 0.0
+WpInfo63=111, 0, 1981, 0, 0, 0.0, 0.7, 0.0
+WpInfo64=118, 0, 2286, 0, 0, 0.0, 1.0, 0.0
+WpInfo65=126, 0, 2286, 0, 0, 0.0, 1.3, 0.0
+WpInfo66=113, 0, 320, 0, 0, 0.0, 2.1, 0.0
+CountFP=0
+
+[DateTimeSeason]
+Season=Summer
+Year=2020
+Day=167
+Hours=8
+Minutes=0
+Seconds=30
+UseZuluTime=False
+
+[SimplifiedSim.0]
+Mode=None
+
+[SimVars.0]
+Latitude=N36∞ 50' 56.27"
+Longitude=W2∞ 21' 12.18"
+Altitude=+000048.00
+Pitch=0
+Bank=0
+Heading=157.2412544209510088
+PVelBodyAxis=0
+BVelBodyAxis=0
+HVelBodyAxis=0
+XVelBodyAxis=0
+YVelBodyAxis=0
+ZVelBodyAxis=0
+SimOnGround=True
+OnPlatformHeight=-9999999999
+
+[Avionics.0]
+Comm1Active=127.850
+Comm1Standby=124.850
+Comm2Active=124.850
+Comm2Standby=124.850
+Comm3Active=124.850
+Comm3Standby=124.850
+Nav1Active=110.50
+Nav1Standby=113.90
+OBS1=360
+Nav2Active=110.50
+Nav2Standby=113.90
+OBS2=360
+Transponder=0000
+TransponderState=4
+ADFActive=890
+ADF2Active=890
+DMESelected=1
+ComTransmit=1
+ComReceiveBoth=False
+Com1Receive=True
+Com2Receive=False
+Com3Receive=False
+AudioNav1Listen=False
+AudioNav2Listen=False
+AudioMarkerListen=True
+AudioDmeListen=False
+AudioAdfListen=False
+AudioAdf2Listen=False
+AvionicsSwitch=True
+
+[Slew.0]
+Active=False
+
+[Freeze.0]
+Location=False
+Altitude=False
+Attitude=False
+
+[Engine Parameters.1.0]
+ThrottleLeverPct=0
+PropellerLeverPct=1
+MixtureLeverPct=1
+Pct Engine RPM=0.38751709388701383041
+MaxReachedEngineRPM=3895.3660646381881634
+Pct N1=-1
+Pct N2=-1
+LeftMagneto=True
+RightMagneto=True
+GeneratorSwitch=True
+CowlFlapPct=0
+FuelPumpSwitch=False
+FuelPumpSwitch_EX1=0
+FuelValveOpen=True
+CarbHeat/DeiceSwitch=False
+EngineMasterSwitch=True
+GlowPlugTemperaturePct=1
+IgnitionSwitch=0
+StarterSwitch=False
+EGT_DegR=0
+ITT_DegR=0
+
+[Propeller.1.0]
+prop_beta=0.24434609527920614358
+prop_max_rpm_percent=0
+
+[Fuel.0]
+TankSelector=Left
+TankSelector1=All
+Center=0
+LeftMain=50
+RightMain=50
+LeftAux=0
+RightAux=0
+LeftTip=0
+RightTip=0
+Center 2=0
+Center 3=0
+External 1=0
+External 2=0
+
+[Systems.0]
+BatterySwitch=True
+StructuralDeiceSwitch=False
+StructuralDeiceSwitch_EX1=0
+PropDeiceSwitch=False
+Autobrakes=0
+StandbyVacuum=False
+PropSync=False
+AutoFeatherSwitch=False
+FlightDirector=False
+PanelLights=True
+LaunchBarSwitch=False
+LaunchBarState=0
+TailhookHandle=False
+TailhookState=0
+FoldingWingsHandle=False
+FoldingWingsState=0, 0
+ExternalPowerSwitch=False
+AuxPowerUnitSwitch=False
+
+[Gauges.0]
+KollsmanSetting=29.921342849731445313
+
+[BleedAir.0]
+BleedAirSource=0
+EngineAirBleed.1=True
+EngineAirBleed.2=True
+EngineAirBleed.3=True
+EngineAirBleed.4=True
+APUAirBleed=True
+
+[LocalVars.0]
+XMLVAR_SwitchECUSwap=0
+XMLVAR_LeverThrottleHidden1=0
+XMLVAR_LeverFlapsHidden=0
+XMLVAR_CabinAir_Position_1=0
+XMLVAR_CabinHeat_Position_1=0
+XMLVAR_ElecMaster=0
+XMLVAR_SAFETY_Panel_Test_Enabled=0
+XMLVAR_Electrical_Master_Battery_Turned_ON=1
+XMLVAR_ELT_STATE=1
+XMLVAR_ELT_TEST_TIME=0
+XMLVAR_AcknowledgeTime=5
+XMLVAR_CautionEnabled=1
+XMLVAR_WarningEnabled=0
+XMLVAR_ELT_ACTIVATION_TIME=0
+
+[Switches.0]
+PitotHeat=False
+PitotHeat_EX1=0
+WindshieldDeice=0
+BeaconLights=True
+LandingLights=True
+LogoLights=True
+NavLights=True
+PanelLights=False
+RecognitionLights=True
+StrobeLights=True
+TaxiLights=False
+WingLights=True
+CabinLights=False
+GlareshieldLights=False
+PedestalLights=False
+AmbientLights=False
+BeaconLightsNight=True
+LandingLightsNight=True
+LogoLightsNight=True
+NavLightsNight=True
+PanelLightsNight=True
+RecognitionLightsNight=True
+StrobeLightsNight=True
+TaxiLightsNight=False
+WingLightsNight=True
+CabinLightsNight=False
+GlareshieldLightsNight=False
+PedestalLightsNight=False
+AmbientLightsNight=False
+Potentiometer.3=0
+Potentiometer.5=0
+Potentiometer.8=0
+Potentiometer.11=0
+Potentiometer.12=0
+
+[Electrical.0]
+bus.1=bus.4:0
+bus.2=bus.5:0
+bus.4=bus.1:0
+bus.5=bus.2:0
+circuit.1=True,1.00
+circuit.2=True,1.00
+circuit.3=False,1.00
+circuit.4=False,1.00
+circuit.5=False,1.00
+circuit.6=False,1.00
+circuit.7=False,1.00
+circuit.8=False,1.00
+circuit.9=True,1.00
+circuit.10=True,1.00
+circuit.11=True,1.00
+circuit.12=False,1.00
+circuit.13=True,1.00
+circuit.14=False,1.00
+circuit.15=False,1.00
+circuit.16=True,1.00
+circuit.17=True,1.00
+circuit.18=False,1.00
+circuit.19=False,1.00
+circuit.20=False,1.00
+circuit.21=False,1.00
+circuit.22=True,1.00
+circuit.23=True,1.00
+circuit.24=True,1.00
+circuit.25=True,1.00
+circuit.26=True,1.00
+circuit.27=True,1.00
+circuit.28=True,1.00
+circuit.29=True,1.00
+circuit.30=False,1.00
+circuit.31=False,1.00
+circuit.32=True,1.00
+circuit.33=True,1.00
+circuit.34=True,1.00
+circuit.35=True,1.00
+circuit.36=True,1.00
+circuit.37=True,1.00
+circuit.38=True,1.00
+circuit.39=True,1.00
+circuit.40=True,1.00
+circuit.41=True,1.00
+battery.1=True
+alternator.1=True
+
+[AutoPilot.0]
+MasterSwitch=False
+WingLeveler=False
+Nav1Lock=False
+HeadingLock=False
+HeadingValue=0
+AltitudeLock=False
+AltitudeValue=0
+AttitudeHold=False
+AirspeedHold=False
+AirspeedValue=0
+MachHold=False
+MachValue=0
+VerticalSpeedHold=False
+VerticalSpeedValue=0
+RPMHold=False
+RPMValue=0
+GlideslopeHold=False
+ApproachHold=False
+BackCourseHold=False
+YawDamper=False
+ToGa=False
+AutoThrottleArm=False
+GPSdrivesNAV1=True
+IsUsedForLesson=False
+ForceDisplayUI=False
+AutopilotDisengaged=False
+MaxBankIndex=0
+AltitudeSlotIndex=1
+RPMSlotIndex=1
+SpeedSlotIndex=1
+VSSlotIndex=1
+
+[Payload.0]
+PayloadList=-1
+
+[Controls.0]
+SpoilersHandle=000.00
+FlapsHandle=050.00
+LeftFlap=035.70
+RightFlap=035.70
+GearsHandle=000.00
+Gear1=100.00
+Gear2=100.00
+Gear3=100.00
+YokeY=050.00
+YokeX=050.00
+Rudder=050.00
+LeftBrake=000.00
+RightBrake=000.00
+ParkingBrake=100.00
+ElevatorTrim=057.69
+RudderTrimPct=0
+AileronTrimPct=0
+AileronTrimDisabled=False
+ElevatorTrimDisabled=False
+RudderTrimDisabled=False
+SpoilersArmed=False
+AntiSkidActive=False
+
+[SimScheduler]
+SimSpeed=001.00
+SimTime=1067.334289930887735

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LEES to LECG</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>4000</CruisingAlt>
+        <DepartureID>LEES</DepartureID>
+        <DepartureLLA>N38° 15' 47.28",W5° 2' 57.28",+002362.00</DepartureLLA>
+        <DestinationID>LECG</DestinationID>
+        <DestinationLLA>N37° 57' 41.64",W4° 48' 25.84",+001968.00</DestinationLLA>
+        <Descr>LEES, LECG</Descr>
+        <DepartureName>Aeródromo de Espiel</DepartureName>
+        <DestinationName>Aeródromo La Balanzona</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LEES">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 15' 41.21",W5° 2' 41.82",+002362.00</WorldPosition>
+            <RunwayNumberFP>12</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>LEES</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 6' 37.87",W4° 57' 27.15",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 57' 56.16",W4° 50' 38.13",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="LECG">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 57' 41.64",W4° 48' 25.84",+001968.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LECG</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

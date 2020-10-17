@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>Almeria to Aer&#xC3;&#xB3;dromo de Las Ca&#xC3;&#xB1;adillas</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>7500.000</CruisingAlt>
+        <DepartureID>LEAM</DepartureID>
+        <DepartureLLA>N36° 50' 38.24",W2° 22' 12.36",+000048.00</DepartureLLA>
+        <DestinationID>LEML</DestinationID>
+        <DestinationLLA>N38° 30' 7.36",W2° 16' 10.35",+003660.46</DestinationLLA>
+        <Descr>Almeria to Aer&#xC3;&#xB3;dromo de Las Ca&#xC3;&#xB1;adillas</Descr>
+        <DepartureName>Almeria</DepartureName>
+        <DestinationName>Aer&#xC3;&#xB3;dromo de Las Ca&#xC3;&#xB1;adillas</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="Almeria">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 50' 38.24",W2° 22' 12.36",+000048.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>25</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>LEAM</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 50' 20.28",W2° 28' 20.51",+001050.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 45' 42.17",W2° 44' 11.67",+003750.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 46' 21.29",W2° 48' 47.29",+004500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP4">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 51' 6.02",W2° 57' 11.98",+006150.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP5">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 53' 47.43",W3° 1' 36.47",+007050.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP6">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 57' 42.08",W3° 3' 9.49",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP7">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 59' 12.43",W2° 50' 57.57",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP8">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 0' 23.99",W2° 43' 35.79",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP9">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 58' 16.89",W2° 31' 29.94",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="Aer&#xC3;&#xB3;dromo de G&#xC3;&#xA9;rgal">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 7' 32.09",W2° 35' 44.22",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LEGG</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 13' 22.61",W3° 3' 37.48",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 17' 58.53",W3° 8' 11.27",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="Guadix">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 24' 47.74",W3° 4' 32.43",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LEFN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 34' 46.87",W2° 50' 5.09",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 47' 7.81",W2° 53' 54.06",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 51' 13.85",W2° 50' 18.53",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP4">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 53' 40.19",W2° 51' 36.40",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP5">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 56' 46.42",W2° 47' 14.47",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP6">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 58' 53.94",W2° 42' 47.36",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP7">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 1' 44.26",W2° 39' 1.56",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP8">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 4' 23.15",W2° 40' 53.98",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="Santiago-Pontones Airstrip">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 5' 27.79",W2° 38' 54.64",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LETK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 8' 58.84",W2° 46' 39.80",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 17' 51.91",W2° 39' 4.79",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 17' 10.19",W2° 33' 1.83",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP4">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 16' 33.33",W2° 25' 53.40",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP5">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 23' 6.96",W2° 13' 20.35",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP6">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 25' 4.15",W2° 17' 2.81",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="Aer&#xC3;&#xB3;dromo de Las Ca&#xC3;&#xB1;adillas">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 30' 7.36",W2° 16' 10.35",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LEML</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 29' 18.11",W2° 23' 57.34",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 30' 12.65",W2° 26' 51.42",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 25' 18.20",W2° 34' 24.85",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP4">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 20' 32.87",W2° 42' 58.58",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="Aerdromo Puente de Genave&quot;&quot;">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 22' 0.15",W2° 47' 38.60",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LEPE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 16' 23.14",W2° 57' 22.93",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 15' 1.50",W3° 12' 15.23",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 9' 51.33",W3° 24' 44.49",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="Aer&#xC3;&#xB3;dromo de Linares">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 7' 59.49",W3° 38' 35.13",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LELI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 11' 6.13",W3° 47' 26.03",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMECRUIS">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 14' 41.14",W3° 54' 16.94",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 15' 38.99",W3° 56' 7.76",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 23' 3.08",W4° 8' 42.76",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP4">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 26' 53.56",W4° 13' 58.57",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="Pista forestal de Fuencaliente">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 31' 35.41",W4° 23' 21.32",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LEFC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 28' 35.17",W4° 40' 33.31",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 22' 37.90",W4° 50' 38.25",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 18' 23.91",W4° 58' 38.40",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="Aer&#xC3;&#xB3;dromo de Espiel">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 15' 41.21",W5° 2' 41.82",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LEES</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 6' 37.87",W4° 57' 27.15",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 57' 56.16",W4° 50' 38.13",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="Aer&#xC3;&#xB3;dromo La Balanzona">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 57' 41.65",W4° 48' 25.84",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LECG</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 52' 35.81",W4° 46' 40.32",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="Palma Del R&#xC3;&#xAD;o Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 42' 51.70",W5° 12' 54.74",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LEPR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMEDSCNT">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 33' 48.32",W5° 55' 59.49",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="Aer&#xC3;&#xB3;dromo Alcal&#xC3;&#xA1; del R&#xC3;&#xAD;o">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 33' 11.38",W5° 58' 52.05",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LEBU</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="La Juliana Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 17' 43.39",W6° 9' 47.85",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LEJU</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="Rota Navy">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 38' 42.78",W6° 20' 57.98",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LERT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="AeroSidonia">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 26' 24.56",W5° 56' 23.14",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LEME</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="Gibraltar AB">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 9' 4.39",W5° 20' 59.29",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LXGB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="Ronda">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 44' 15.67",W5° 6' 51.62",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LERN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="Aer&#xC3;&#xB3;dromo de Antequera">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 6' 1.35",W4° 33' 42.05",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LEAN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="Campo de Vuelo Alhama de Granada">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 59' 48.48",W4° 6' 13.46",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LEZF</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="Leoni Benabu">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 48' 5.98",W4° 8' 10.56",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LEAX</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="Jayena">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 55' 50.64",W3° 50' 7.44",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LE84</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="AeroVeleta ULM">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 17' 41.11",W3° 42' 45.36",+007500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LEPN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="Aer&#xC3;&#xB3;dromo de Jaen - Las Infantas">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 54' 30.37",W3° 48' 1.98",+001050.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LEMW</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>6000</CruisingAlt>
+      <CreationDate>2020-10-15T23:47:16</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.1.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <Departure>
+      <Pos Lon="-3.644255" Lat="38.133404" Alt="1587.00"/>
+      <Start>10</Start>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Aeródromo de Linares</Name>
+        <Ident>LELI</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-3.643093" Lat="38.133190" Alt="1587.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Pantano del Rumblar</Name>
+        <Ident>WP1</Ident>
+        <Type>USER</Type>
+        <Comment>Fly towards the mountains in the northwest to your first waypoint, the reservoir &quot;Pantano del Rumblar&quot;.</Comment>
+        <Pos Lon="-3.790564" Lat="38.185036" Alt="4103.38"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Pantano del Jandula</Name>
+        <Ident>WP2</Ident>
+        <Type>USER</Type>
+        <Comment>Hop to the next reservoir, &quot;Pantano del Jandula&quot;.</Comment>
+        <Pos Lon="-3.935489" Lat="38.260830" Alt="6000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Opening between mountains</Name>
+        <Ident>WP3</Ident>
+        <Type>USER</Type>
+        <Comment>Head towards the higher mountains further northwest - Sierra Madrona. The range is the madroño or madroña, the Strawberry Tree (Arbutus unedo) which is abundant in the area. The first ridge that runs from east to west marks the border between Andalusia and Castilla-La Mancha. You will have to find an opening of the mountains with the river Rio Valmayor running through.</Comment>
+        <Pos Lon="-4.145211" Lat="38.384190" Alt="6000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Rio Valmayor</Name>
+        <Ident>WP4</Ident>
+        <Type>USER</Type>
+        <Comment>Follow the river into the mountains to its source.</Comment>
+        <Pos Lon="-4.232936" Lat="38.448212" Alt="5457.82"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Pista Forestal de Fuencaliente</Name>
+        <Ident>LEFC</Ident>
+        <Type>AIRPORT</Type>
+        <Comment>You will notice, that the northern and southern mountain ridges run together in the northwest. Head towards this point until you cross the road N-420. On the west side of the road close to the northern mountain ridge, you will find your destination, the Pista Forestal de Fuencaliente (2580m AMSL). Beware the mountains during approach! If you get lost, try VOR HIJ (114.70), the airfield is on the 89 degree radial at a distance of 33nm.</Comment>
+        <Pos Lon="-4.389256" Lat="38.526505" Alt="2580.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

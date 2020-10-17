@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>0</CruisingAlt>
+      <CreationDate>2020-10-02T00:25:46</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.0.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <Departure>
+      <Pos Lon="-2.385310" Lat="36.840225" Alt="48.00"/>
+      <Start>07</Start>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Almería</Name>
+        <Ident>LEAM</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-2.370101" Lat="36.843956" Alt="48.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Aeródromo de Gérgal</Name>
+        <Ident>LEGG</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-2.595617" Lat="37.125580" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Guadix</Name>
+        <Ident>LEFN</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-3.075674" Lat="37.413261" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Landepiste Santiago-Pontones</Name>
+        <Ident>LETK</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-2.648512" Lat="38.091053" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Aeródromo de Las Cañadillas</Name>
+        <Ident>LEML</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-2.269542" Lat="38.502045" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Aeródromo Puente de Génave</Name>
+        <Ident>LEPE</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-2.794057" Lat="38.366707" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Aeródromo de Linares</Name>
+        <Ident>LELI</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-3.643093" Lat="38.133190" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>WP2</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-4.614888" Lat="37.945415" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Jayena</Name>
+        <Ident>LE84</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-3.835399" Lat="36.930733" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Campo de Vuelo Alhama de Granada</Name>
+        <Ident>LEZF</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-4.103738" Lat="36.996799" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Leoni Benabu</Name>
+        <Ident>LEAX</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-4.136266" Lat="36.801659" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Ronda</Name>
+        <Ident>LERN</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-5.114338" Lat="36.737686" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>RAF Gibraltar</Name>
+        <Ident>LXGB</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-5.349802" Lat="36.151218" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>AeroSidonia</Name>
+        <Ident>LEME</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-5.939761" Lat="36.440155" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Flugplatz La Juliana</Name>
+        <Ident>LEJU</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-6.163292" Lat="37.295387" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Agrarlandepiste Isla Cristina</Name>
+        <Ident>LEIS</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-7.317461" Lat="37.242222" Alt="151.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

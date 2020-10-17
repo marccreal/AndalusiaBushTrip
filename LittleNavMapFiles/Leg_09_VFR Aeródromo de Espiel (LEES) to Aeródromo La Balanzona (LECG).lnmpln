@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>4000</CruisingAlt>
+      <CreationDate>2020-10-16T10:44:43</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.1.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <Departure>
+      <Pos Lon="-5.049245" Lat="38.263134" Alt="2362.00"/>
+      <Start>12</Start>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Aeródromo de Espiel</Name>
+        <Ident>LEES</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-5.044950" Lat="38.261448" Alt="2362.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Embalse de Puente Nuevo</Name>
+        <Ident>WP1</Ident>
+        <Type>USER</Type>
+        <Comment>Another reservoir marks your first waypoint in this leg. Embalse de Puente Nuevo is situated south of your departure airport.</Comment>
+        <Pos Lon="-4.957541" Lat="38.110519" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Embalse de La Encantada</Name>
+        <Ident>WP2</Ident>
+        <Type>USER</Type>
+        <Comment>Fly to the southern end of the reservoir and keep track of the river that leaves the lake there, Rio Guadiato. Look for a small lake on the left side of the river sourrounded by a holiday resort. This is your next waypoint.</Comment>
+        <Pos Lon="-4.843925" Lat="37.965599" Alt="2547.48"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Aeródromo La Balanzona</Name>
+        <Ident>LECG</Ident>
+        <Type>AIRPORT</Type>
+        <Comment>Your destination is closeby, east of the lake. A golf club is very closeby, so why not improve your handicap after you landed?</Comment>
+        <Pos Lon="-4.807178" Lat="37.961567" Alt="1968.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

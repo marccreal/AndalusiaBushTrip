@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LEML to LEPE</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>6000.000</CruisingAlt>
+        <DepartureID>LEML</DepartureID>
+        <DepartureLLA>N38° 30' 2.76",W2° 16' 18.70",+003660.00</DepartureLLA>
+        <DestinationID>LEPE</DestinationID>
+        <DestinationLLA>N38° 22' 0.14",W2° 47' 38.60",+001930.00</DestinationLLA>
+        <Descr>LEML, LEPE</Descr>
+        <DepartureName>Aer&#xF3;dromo de Las Ca&#xF1;adillas</DepartureName>
+        <DestinationName>Aer&#xF3;dromo Puente de G&#xE9;nave</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="Aer&#xC3;&#xB3;dromo de Las Ca&#xC3;&#xB1;adillas">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 30' 7.36",W2° 16' 10.35",+003660.46</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>5</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>LEML</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 29' 18.11",W2° 23' 57.34",+004900.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMEDSCNT">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 30' 3.63",W2° 26' 22.61",+005300.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMECRUIS">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 28' 13.91",W2° 29' 54.49",+005950.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 30' 12.65",W2° 26' 51.42",+005000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 25' 18.20",W2° 34' 24.85",+004400.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP4">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 20' 32.87",W2° 42' 58.58",+002750.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="Aerdromo Puente de Genave&quot;&quot;">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 22' 0.15",W2° 47' 38.60",+001950.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LEPE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

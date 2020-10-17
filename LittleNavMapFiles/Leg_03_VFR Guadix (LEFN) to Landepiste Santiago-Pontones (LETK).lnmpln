@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>7000</CruisingAlt>
+      <CreationDate>2020-10-10T14:04:14</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.1.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <Departure>
+      <Pos Lon="-3.079866" Lat="37.409859" Alt="3451.00"/>
+      <Start>05</Start>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Guadix</Name>
+        <Ident>LEFN</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-3.075674" Lat="37.413261" Alt="3451.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Cerro Jabalcon</Name>
+        <Ident>WP1</Ident>
+        <Type>USER</Type>
+        <Comment>Navigation will be a bit more challenging in this leg. After departure, head northeast towards Cerro Jabalcon, an isolated mountain with a height of 1494 m. Close to the mountain, there is a big reservoir, the Embalse de Negratin. At the foot of Jabalcon, the reservoir forks - this is your first waypoint.</Comment>
+        <Pos Lon="-2.834747" Lat="37.579685" Alt="7000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Embalse de la Bolera</Name>
+        <Ident>WP2</Ident>
+        <Type>USER</Type>
+        <Comment>Follow the left fork and track the river that runs into the reservoir upstream until you reach another smaller reservoir, Embalse de la Bolera.</Comment>
+        <Pos Lon="-2.898350" Lat="37.785503" Alt="7000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Valley</Name>
+        <Ident>WP3</Ident>
+        <Type>USER</Type>
+        <Comment>Don't follow the river further upstream but turn right and fly into the valley that stretches in northeastern direction until you reach the end of the valley. Remember to gain some altitude as you will need it in the next subleg.</Comment>
+        <Pos Lon="-2.838480" Lat="37.853848" Alt="7000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Road</Name>
+        <Ident>WP4</Ident>
+        <Type>USER</Type>
+        <Comment>Turn left and cross the mountain ridge. At the other side of the ridge, you will reach a small road that winds through the forest.</Comment>
+        <Pos Lon="-2.860111" Lat="37.894497" Alt="7000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Pass between two mountain ridges</Name>
+        <Ident>WP5</Ident>
+        <Type>USER</Type>
+        <Comment>Follow the this road until the forest ends and you reach a pass between two mountain ridges.</Comment>
+        <Pos Lon="-2.787353" Lat="37.946228" Alt="7000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Road fork</Name>
+        <Ident>WP6</Ident>
+        <Type>USER</Type>
+        <Comment>Track the road further until you reach a fork with one branch going straight north while the main road heads east.</Comment>
+        <Pos Lon="-2.713156" Lat="37.981651" Alt="7000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Don Domingo</Name>
+        <Ident>WP7</Ident>
+        <Type>USER</Type>
+        <Comment>Follow the main road first east and then again northeast through another valley. After you clear the valley, you will reach your next waypoint, the small village of Don Domingo.</Comment>
+        <Pos Lon="-2.650433" Lat="38.028961" Alt="7000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>U-shaped turn</Name>
+        <Ident>WP8</Ident>
+        <Type>USER</Type>
+        <Comment>Follow the small road that leaves the village in northwestern direction uphill. After the road has reached the top of the mountain ridge, it makes a distincitve U-shaped turn with forest ourside of the &quot;U&quot; and fields inside.</Comment>
+        <Pos Lon="-2.681661" Lat="38.073097" Alt="6254.49"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Landepiste Santiago-Pontones</Name>
+        <Ident>LETK</Ident>
+        <Type>AIRPORT</Type>
+        <Comment>A small track branches off the road at the bottom of the &quot;U&quot;. Follow this track, it will lead you to your destination for this leg - the small airstip Santiago-Pontones.  If you get lost, you can try using the VORDME YES (115.20). The airstrip is situated at a distance of 21nm from the VOR on the 222° radial.</Comment>
+        <Pos Lon="-2.648512" Lat="38.091053" Alt="5627.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

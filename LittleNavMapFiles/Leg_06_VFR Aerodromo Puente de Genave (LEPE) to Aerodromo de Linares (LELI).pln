@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LEPE to LELI</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>4000</CruisingAlt>
+        <DepartureID>LEPE</DepartureID>
+        <DepartureLLA>N38° 21' 56.53",W2° 47' 30.47",+001930.00</DepartureLLA>
+        <DestinationID>LELI</DestinationID>
+        <DestinationLLA>N38° 7' 59.48",W3° 38' 35.14",+001587.00</DestinationLLA>
+        <Descr>LEPE, LELI</Descr>
+        <DepartureName>Aeródromo Puente de Génave</DepartureName>
+        <DestinationName>Aeródromo de Linares</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LEPE">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 22' 0.14",W2° 47' 38.60",+001930.00</WorldPosition>
+            <RunwayNumberFP>30</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>LEPE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 16' 23.14",W2° 57' 22.93",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 15' 1.50",W3° 12' 15.23",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 9' 51.33",W3° 24' 44.49",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="LELI">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 7' 59.48",W3° 38' 35.14",+001587.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LELI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

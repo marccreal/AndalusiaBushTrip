@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LELI to LEFC</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>6000</CruisingAlt>
+        <DepartureID>LELI</DepartureID>
+        <DepartureLLA>N38° 8' 0.25",W3° 38' 39.32",+001587.00</DepartureLLA>
+        <DestinationID>LEFC</DestinationID>
+        <DestinationLLA>N38° 31' 35.42",W4° 23' 21.32",+002580.00</DestinationLLA>
+        <Descr>LELI, LEFC</Descr>
+        <DepartureName>Aeródromo de Linares</DepartureName>
+        <DestinationName>Pista Forestal de Fuencaliente</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LELI">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 7' 59.48",W3° 38' 35.14",+001587.00</WorldPosition>
+            <RunwayNumberFP>10</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>LELI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 11' 6.13",W3° 47' 26.03",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 15' 38.99",W3° 56' 7.76",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 23' 3.08",W4° 8' 42.76",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP4">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 26' 53.56",W4° 13' 58.57",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEFC">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 31' 35.42",W4° 23' 21.32",+002580.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEFC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

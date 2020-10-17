@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LECG to LEPR</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>2000</CruisingAlt>
+        <DepartureID>LECG</DepartureID>
+        <DepartureLLA>N37° 57' 52.45",W4° 48' 20.77",+001968.00</DepartureLLA>
+        <DestinationID>LEPR</DestinationID>
+        <DestinationLLA>N37° 42' 51.69",W5° 12' 54.74",+000412.00</DestinationLLA>
+        <Descr>LECG, LEPR</Descr>
+        <DepartureName>Aeródromo La Balanzona</DepartureName>
+        <DestinationName>Flugplatz Palma del Río</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LECG">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 57' 41.64",W4° 48' 25.84",+001968.00</WorldPosition>
+            <RunwayNumberFP>20</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>LECG</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 53' 1.67",W4° 46' 40.24",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 52' 44.67",W4° 46' 46.46",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 52' 35.81",W4° 46' 40.32",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP4">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 52' 32.95",W4° 46' 56.06",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEPR">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 42' 51.69",W5° 12' 54.75",+000412.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEPR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
