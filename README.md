@@ -26,6 +26,7 @@ Unfortunately, there are several bugs in the bush trip system of the main game w
   - This bug appeard after one of the recent patches for MSFS. A bush trip that was started with the previous version could be continued but the completion of the leg was not detected correctly.
   - Workaround: Restart from the first leg (afaik just restating the previous leg does not help) and with the help of the developer menu, jump to the destinations of the legs until you reach the point where you want to continue.
   - It might be necessary to delete the saves first. Just delete the corresponding folder that can be found at `...\Users\[USERNAME]\AppData\Roaming\Microsoft Flight Simulator\MISSIONS\ACTIVITIES\[BUSHTRIPNAME]_SAVE`
+- Distance and ETE that are displayed in the window, that pops up after one leg has been finished and the next one is ready to start, are incorrect. They only correspond to the values for the first subleg.
 
 ### Specific
 - Route and waypoints are not displayed on VFR-map.

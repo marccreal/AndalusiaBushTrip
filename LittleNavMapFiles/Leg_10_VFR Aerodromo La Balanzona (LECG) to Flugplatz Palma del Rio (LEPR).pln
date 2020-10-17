@@ -9,7 +9,7 @@
         <DepartureID>LECG</DepartureID>
         <DepartureLLA>N37° 57' 52.45",W4° 48' 20.77",+001968.00</DepartureLLA>
         <DestinationID>LEPR</DestinationID>
-        <DestinationLLA>N37° 42' 51.69",W5° 12' 54.75",+000412.00</DestinationLLA>
+        <DestinationLLA>N37° 42' 51.69",W5° 12' 54.74",+000412.00</DestinationLLA>
         <Descr>LECG, LEPR</Descr>
         <DepartureName>Aeródromo La Balanzona</DepartureName>
         <DestinationName>Flugplatz Palma del Río</DestinationName>
@@ -27,7 +27,19 @@
         </ATCWaypoint>
         <ATCWaypoint id="WP1">
             <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 53' 1.67",W4° 46' 40.24",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 52' 44.67",W4° 46' 46.46",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>N37° 52' 35.81",W4° 46' 40.32",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP4">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 52' 32.95",W4° 46' 56.06",+000000.00</WorldPosition>
         </ATCWaypoint>
         <ATCWaypoint id="LEPR">
             <ATCWaypointType>Airport</ATCWaypointType>

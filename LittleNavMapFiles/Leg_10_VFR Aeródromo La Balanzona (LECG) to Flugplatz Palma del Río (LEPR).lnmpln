@@ -4,7 +4,7 @@
     <Header>
       <FlightplanType>VFR</FlightplanType>
       <CruisingAlt>2000</CruisingAlt>
-      <CreationDate>2020-10-16T10:34:31</CreationDate>
+      <CreationDate>2020-10-17T15:06:03</CreationDate>
       <FileVersion>1.0</FileVersion>
       <ProgramName>Little Navmap</ProgramName>
       <ProgramVersion>2.6.1.beta</ProgramVersion>
@@ -27,8 +27,29 @@
         <Name>Cordoba</Name>
         <Ident>WP1</Ident>
         <Type>USER</Type>
-        <Comment>In this leg, you will visit one of the most famous cities of Andalusia: Cordoba! The city is situated around 5nm south of your departure airport. When you arrive above the city, take your time and do some sightseeing. La Mezquita, Puente Romano, Torre de la Calahorra, Alcazar, Banos Califales.</Comment>
+        <Comment>In this leg, you will visit one of the most famous cities of Andalusia: Cordoba! The city is situated around 5nm south of your departure airport. When you arrive above the city, take your time and do some sightseeing.</Comment>
+        <Pos Lon="-4.777844" Lat="37.883797" Alt="2000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>La Mezquita</Name>
+        <Ident>WP2</Ident>
+        <Type>USER</Type>
+        <Comment>Be sure to have a look at La Mezquita, the Great Mosque of Cordoba, is one of the most accomplished monuments of Moorish architecture built by the European Moors. The building is most notable for its arcaded hypostyle hall, with 856 columns made from pieces of Roman builidings. After the Reconquista, the mosque was converted to a church (and is in use as a Catholic place of worship until today). In the 16th century, a cathedral nave was inserted into the builing. Although this severe alteration of the original building was permitted by King Charles V, when he later visited the cathedral, he is said to have famously commented: &quot;You have destroyed something unique to build something commonplace.&quot;</Comment>
+        <Pos Lon="-4.779572" Lat="37.879074" Alt="2000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Puente Romano</Name>
+        <Ident>WP3</Ident>
+        <Type>USER</Type>
+        <Comment>Have a look at the Puente Romano, the Roman bridge of Cordoba over Rio Guadalquivir with its fortified gate &quot;Torre de la Calahorra&quot; at its southern side.</Comment>
         <Pos Lon="-4.777867" Lat="37.876614" Alt="2000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Alcazar</Name>
+        <Ident>WP4</Ident>
+        <Type>USER</Type>
+        <Comment>Do not miss the Alcazar de los Reyes Cristianos, a medieval palace that served as one of the primary residences of Isabella of Castile.</Comment>
+        <Pos Lon="-4.782239" Lat="37.875820" Alt="2000.00"/>
       </Waypoint>
       <Waypoint>
         <Name>Flugplatz Palma del Río</Name>

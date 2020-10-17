@@ -291,6 +291,261 @@
             </SubLeg>
           </SubLegs>
         </Leg>
+		<Leg> <Descr>Aerodromo de Las Canadillas (LEML) to Aerodromo Puente de Genave (LEPE)</Descr>
+          <AirportLandingTriggerEnd UniqueRefId="{1C7B5CD1-A75A-4824-9CC6-5BF864F17579}" />
+          <SubLegs>
+            <SubLeg>
+              <Descr>After departue, follow the river Rio Mundo in the valley to the west until you clear the valley and the river makes a turn to the left.</Descr>
+              <ATCWaypointStart id="LEML" />
+              <ATCWaypointEnd id="POI1">
+                <idRegion>!E</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>You might have noticed, that alongside the river in the valley you just passed ran a road. This road now parts from the river in western direction. Follow this road to your next waypoint, the village of Riopar Viejo, situated quite prominently on a hill on the right side of the road.</Descr>
+              <ATCWaypointStart id="POI1">
+                <idRegion>!E</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI2">
+                <idRegion>!E</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Turn southwest and pass between or above the mountains to reach your next waypoint, the reservoir "Embalse de Siles".</Descr>
+              <ATCWaypointStart id="POI2">
+                <idRegion>!E</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI3">
+                <idRegion>!E</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Follow the river Rio Guadalimar, that leaves the reservoir on its southwestern end. Eventually, the river makes a turn to the right. This is your next waypoint.</Descr>
+              <ATCWaypointStart id="POI3">
+                <idRegion>!E</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI4">
+                <idRegion>!E</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Continue tracking the river. It wil lead you directly to your destination for this leg, Aerodromo Puente de Genave.</Descr>
+			  <ImagePath>images\5_LEPE.png</ImagePath>
+              <ATCWaypointStart id="POI4">
+                <idRegion>!E</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="LEPE">
+			  </ATCWaypointEnd>
+            </SubLeg>
+          </SubLegs>
+        </Leg>
+		<Leg> <Descr>Aerodromo Puente de Genave (LEPE) to Aerodromo de Linares (LELI)</Descr>
+          <AirportLandingTriggerEnd UniqueRefId="{EED1E686-0F5E-4BCF-8242-592AB8D72692}" />
+          <SubLegs>
+            <SubLeg>
+              <Descr>Follow again Rio Guadalimar southwest until you reach your first waypoint, an airfield with two runways - Beas De Segura.</Descr>
+              <ATCWaypointStart id="LEPE" />
+              <ATCWaypointEnd id="POI1">
+                <idRegion>!F</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Turn right, crossing the river, and track the road A-312 to the west. The road runs along a mountain ridge and will lead you to your next waypoint, the city of Santisteban del Puerto.</Descr>
+              <ATCWaypointStart id="POI1">
+                <idRegion>!F</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI2">
+                <idRegion>!F</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Follow along the ridge towards a hill that is situated inbetween two reservoirs.</Descr>
+              <ATCWaypointStart id="POI2">
+                <idRegion>!F</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI3">
+                <idRegion>!F</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Relatively closeby in the west, you will be able to spot some moutains. Your destination lies directly behind these mountains - Aerodromo de Linares. If you have problems spotting the airfield, look for the city of Linares. The airfield is directly north of the city. You can also use the VOR BLN (116.20), the airfield is in 1.4nm distance from the VOR on the 217 degree radial.</Descr>
+			  <ImagePath>images\6_LELI.png</ImagePath>
+              <ATCWaypointStart id="POI3">
+                <idRegion>!F</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="LELI">
+			  </ATCWaypointEnd>
+            </SubLeg>
+          </SubLegs>
+        </Leg>	
+		<Leg> <Descr>Aerodromo de Linares (LELI) to Pista Forestal de Fuencaliente (LEFC)</Descr>
+          <AirportLandingTriggerEnd UniqueRefId="{4CFE11E0-6585-45B2-A591-FD7B78648A8C}" />
+          <SubLegs>
+            <SubLeg>
+              <Descr>Fly towards the mountains in the northwest to your first waypoint, the reservoir "Pantano del Rumblar".</Descr>
+              <ATCWaypointStart id="LELI" />
+              <ATCWaypointEnd id="POI1">
+                <idRegion>!G</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Hop to the next reservoir, "Pantano del Jandula".</Descr>
+              <ATCWaypointStart id="POI1">
+                <idRegion>!G</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI2">
+                <idRegion>!G</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Head towards the higher mountains further northwest - Sierra Madrona. The range is named after the madrono, the Strawberry Tree (Arbutus unedo) which is abundant in the area. The first ridge that runs from east to west marks the border between Andalusia and Castilla-La Mancha. You will have to find an opening of the mountains with the river Rio Valmayor running through.</Descr>
+              <ATCWaypointStart id="POI2">
+                <idRegion>!G</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI3">
+                <idRegion>!G</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Follow the river into the mountains to its source.</Descr>
+              <ATCWaypointStart id="POI3">
+                <idRegion>!G</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI4">
+                <idRegion>!G</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>You will notice, that the northern and southern mountain ridges run together in the northwest. Head towards this point until you cross the road N-420. On the west side of the road close to the northern mountain ridge, you will find your destination, the Pista Forestal de Fuencaliente (2580m AMSL). Beware the mountains during approach! If you get lost, try VOR HIJ (114.70), the airfield is on the 89 degree radial at a distance of 33nm.</Descr>
+			  <ImagePath>images\7_LEFC.png</ImagePath>
+              <ATCWaypointStart id="POI4">
+                <idRegion>!G</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="LEFC">
+			  </ATCWaypointEnd>
+            </SubLeg>
+          </SubLegs>
+        </Leg>		
+		<Leg> <Descr>Pista Forestal de Fuencaliente (LEFC) to Aerodromo de Espiel (LEES)</Descr>
+          <AirportLandingTriggerEnd UniqueRefId="{A4C66C53-840E-48D8-974D-E2EF3D5A7E28}" />
+          <SubLegs>
+            <SubLeg>
+              <Descr>After departure, you have to gain altitude quickly because you will have to fly over the mountains to the west. When you have cleared the mountains, look for the road A-435, that crosses a river and leads to the small town of Torrecampo, your first waypoint.</Descr>
+              <ATCWaypointStart id="LEFC" />
+              <ATCWaypointEnd id="POI1">
+                <idRegion>!H</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Track the A-435 southwest. You will pass another small town before you reach the somewhat bigger town of Pozoblanco.</Descr>
+              <ATCWaypointStart id="POI1">
+                <idRegion>!H</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI2">
+                <idRegion>!H</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Pick up the A-435 again. It leaves the ring road around the town in southwestern direction. Eventually, it will intersect the national road N-502, your next waypoint.</Descr>
+              <ATCWaypointStart id="POI2">
+                <idRegion>!H</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI3">
+                <idRegion>!H</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Head into the mountainous region southwest. Your destination is closeby, amidst the forest - Aerodromo de Espiel (2362 AMSL). Again a hint: VOR HIJ (114.70), radial 171 degrees, 15nm distance.</Descr>
+			  <ImagePath>images\8_LEES.png</ImagePath>
+              <ATCWaypointStart id="POI3">
+                <idRegion>!H</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="LEES">
+			  </ATCWaypointEnd>
+            </SubLeg>
+          </SubLegs>
+        </Leg>
+		<Leg> <Descr>Aerodromo de Espiel (LEES) to Aerodromo La Balanzona (LECG)</Descr>
+          <AirportLandingTriggerEnd UniqueRefId="{42863429-4F84-47E5-9319-FEA3BDC38D9F}" />
+          <SubLegs>
+            <SubLeg>
+              <Descr>Another reservoir marks your first waypoint in this leg. Embalse de Puente Nuevo is situated south of your departure airport.</Descr>
+              <ATCWaypointStart id="LEES" />
+              <ATCWaypointEnd id="POI1">
+                <idRegion>!I</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Fly to the southern end of the reservoir and keep track of the river that leaves the lake there, Rio Guadiato. Look for a small lake on the left side of the river sourrounded by a holiday resort. This is your next waypoint.</Descr>
+              <ATCWaypointStart id="POI1">
+                <idRegion>!I</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI2">
+                <idRegion>!I</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Your destination is closeby, east of the lake. A golf club is very closeby, so why not improve your handicap after you landed?</Descr>
+			  <ImagePath>images\9_LECG.png</ImagePath>
+              <ATCWaypointStart id="POI2">
+                <idRegion>!I</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="LECG">
+			  </ATCWaypointEnd>
+            </SubLeg>
+          </SubLegs>
+        </Leg>		
+		<Leg> <Descr>Aerodromo La Balanzona (LECG) to Flugplatz Palma del Rio (LEPR)</Descr>
+          <AirportLandingTriggerEnd UniqueRefId="{C6F7E1EB-4E68-488A-AFD7-39EC919F7366}" />
+          <SubLegs>
+            <SubLeg>
+              <Descr>In this leg, you will visit one of the most famous cities of Andalusia: Cordoba! The city is situated around 5nm south of your departure airport. When you arrive above the city, take your time and do some sightseeing.</Descr>
+              <ATCWaypointStart id="LECG" />
+              <ATCWaypointEnd id="POI1">
+                <idRegion>!J</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Be sure to have a look at La Mezquita, the Great Mosque of Cordoba, is one of the most accomplished monuments of Moorish architecture built by the European Moors. The building is most notable for its arcaded hypostyle hall, with 856 columns made from pieces of Roman builidings. After the Reconquista, the mosque was converted to a church (and is in use as a Catholic place of worship until today). In the 16th century, a cathedral nave was inserted into the builing. Although this severe alteration of the original building was permitted by King Charles V, when he later visited the cathedral, he is said to have famously commented: "You have destroyed something unique to build something commonplace".</Descr>
+			  <ImagePath>images\Cordoba_Mezquita.png</ImagePath>
+              <ATCWaypointStart id="POI1">
+                <idRegion>!J</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI2">
+                <idRegion>!J</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Have a look at the Puente Romano, the Roman bridge of Cordoba over Rio Guadalquivir with its fortified gate "Torre de la Calahorra" at its southern side.</Descr>
+			  <ImagePath>images\Cordoba_PuenteRomano.png</ImagePath>
+              <ATCWaypointStart id="POI2">
+                <idRegion>!J</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI3">
+                <idRegion>!J</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Do not miss the Alcazar de los Reyes Cristianos, a medieval palace that once served as one of the primary residences of Isabella of Castile.</Descr>
+			  <ImagePath>images\Cordoba_Alcazar.png</ImagePath>
+              <ATCWaypointStart id="POI3">
+                <idRegion>!J</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI4">
+                <idRegion>!J</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>When you finished sightseeing, follow Rio Guadalquivir southwest out of the city. Your destination "Palma del Rio" lies on the left side of the river. There is a small lake between airfield and river that might help in spotting your destination.</Descr>
+			  <ImagePath>images\10_LEPR.png</ImagePath>
+              <ATCWaypointStart id="POI4">
+                <idRegion>!J</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="LEPR">
+			  </ATCWaypointEnd>
+            </SubLeg>
+          </SubLegs>
+        </Leg>
 	  </Legs>
 	  <Objectives>
         <Objective UniqueRefId="{37569C05-B09F-493B-A2C3-2BF1A8215E2E}">
@@ -487,6 +742,372 @@
     </SimMission.AirportCalculator>
 	<SimMission.AirportCalculator InstanceId="{8DF8810B-37A2-4680-874D-F6CCEE0E7B26}">
       <AirportIdent>LEML</AirportIdent>
+      <ComputeAirportPolygon>true</ComputeAirportPolygon>
+      <Activated>false</Activated>
+      <CalculatorParameterList>
+        <FormulaParameter NameInFormula="Threshold">
+          <StartValue>20.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FarThreshold">
+          <StartValue>100.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnGround">
+          <CalculatorFormula>
+            (A:SIM ON GROUND, Boolean) 0 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnRunway">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [Threshold] &lt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="TimerLanded">
+          <CalculatorFormula>
+            [OnRunway] [SignedDistanceToAirportArea] [Threshold] &lt; or [OnGround]  and (A:GROUND VELOCITY, Knots) 2 &lt; and
+            if{
+            [TimerLanded] [dtime] +
+            }
+            els{ 0 }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="UnknownTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [FarThreshold] &gt; [OnGround] and [UnknownTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OutsideTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [FarThreshold] &lt; [SignedDistanceToClosestRunway] [Threshold] &gt; [OnGround] and and [OutsideTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+      </CalculatorParameterList>
+      <CalculatorActions>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [OutsideTouchDown] [UnknownTouchDown] not and
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="ACT_NotifOutOfRunway" InstanceId="{952743E5-F838-4F51-A1A0-07E8DCD44019}" />
+          </Actions>
+        </CalculatorAction>
+        <CalculatorAction>
+          <DeactivateAfterExecution>true</DeactivateAfterExecution>
+          <CalculatorFormula>
+            [TimerLanded] 2 &gt;
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="FlowEvent_LandingRest" InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}" />
+          </Actions>
+        </CalculatorAction>
+      </CalculatorActions>
+    </SimMission.AirportCalculator>
+	<SimMission.AirportCalculator InstanceId="{1C7B5CD1-A75A-4824-9CC6-5BF864F17579}">
+      <AirportIdent>LEPE</AirportIdent>
+      <ComputeAirportPolygon>true</ComputeAirportPolygon>
+      <Activated>false</Activated>
+      <CalculatorParameterList>
+        <FormulaParameter NameInFormula="Threshold">
+          <StartValue>20.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FarThreshold">
+          <StartValue>100.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnGround">
+          <CalculatorFormula>
+            (A:SIM ON GROUND, Boolean) 0 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnRunway">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [Threshold] &lt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="TimerLanded">
+          <CalculatorFormula>
+            [OnRunway] [SignedDistanceToAirportArea] [Threshold] &lt; or [OnGround]  and (A:GROUND VELOCITY, Knots) 2 &lt; and
+            if{
+            [TimerLanded] [dtime] +
+            }
+            els{ 0 }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="UnknownTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [FarThreshold] &gt; [OnGround] and [UnknownTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OutsideTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [FarThreshold] &lt; [SignedDistanceToClosestRunway] [Threshold] &gt; [OnGround] and and [OutsideTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+      </CalculatorParameterList>
+      <CalculatorActions>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [OutsideTouchDown] [UnknownTouchDown] not and
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="ACT_NotifOutOfRunway" InstanceId="{952743E5-F838-4F51-A1A0-07E8DCD44019}" />
+          </Actions>
+        </CalculatorAction>
+        <CalculatorAction>
+          <DeactivateAfterExecution>true</DeactivateAfterExecution>
+          <CalculatorFormula>
+            [TimerLanded] 2 &gt;
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="FlowEvent_LandingRest" InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}" />
+          </Actions>
+        </CalculatorAction>
+      </CalculatorActions>
+    </SimMission.AirportCalculator>
+	<SimMission.AirportCalculator InstanceId="{EED1E686-0F5E-4BCF-8242-592AB8D72692}">
+      <AirportIdent>LELI</AirportIdent>
+      <ComputeAirportPolygon>true</ComputeAirportPolygon>
+      <Activated>false</Activated>
+      <CalculatorParameterList>
+        <FormulaParameter NameInFormula="Threshold">
+          <StartValue>20.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FarThreshold">
+          <StartValue>100.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnGround">
+          <CalculatorFormula>
+            (A:SIM ON GROUND, Boolean) 0 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnRunway">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [Threshold] &lt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="TimerLanded">
+          <CalculatorFormula>
+            [OnRunway] [SignedDistanceToAirportArea] [Threshold] &lt; or [OnGround]  and (A:GROUND VELOCITY, Knots) 2 &lt; and
+            if{
+            [TimerLanded] [dtime] +
+            }
+            els{ 0 }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="UnknownTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [FarThreshold] &gt; [OnGround] and [UnknownTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OutsideTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [FarThreshold] &lt; [SignedDistanceToClosestRunway] [Threshold] &gt; [OnGround] and and [OutsideTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+      </CalculatorParameterList>
+      <CalculatorActions>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [OutsideTouchDown] [UnknownTouchDown] not and
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="ACT_NotifOutOfRunway" InstanceId="{952743E5-F838-4F51-A1A0-07E8DCD44019}" />
+          </Actions>
+        </CalculatorAction>
+        <CalculatorAction>
+          <DeactivateAfterExecution>true</DeactivateAfterExecution>
+          <CalculatorFormula>
+            [TimerLanded] 2 &gt;
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="FlowEvent_LandingRest" InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}" />
+          </Actions>
+        </CalculatorAction>
+      </CalculatorActions>
+    </SimMission.AirportCalculator>
+	<SimMission.AirportCalculator InstanceId="{4CFE11E0-6585-45B2-A591-FD7B78648A8C}">
+      <AirportIdent>LEFC</AirportIdent>
+      <ComputeAirportPolygon>true</ComputeAirportPolygon>
+      <Activated>false</Activated>
+      <CalculatorParameterList>
+        <FormulaParameter NameInFormula="Threshold">
+          <StartValue>20.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FarThreshold">
+          <StartValue>100.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnGround">
+          <CalculatorFormula>
+            (A:SIM ON GROUND, Boolean) 0 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnRunway">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [Threshold] &lt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="TimerLanded">
+          <CalculatorFormula>
+            [OnRunway] [SignedDistanceToAirportArea] [Threshold] &lt; or [OnGround]  and (A:GROUND VELOCITY, Knots) 2 &lt; and
+            if{
+            [TimerLanded] [dtime] +
+            }
+            els{ 0 }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="UnknownTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [FarThreshold] &gt; [OnGround] and [UnknownTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OutsideTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [FarThreshold] &lt; [SignedDistanceToClosestRunway] [Threshold] &gt; [OnGround] and and [OutsideTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+      </CalculatorParameterList>
+      <CalculatorActions>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [OutsideTouchDown] [UnknownTouchDown] not and
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="ACT_NotifOutOfRunway" InstanceId="{952743E5-F838-4F51-A1A0-07E8DCD44019}" />
+          </Actions>
+        </CalculatorAction>
+        <CalculatorAction>
+          <DeactivateAfterExecution>true</DeactivateAfterExecution>
+          <CalculatorFormula>
+            [TimerLanded] 2 &gt;
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="FlowEvent_LandingRest" InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}" />
+          </Actions>
+        </CalculatorAction>
+      </CalculatorActions>
+    </SimMission.AirportCalculator>
+	<SimMission.AirportCalculator InstanceId="{A4C66C53-840E-48D8-974D-E2EF3D5A7E28}">
+      <AirportIdent>LEES</AirportIdent>
+      <ComputeAirportPolygon>true</ComputeAirportPolygon>
+      <Activated>false</Activated>
+      <CalculatorParameterList>
+        <FormulaParameter NameInFormula="Threshold">
+          <StartValue>20.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FarThreshold">
+          <StartValue>100.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnGround">
+          <CalculatorFormula>
+            (A:SIM ON GROUND, Boolean) 0 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnRunway">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [Threshold] &lt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="TimerLanded">
+          <CalculatorFormula>
+            [OnRunway] [SignedDistanceToAirportArea] [Threshold] &lt; or [OnGround]  and (A:GROUND VELOCITY, Knots) 2 &lt; and
+            if{
+            [TimerLanded] [dtime] +
+            }
+            els{ 0 }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="UnknownTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [FarThreshold] &gt; [OnGround] and [UnknownTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OutsideTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [FarThreshold] &lt; [SignedDistanceToClosestRunway] [Threshold] &gt; [OnGround] and and [OutsideTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+      </CalculatorParameterList>
+      <CalculatorActions>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [OutsideTouchDown] [UnknownTouchDown] not and
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="ACT_NotifOutOfRunway" InstanceId="{952743E5-F838-4F51-A1A0-07E8DCD44019}" />
+          </Actions>
+        </CalculatorAction>
+        <CalculatorAction>
+          <DeactivateAfterExecution>true</DeactivateAfterExecution>
+          <CalculatorFormula>
+            [TimerLanded] 2 &gt;
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="FlowEvent_LandingRest" InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}" />
+          </Actions>
+        </CalculatorAction>
+      </CalculatorActions>
+    </SimMission.AirportCalculator>
+	<SimMission.AirportCalculator InstanceId="{42863429-4F84-47E5-9319-FEA3BDC38D9F}">
+      <AirportIdent>LECG</AirportIdent>
+      <ComputeAirportPolygon>true</ComputeAirportPolygon>
+      <Activated>false</Activated>
+      <CalculatorParameterList>
+        <FormulaParameter NameInFormula="Threshold">
+          <StartValue>20.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FarThreshold">
+          <StartValue>100.000</StartValue>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnGround">
+          <CalculatorFormula>
+            (A:SIM ON GROUND, Boolean) 0 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnRunway">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [Threshold] &lt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="TimerLanded">
+          <CalculatorFormula>
+            [OnRunway] [SignedDistanceToAirportArea] [Threshold] &lt; or [OnGround]  and (A:GROUND VELOCITY, Knots) 2 &lt; and
+            if{
+            [TimerLanded] [dtime] +
+            }
+            els{ 0 }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="UnknownTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [FarThreshold] &gt; [OnGround] and [UnknownTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OutsideTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [FarThreshold] &lt; [SignedDistanceToClosestRunway] [Threshold] &gt; [OnGround] and and [OutsideTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+      </CalculatorParameterList>
+      <CalculatorActions>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [OutsideTouchDown] [UnknownTouchDown] not and
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="ACT_NotifOutOfRunway" InstanceId="{952743E5-F838-4F51-A1A0-07E8DCD44019}" />
+          </Actions>
+        </CalculatorAction>
+        <CalculatorAction>
+          <DeactivateAfterExecution>true</DeactivateAfterExecution>
+          <CalculatorFormula>
+            [TimerLanded] 2 &gt;
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="FlowEvent_LandingRest" InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}" />
+          </Actions>
+        </CalculatorAction>
+      </CalculatorActions>
+    </SimMission.AirportCalculator>
+	<SimMission.AirportCalculator InstanceId="{C6F7E1EB-4E68-488A-AFD7-39EC919F7366}">
+      <AirportIdent>LEPR</AirportIdent>
       <ComputeAirportPolygon>true</ComputeAirportPolygon>
       <Activated>false</Activated>
       <CalculatorParameterList>
