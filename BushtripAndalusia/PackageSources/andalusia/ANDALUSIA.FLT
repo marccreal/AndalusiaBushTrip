@@ -23,7 +23,7 @@ BriefingImage9="./images/10_LEPR_Briefing.png"
 [Options]
 Sound=True
 Moonlight=True
-Save=False
+Save=True
 SaveOriginalFlightPlan=True
 TextDisplayPage=0
 SlewDisplayPage=1
@@ -32,12 +32,7 @@ Titles=False
 
 [Sim.0]
 Sim=DA40-NG Asobo
-Pilot=Default
-Copilot=
-TailNumber=
-AirlineCallSign=
-FlightNumber=
-AppendHeavy=False
+SimFile=runway.FLT
 
 [ResourcePath]
 Path=andalusia
@@ -85,8 +80,169 @@ Order=255
 Active=True
 Undocked=False
 Maximized=True
-ScreenUniCoords=0, 0, 0, 0
+ScreenUniCoords=0, 0, 8192, 4000
 UndocCoords=0, 0, 0, 0
+CurrentCamera={BCA3FDD1-FB83-4BBA-8407-4922A7F0D00C}
+
+[Camera.1.1]
+Guid={B1386D92-4782-4682-A137-738E25D1BAB5}
+Zoom=1
+Translation=0, 0, 0
+Rotation=8, 0, 0
+
+[Camera.1.2]
+Guid={C95EAB58-9E4A-4E2A-A34C-D8D9D948F078}
+Zoom=0.69999998807907104492
+Translation=0, 0, 0
+Rotation=8, 0, 0
+
+[Camera.1.3]
+Guid={195EAB58-9E4A-1E2A-A34C-A8D9D948F078}
+Zoom=0.58999997377395629883
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.4]
+Guid={A1FF1FC6-4902-46D4-AFFD-22F64B240235}
+Zoom=0.56999999284744262695
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.5]
+Guid={E9FF00BD-8D7B-4934-8855-364A432149A6}
+Zoom=0.31000000238418579102
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.6]
+Guid={64D6C8BC-406A-4B73-8441-7393A4A335B4}
+Zoom=0.31000000238418579102
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.7]
+Guid={A31C5FA5-4508-4C1A-84A7-6F46C68FBB4A}
+Zoom=0.31000000238418579102
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.8]
+Guid={3707B27E-DC9F-44A3-8E82-422191F16B72}
+Zoom=0.33000001311302185059
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.9]
+Guid={7B23189D-3554-4F63-99E2-F56DC287BD76}
+Zoom=0.33000001311302185059
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.10]
+Guid={BCA3FDD1-FB83-4BBA-8407-4922A7F0D00C}
+Zoom=1
+Translation=0, 0, 0
+ChaseDirection=90
+ChaseDistance=28.041599273681640625
+ChaseAltitude=0.91439998149871826172
+
+[Camera.1.11]
+Guid={BCA3FDD1-FB83-4BBA-8407-4922A7F0D00D}
+Zoom=1
+Translation=0, 0, 0
+ChaseDirection=-135
+ChaseDistance=37.5
+ChaseAltitude=0.80000001192092895508
+
+[Camera.1.12]
+Guid={6B79DD49-9B4A-439D-BF40-ACBF157B0BA0}
+Zoom=10
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.13]
+Guid={A2849229-938A-448F-8AC6-01EF2291C171}
+Zoom=80.3000030517578125
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.14]
+Guid={60BC0819-BD04-4AF6-8954-8FC8AA3545FF}
+Zoom=8
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.15]
+Guid={C690EAFD-223A-42D0-99E0-681ADF93BB59}
+Zoom=1
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.16]
+Guid={3A09FD6C-D406-4D8F-A5CD-FA4F5E0C12ED}
+Zoom=1
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.17]
+Guid={D8D67955-2E9B-4E75-9D8B-8EFFBBFAC64A}
+Zoom=0.75
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.18]
+Guid={41F9C308-7FFA-4BE1-8CC1-43336D945791}
+Zoom=1.2999999523162841797
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.19]
+Guid={4B06E947-0AC1-465C-B1C7-D7548A5FACE9}
+Zoom=1.2999999523162841797
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.20]
+Guid={C46C9BC7-ABD4-401C-A273-087BAAA0922A}
+Zoom=1.2999999523162841797
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.21]
+Guid={1C03E395-7B86-4F79-8684-E3154A9EDDA6}
+Zoom=1.2999999523162841797
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.22]
+Guid={14AA6A13-7FCC-4F0F-9137-ABEF10DFCBB9}
+Zoom=0.56999999284744262695
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.23]
+Guid={EBABF59F-3730-4F2E-A245-74901E9F8ED6}
+Zoom=0.40000000596046447754
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.24]
+Guid={08E673AF-9D5D-449A-86CB-84A55649A650}
+Zoom=0.56999999284744262695
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.25]
+Guid={182C26E7-0D2D-4995-B776-53A96D125521}
+Zoom=0.56999999284744262695
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.26]
+Guid={A32BC57C-6208-4FA7-98D0-09F3425F5F0E}
+Zoom=0.56999999284744262695
+Translation=0, 0, 0
+Rotation=0, 0, 0
 
 [ATC_AgentManager]
 NumberofAgents=0
@@ -94,8 +250,7 @@ NumberofAgents=0
 [ATC_Aircraft.0]
 ActiveFlightPlan=True
 RequestedFlightPlan=False
-AcState=ACSTATE_TOWER_DEPARTING
-ActiveVFRAirport=LEAM
+AcState=ACSTATE_REQUEST_TAXI_CLEARANCE_OUT_VFR_ATIS
 Waypoint.0=, LEAM, , Almeria, A, N36° 50.64', W2° 22.21', +000048.00, , , , , 25, NONE, , 0, -1, 0, 0,  
 Waypoint.1=!A, POI1, , Alcazaba de Almeria, U, N36° 50.34', W2° 28.34', +001050.00, , , , , , NONE, 0, 0, -1, 0, 0,  
 Waypoint.2=!A, POI2, , Lake amidst of "mar del plastico", U, N36° 45.70', W2° 44.19', +001900.00, , , , , , NONE, 0, 0, -1, 0, 0,  
@@ -154,14 +309,14 @@ Waypoint.54=!J, POI3, , Puente Romano, U, N37° 52.60', W4° 46.67', +002000.00, ,
 Waypoint.55=!J, POI4, , Alcazar, U, N37° 52.55', W4° 46.93', +002000.00, , , , , , NONE, 0, 0, -1, 0, 0,  
 waypoint.56=, LEPR, , Palma Del Rio Airport, A, N37° 42.86', W5° 12.91', +006500.00, , , , , , NONE, 0, 0, -1, 0, 0, 
 NumberofWaypoints=57
-ClearanceFlags=882
+ClearanceFlags=82
 CtCur=CLEARANCE_NONE
 WaypointNext=1
 AltCleared=-1
 HdgAssigned=-1
-SquawkAssigned=1006637568
+SquawkAssigned=4608
 LandingSequence=LANDING_NONE
-DepartureRequest=DEPARTURE_VFR_REQUEST_DEPART_EAST
+DepartureRequest=DEPARTURE_VFR_REQUEST_NONE
 ParkingRequest=PARKING_NAME_NONE
 ParkingTypeRequest=PARKING_TYPE_NONE
 PatternLeg=PATTERN_LEG_NONE
@@ -169,17 +324,17 @@ ApproachIndex=-1
 ApproachTransitionIndex=-1
 ApproachRequestIndex=-1
 ApproachTransitionRequestIndex=-1
-RunwayIndex=1
+RunwayIndex=-1
 RunwayRequestIndex=-1
 ParkingIndex=-1
 FlightFollowing=FLIGHT_FOLLOWING_NO
 AirspaceTransition=AIRSPACE_TRANSITION_NONE
 BVAirspaceTransition=BV_TYPE_NONE
 BVAirspaceTransitionReq=BV_TYPE_NONE
-TakeoffSequence=TAKEOFF_SEQUENCE_CLEARED
+TakeoffSequence=TAKEOFF_SEQUENCE_NONE
 LandingSequenceNumber=-1
 TaxiRouteCurrent=-1
-CruisingAltitude=-500
+CruisingAltitude=10498
 RequestedCruisingAltitude=-1
 ExpectedAltitude=-1
 AircraftSignature=1,0
@@ -265,8 +420,9 @@ position=N36° 50.64', W2° 22.21', +000048.00
 Time=-1
 TimeWP=81228
 ArriveTime=2946
-CountWP=13
+CountWP=57
 NextWP=1
+PlaneStarted=False				  
 WpInfo0=69, 0, 14, 0, 0, 14.0, 0.0, 0.0
 WpInfo1=120, 0, 320, 0, 0, 0.0, 0.3, 0.0
 WpInfo2=125, 0, 1143, 0, 0, 0.0, 0.8, 0.0
@@ -335,8 +491,60 @@ Minutes=0
 Seconds=0
 UseZuluTime=False
 
-[SimplifiedSim.0]
-Mode=None
+[Panel.1]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=0
+ViewsOn=1
+
+[Panel.2]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=50
+ViewsOn=0
+
+[Panel.3]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=225
+ViewsOn=0
+
+[Panel.4]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=1
+ViewsOn=0
+
+[Panel.5]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=2
+ViewsOn=0
+
+[Panel.6]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=20000
+ViewsOn=1
+
 
 [SimVars.0]
 Latitude=N36° 50' 28.68"
@@ -353,38 +561,6 @@ YVelBodyAxis=0
 ZVelBodyAxis=0
 SimOnGround=True
 OnPlatformHeight=-9999999999
-
-[Avionics.0]
-Comm1Active=127.850
-Comm1Standby=124.850
-Comm2Active=124.850
-Comm2Standby=124.850
-Comm3Active=124.850
-Comm3Standby=124.850
-Nav1Active=110.50
-Nav1Standby=113.90
-OBS1=360
-Nav2Active=110.50
-Nav2Standby=113.90
-OBS2=360
-Transponder=0000
-TransponderState=4
-ADFActive=890
-ADF2Active=890
-DMESelected=1
-ComTransmit=1
-ComReceiveBoth=False
-Com1Receive=True
-Com2Receive=False
-Com3Receive=False
-AudioNav1Listen=False
-AudioNav2Listen=False
-AudioMarkerListen=True
-AudioDmeListen=False
-AudioAdfListen=False
-AudioAdf2Listen=False
-AvionicsSwitch=True
-
 [Slew.0]
 Active=False
 
@@ -393,243 +569,27 @@ Location=False
 Altitude=False
 Attitude=False
 
-[Engine Parameters.1.0]
-ThrottleLeverPct=0
-PropellerLeverPct=1
-MixtureLeverPct=1
-Pct Engine RPM=0.26298100275925317959
-MaxReachedEngineRPM=1728.7887926110538501
-Pct N1=-1
-Pct N2=-1
-LeftMagneto=True
-RightMagneto=True
-GeneratorSwitch=True
-CowlFlapPct=0
-FuelPumpSwitch=False
-FuelPumpSwitch_EX1=0
-FuelValveOpen=True
-CarbHeat/DeiceSwitch=False
-EngineMasterSwitch=True
-GlowPlugTemperaturePct=1
-IgnitionSwitch=0
-StarterSwitch=False
-EGT_DegR=518.52880859375250111
-ITT_DegR=0
-
-[Propeller.1.0]
-prop_beta=0.19198621771937623981
-prop_max_rpm_percent=0
-
 [Fuel.0]
-TankSelector=Left
-TankSelector1=Left
-Center=0
-LeftMain=49.997283935546875
-RightMain=49.999996185302734375
-LeftAux=0
-RightAux=0
-LeftTip=0
-RightTip=0
-Center 2=0
-Center 3=0
-External 1=0
-External 2=0
-
-[Systems.0]
-BatterySwitch=True
-StructuralDeiceSwitch=False
-StructuralDeiceSwitch_EX1=0
-PropDeiceSwitch=False
-Autobrakes=0
-StandbyVacuum=False
-PropSync=False
-AutoFeatherSwitch=False
-FlightDirector=False
-PanelLights=False
-LaunchBarSwitch=False
-LaunchBarState=0
-TailhookHandle=False
-TailhookState=0
-FoldingWingsHandle=False
-FoldingWingsState=0, 0
-ExternalPowerSwitch=False
-AuxPowerUnitSwitch=False
-
-[Gauges.0]
-KollsmanSetting=29.921342849731445313
-
-[BleedAir.0]
-BleedAirSource=0
-EngineAirBleed.1=True
-EngineAirBleed.2=True
-EngineAirBleed.3=True
-EngineAirBleed.4=True
-APUAirBleed=True
-
-[LocalVars.0]
-XMLVAR_ENGINE_Switch_Master_Cover_Opened=0
-XMLVAR_LeverThrottleHidden1=0
-XMLVAR_YokeHidden1=0
-XMLVAR_YokeHidden2=0
-XMLVAR_LeverFlapsHidden=0
-AS1000_PFD_ScreenLuminosity=0
-XMLVAR_Autopilot_1_Status=0
-AS1000_MFD_ScreenLuminosity=0
-XMLVAR_VNAVButtonValue=0
-XMLVAR_ElecMaster=0
-XMLVAR_ELT_STATE=0
-XMLVAR_ELT_TEST_TIME=0
-XMLVAR_ELT_ACTIVATION_TIME=0
-
-[Switches.0]
-PitotHeat=False
-PitotHeat_EX1=0
-WindshieldDeice=0
-BeaconLights=True
-LandingLights=True
-LogoLights=True
-NavLights=True
-PanelLights=False
-RecognitionLights=True
-StrobeLights=True
-TaxiLights=False
-WingLights=True
-CabinLights=False
-GlareshieldLights=False
-PedestalLights=False
-AmbientLights=False
-BeaconLightsNight=True
-LandingLightsNight=True
-LogoLightsNight=True
-NavLightsNight=True
-PanelLightsNight=True
-RecognitionLightsNight=True
-StrobeLightsNight=True
-TaxiLightsNight=False
-WingLightsNight=True
-CabinLightsNight=False
-GlareshieldLightsNight=False
-PedestalLightsNight=False
-AmbientLightsNight=False
-Potentiometer.5=0
-Potentiometer.8=0
-Potentiometer.11=0
-Potentiometer.16=0
-Potentiometer.17=0
-Potentiometer.18=0
-
-[Electrical.0]
-circuit.1=True,1.00
-circuit.2=True,1.00
-circuit.3=False,1.00
-circuit.4=False,1.00
-circuit.5=False,1.00
-circuit.6=True,1.00
-circuit.7=False,1.00
-circuit.8=False,1.00
-circuit.9=True,1.00
-circuit.10=True,1.00
-circuit.11=True,1.00
-circuit.12=False,1.00
-circuit.13=True,1.00
-circuit.14=False,1.00
-circuit.15=False,1.00
-circuit.16=True,1.00
-circuit.17=True,1.00
-circuit.18=False,1.00
-circuit.19=False,1.00
-circuit.20=False,1.00
-circuit.21=False,1.00
-circuit.22=True,1.00
-circuit.23=True,1.00
-circuit.24=True,1.00
-circuit.25=True,1.00
-circuit.26=True,1.00
-circuit.27=True,1.00
-circuit.28=True,1.00
-circuit.29=True,1.00
-circuit.30=False,1.00
-circuit.31=False,1.00
-circuit.32=True,1.00
-circuit.33=True,1.00
-circuit.34=True,1.00
-circuit.35=True,1.00
-circuit.36=True,1.00
-circuit.37=True,1.00
-circuit.38=True,1.00
-circuit.39=True,1.00
-circuit.40=True,1.00
-circuit.41=True,1.00
-circuit.42=True,1.00
-circuit.43=True,1.00
-circuit.44=True,1.00
-battery.1=True
-battery.2=False
-alternator.1=True
-
-[AutoPilot.0]
-MasterSwitch=False
-WingLeveler=False
-Nav1Lock=False
-HeadingLock=False
-HeadingValue=0
-AltitudeLock=False
-AltitudeValue=0
-AttitudeHold=False
-AirspeedHold=False
-AirspeedValue=0
-MachHold=False
-MachValue=0
-VerticalSpeedHold=False
-VerticalSpeedValue=0
-RPMHold=False
-RPMValue=0
-GlideslopeHold=False
-ApproachHold=False
-BackCourseHold=False
-YawDamper=False
-ToGa=False
-AutoThrottleArm=False
-GPSdrivesNAV1=True
-IsUsedForLesson=False
-ForceDisplayUI=False
-AutopilotDisengaged=False
-MaxBankIndex=0
-AltitudeSlotIndex=1
-RPMSlotIndex=1
-SpeedSlotIndex=1
-VSSlotIndex=1
+TankSelector=All
+TankSelector1=All
+Center=100
+LeftMain=90
+RightMain=90
+LeftAux=100
+RightAux=100
+LeftTip=100
+RightTip=100
+Center 2=100
+Center 3=100
+External 1=100
+External 2=100
 
 [Payload.0]
-PayloadList=-1
-
-[Controls.0]
-SpoilersHandle=000.00
-FlapsHandle=050.00
-LeftFlap=024.23
-RightFlap=024.23
-GearsHandle=000.01
-Gear1=100.00
-Gear2=100.00
-Gear3=100.00
-YokeY=050.00
-YokeX=050.00
-Rudder=050.00
-LeftBrake=000.00
-RightBrake=000.00
-ParkingBrake=100.00
-ElevatorTrim=057.69
-RudderTrimPct=0
-AileronTrimPct=0
-AileronTrimDisabled=False
-ElevatorTrimDisabled=False
-RudderTrimDisabled=False
-SpoilersArmed=False
-AntiSkidActive=False
+PayloadList=  85.0,  85.0,   0.0,   0.0,   0.0
 
 [SimScheduler]
 SimSpeed=001.00
-SimTime=3535.7131956556909245
+SimTime=596.82995962224549658
 
 [Multiplayer]
 Status=0
