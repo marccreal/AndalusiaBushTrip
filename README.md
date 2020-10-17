@@ -32,7 +32,7 @@ Unfortunately, there are several bugs in the bush trip system of the main game w
 ### Specific
 - Continue if you had a previous version installed:
   You might need to restart from the beginning to get the settings right (if this does not help, delete the savegames, [see above](#known-issues)). Use the developer menu to jump to the destinations to get to the desired leg ([see above](#how-to-jump-to-the-destination)).
-- ~~Route and waypoints are not displayed on VFR-map.~~ -->Found the bug! Route and all waypoints are displayed now. The waypoints in the PLN file have to have unique names (btw this is also the reason why in the Asobo-bushtrips only the first waypoint appears in the VFR map (they all have the name "WP" in the PLN file).
+- ~~Route and waypoints are not displayed on VFR-map.~~ -->Found the bug! Route and all waypoints are displayed now. Concering the route, the bug was probably a wrong number under "CountWP" in "[GPS_Engine]" (though I changed other stuff in the FLT file, so I'm not 100% sure). Concerning the waypoints: Interestingly, the waypoints are taken from the PLN file. But they have to have unique names (btw this is also the reason why in the Asobo-bushtrips only the first waypoint appears in the VFR map (they all have the name "POI" in the PLN file).
 - ~~No/empty navlog and no VFR map when continuing the bush trip:~~
   - ~~Workaround: Try reloading from previous leg, [use the developer menu to directly jump to the destination](#how-to-jump-to-the-destination). The "leg completed" message should pop up and you should be able to start the next leg.~~
     -->corrected the FLT file, it should now work (unter \[Options\] Save=True did the trick...).
