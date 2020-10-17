@@ -34,7 +34,7 @@ Unfortunately, there are several bugs in the bush trip system of the main game w
 ### Specific
 - Route and waypoints are not displayed on VFR-map.
 - Continue if you had a previous version installed:
-  You might need to restart from the beginning to get the settings right (if this does not help, delete the savegames, [see above](#general)). Use the developer menu to jump to the destinations to get to the desired leg ([see above](#how-to-jump-to-the-destination)).
+  You might need to restart from the beginning to get the settings right (if this does not help, delete the savegames, [see above](#known-issues)). Use the developer menu to jump to the destinations to get to the desired leg ([see above](#how-to-jump-to-the-destination)).
 
 ## Change aircraft
 There are currently two release versions provided that use the DA40 NG (G1000) and the DA 40 TDI (steam gauges), respectively. If you want to fly another plane, you can either change the aircraft in flight via developer mode (note that the times in the navlog will not adapt to the new plane) or you can change the FLT-file `..\Community\marccreal-bushtrip-andalusia\Missions\marccreal\BushTrips\andalusia\ANDALUSIA.FLT` with a text editor. Find the section `[Sim.0]` and change the line `Sim=DA40-NG Asobo` to the desired aircraft. To find out, what name to put in there, go to the world map, create a simple flight with the desired plane and save the flightplan. You can then find the name in the created FLT file. You have to restart the sim in order to make changes in the FLT file take effect.
