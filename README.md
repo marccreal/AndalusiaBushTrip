@@ -45,3 +45,14 @@ There are currently two release versions provided that use the DA40 NG (G1000) a
 - You have to add a `<SimMission.AirportCalculator InstanceId="{[UID_of_leg]}">` block for every leg you create in the XML file. The InstanceId has to be the same UID as defined in the corresponding leg with `<AirportLandingTriggerEnd UniqueRefId="{UID_of_leg}" />`. Of course, all legs shall have different UIDs.
 - UIDs can be generated here: https://www.guidgenerator.com/
 - Do not forget to change the `<AirportIdent>` Block in the AirporCalculator-Block to the corresponding destination airport ICAO
+
+### FLT-File
+- Description of file format (from P3D, but format is the same): http://www.prepar3d.com/SDKv2/LearningCenter/getting_started/mission_creation/flight_files.html
+
+### Loading image
+- How to get a nice loading picture (with satellite image and the whole track) as in the original Asobo bush trips:
+  - Use Google Earth Pro
+  - Save your PLN Flightplan as GPX (I used LittleNavMaps)
+  - Convert GPX to Googles KML format: https://gpx2kml.com/
+  - Load KML in Google Earth, display the track, configure line width, color, etc. Adjust camera angle and use screenshot function of Google Earth.
+  - Note: Mind the licence especially when you want to do something commercial https://www.google.com/intl/de/permissions/geoguidelines/
