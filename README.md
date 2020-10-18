@@ -42,6 +42,6 @@ There are currently two release versions provided that use the DA40 NG (G1000) a
 
 ## Further notes (mainly for devs)
 ### Landing Trigger
-- You have to add a <SimMission.AirportCalculator InstanceId="{[UID_of_leg]}"> block for every leg you create in the XML file. The InstanceId has to be the same UID as defined in the corresponding leg with <AirportLandingTriggerEnd UniqueRefId="{UID_of_leg}" />. Of course, all legs shall have different UIDs.
+- You have to add a `<SimMission.AirportCalculator InstanceId="{[UID_of_leg]}">` block for every leg you create in the XML file. The InstanceId has to be the same UID as defined in the corresponding leg with `<AirportLandingTriggerEnd UniqueRefId="{UID_of_leg}" />`. Of course, all legs shall have different UIDs.
 - UIDs can be generated here: https://www.guidgenerator.com/
-- Do not forget to change the <AirportIdent> Block in the AirporCalculator-Block to the corresponding destination airport ICAO
+- Do not forget to change the `<AirportIdent>` Block in the AirporCalculator-Block to the corresponding destination airport ICAO
