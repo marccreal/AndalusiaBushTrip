@@ -39,3 +39,9 @@ Unfortunately, there are several bugs in the bush trip system of the main game w
     
 ## Change aircraft
 There are currently two release versions provided that use the DA40 NG (G1000) and the DA 40 TDI (steam gauges), respectively. If you want to fly another plane, you can either change the aircraft in flight via developer mode (note that the times in the navlog will not adapt to the new plane) or you can change the FLT-file `..\Community\marccreal-bushtrip-andalusia\Missions\marccreal\BushTrips\andalusia\ANDALUSIA.FLT` with a text editor. Find the section `[Sim.0]` and change the line `Sim=DA40-NG Asobo` to the desired aircraft. To find out, what name to put in there, go to the world map, create a simple flight with the desired plane and save the flightplan. You can then find the name in the created FLT file. You have to restart the sim in order to make changes in the FLT file take effect.
+
+## Further notes (mainly for devs)
+### Landing Trigger
+- You have to add a <SimMission.AirportCalculator InstanceId="{[UID_of_leg]}"> block for every leg you create in the XML file. The InstanceId has to be the same UID as defined in the corresponding leg with <AirportLandingTriggerEnd UniqueRefId="{UID_of_leg}" />. Of course, all legs shall have different UIDs.
+- UIDs can be generated here: https://www.guidgenerator.com/
+- Do not forget to change the <AirportIdent> Block in the AirporCalculator-Block to the corresponding destination airport ICAO
