@@ -32,11 +32,7 @@ Unfortunately, there are several bugs in the bush trip system of the main game w
 ### Specific
 - Continue if you had a previous version installed:
   You might need to restart from the beginning to get the settings right (if this does not help, delete the savegames, [see above](#known-issues)). Use the developer menu to jump to the destinations to get to the desired leg ([see above](#how-to-jump-to-the-destination)).
-- ~~Route and waypoints are not displayed on VFR-map.~~ -->Found the bug! Route and all waypoints are displayed now. Concering the route, the bug was probably a wrong number under "CountWP" in "[GPS_Engine]" (though I changed other stuff in the FLT file, so I'm not 100% sure). Concerning the waypoints: Interestingly, the waypoints are taken from the PLN file. But they have to have unique names (btw this is also the reason why in the Asobo-bushtrips only the first waypoint appears in the VFR map (they all have the name "POI" in the PLN file).
-- ~~No/empty navlog and no VFR map when continuing the bush trip:~~
-  - ~~Workaround: Try reloading from previous leg, [use the developer menu to directly jump to the destination](#how-to-jump-to-the-destination). The "leg completed" message should pop up and you should be able to start the next leg.~~
-    -->corrected the FLT file, it should now work (unter \[Options\] Save=True did the trick...).
-    
+
 ## Change aircraft
 There are currently two release versions provided that use the DA40 NG (G1000) and the DA 40 TDI (steam gauges), respectively. If you want to fly another plane, you can either change the aircraft in flight via developer mode (note that the times in the navlog will not adapt to the new plane) or you can change the FLT-file `..\Community\marccreal-bushtrip-andalusia\Missions\marccreal\BushTrips\andalusia\ANDALUSIA.FLT` with a text editor. Find the section `[Sim.0]` and change the line `Sim=DA40-NG Asobo` to the desired aircraft. To find out, what name to put in there, go to the world map, create a simple flight with the desired plane and save the flightplan. You can then find the name in the created FLT file. You have to restart the sim in order to make changes in the FLT file take effect.
 
@@ -45,6 +41,13 @@ There are currently two release versions provided that use the DA40 NG (G1000) a
 - You have to add a `<SimMission.AirportCalculator InstanceId="{[UID_of_leg]}">` block for every leg you create in the XML file. The InstanceId has to be the same UID as defined in the corresponding leg with `<AirportLandingTriggerEnd UniqueRefId="{UID_of_leg}" />`. Of course, all legs shall have different UIDs.
 - UIDs can be generated here: https://www.guidgenerator.com/
 - Do not forget to change the `<AirportIdent>` Block in the AirporCalculator-Block to the corresponding destination airport ICAO
+
+### Route and waypoints in VFR-map
+- Route: the bug was probably a wrong number under "CountWP" in "[GPS_Engine]" (though I changed other stuff in the FLT file, so I'm not 100% sure).
+- Waypoints: Interestingly, the waypoints are taken from the PLN file. But they have to have unique names. Btw this is also the reason why in the Asobo-bushtrips only the first waypoint appears in the VFR map (they all have the name "POI" in the PLN file!).
+
+### No/empty navlog and no VFR map when continuing the bush trip
+- in FLT file unter `[Options]` set `Save=True`
 
 ### FLT-File
 - Description of file format (from P3D, but format is the same): http://www.prepar3d.com/SDKv2/LearningCenter/getting_started/mission_creation/flight_files.html
