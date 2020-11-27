@@ -4,7 +4,7 @@
     <Header>
       <FlightplanType>VFR</FlightplanType>
       <CruisingAlt>0</CruisingAlt>
-      <CreationDate>2020-10-15T21:41:24</CreationDate>
+      <CreationDate>2020-11-01T16:15:59</CreationDate>
       <FileVersion>1.0</FileVersion>
       <ProgramName>Little Navmap</ProgramName>
       <ProgramVersion>2.6.1.beta</ProgramVersion>
@@ -100,12 +100,6 @@
         <Ident>LERT</Ident>
         <Type>AIRPORT</Type>
         <Pos Lon="-6.349439" Lat="36.645218" Alt="0.00"/>
-      </Waypoint>
-      <Waypoint>
-        <Name>AeroSidonia</Name>
-        <Ident>LEME</Ident>
-        <Type>AIRPORT</Type>
-        <Pos Lon="-5.939761" Lat="36.440155" Alt="0.00"/>
       </Waypoint>
       <Waypoint>
         <Name>RAF Gibraltar</Name>

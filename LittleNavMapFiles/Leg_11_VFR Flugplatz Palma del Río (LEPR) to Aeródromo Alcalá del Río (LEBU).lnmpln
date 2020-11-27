@@ -4,7 +4,7 @@
     <Header>
       <FlightplanType>VFR</FlightplanType>
       <CruisingAlt>0</CruisingAlt>
-      <CreationDate>2020-10-17T16:40:56</CreationDate>
+      <CreationDate>2020-11-01T15:24:16</CreationDate>
       <FileVersion>1.0</FileVersion>
       <ProgramName>Little Navmap</ProgramName>
       <ProgramVersion>2.6.1.beta</ProgramVersion>
@@ -24,14 +24,34 @@
         <Pos Lon="-5.215207" Lat="37.714359" Alt="412.00"/>
       </Waypoint>
       <Waypoint>
-        <Ident>WP2</Ident>
+        <Name>Termosolar Palma del Rio</Name>
+        <Ident>WP1</Ident>
         <Type>USER</Type>
         <Pos Lon="-5.259933" Lat="37.646587" Alt="0.00"/>
       </Waypoint>
       <Waypoint>
-        <Ident>WP1</Ident>
+        <Name>Gemasolar</Name>
+        <Ident>WP2</Ident>
         <Type>USER</Type>
-        <Pos Lon="-5.332077" Lat="37.561043" Alt="0.00"/>
+        <Pos Lon="-5.332078" Lat="37.561043" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>A-4</Name>
+        <Ident>WP3</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-5.369514" Lat="37.506184" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>City of Carmona</Name>
+        <Ident>WP4</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-5.646597" Lat="37.476219" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Brenes</Name>
+        <Ident>WP5</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-5.876142" Lat="37.546482" Alt="0.00"/>
       </Waypoint>
       <Waypoint>
         <Name>Aeródromo Alcalá del Río</Name>

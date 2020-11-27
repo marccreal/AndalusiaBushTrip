@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>0</CruisingAlt>
+      <CreationDate>2020-11-01T15:57:34</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.1.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <Departure>
+      <Pos Lon="-6.167933" Lat="37.295353" Alt="158.00"/>
+      <Start>09</Start>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Flugplatz La Juliana</Name>
+        <Ident>LEJU</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-6.163292" Lat="37.295387" Alt="158.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Guadalquivir</Name>
+        <Ident>WP1</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-6.089242" Lat="37.205173" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Atlantic Ocean</Name>
+        <Ident>WP2</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-6.402697" Lat="36.790592" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Militärflugplatz Rota</Name>
+        <Ident>LERT</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-6.349439" Lat="36.645218" Alt="63.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

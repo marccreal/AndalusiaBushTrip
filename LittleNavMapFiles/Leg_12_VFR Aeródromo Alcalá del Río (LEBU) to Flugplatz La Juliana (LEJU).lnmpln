@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>0</CruisingAlt>
+      <CreationDate>2020-11-01T15:47:28</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.1.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <Departure>
+      <Pos Lon="-5.979592" Lat="37.553734" Alt="141.00"/>
+      <Start>24</Start>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Aeródromo Alcalá del Río</Name>
+        <Ident>LEBU</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-5.981125" Lat="37.553162" Alt="141.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Alcala del Rio</Name>
+        <Ident>WP1</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-5.976581" Lat="37.517010" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Isla de la Cartuja</Name>
+        <Ident>WP2</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-6.003214" Lat="37.421230" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Torre del Oro</Name>
+        <Ident>WP3</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-5.996300" Lat="37.382366" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Catedral</Name>
+        <Ident>WP4</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-5.993139" Lat="37.385773" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Real Alcazar</Name>
+        <Ident>WP5</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-5.991492" Lat="37.383968" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Metropol Parasol</Name>
+        <Ident>WP6</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-5.991830" Lat="37.393299" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Plaza de Espana</Name>
+        <Ident>WP7</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-5.986600" Lat="37.376808" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Golf Club</Name>
+        <Ident>WP8</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-6.059792" Lat="37.361202" Alt="0.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Flugplatz La Juliana</Name>
+        <Ident>LEJU</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-6.163292" Lat="37.295387" Alt="158.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>
