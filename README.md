@@ -1,3 +1,7 @@
+## Update, 15.04.2022:
+## Version 1.0 of this bush trip is available on flightsim.to: https://flightsim.to/file/30948/andalusia-bush-trip
+
+
 [![Andalusia Bush Trip](/misc/logo_cordoba_ingame.png)](https://github.com/marccreal/AndalusiaBushTrip)
 [![Latest release](https://img.shields.io/github/v/tag/marccreal/AndalusiaBushTrip?label=release&style=for-the-badge)](https://github.com/marccreal/AndalusiaBushTrip/releases/latest) [![](https://img.shields.io/github/downloads/marccreal/AndalusiaBushTrip/total?style=for-the-badge)](https://github.com/marccreal/AndalusiaBushTrip/releases/latest)
 
